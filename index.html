@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<style>
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+header{
+padding:20px;
+background:#1e293b;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+nav a:hover{
+color:#38bdf8;
+}
+section{
+padding:60px 20px;
+}
+button{
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+cursor:pointer;
+}
+button:hover{
+background:#0ea5e9;
+}
+footer{
+padding:20px;
+background:#1e293b;
+margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>My Website</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>Welcome 👋</h2>
+<p>This is my GitHub Pages website.</p>
+<button onclick="showMessage()">Click Me</button>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<p>You can edit this section to describe your project or yourself.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your@email.com</p>
+</section>
+
+<footer>
+<p>© 2026 My Website</p>
+</footer>
+
+<script>
+function showMessage(){
+alert("Hello from GitHub Pages!");
+}
+</script>
+
+</body>
+</html>
