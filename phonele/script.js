@@ -125,17 +125,26 @@ function computeStats(){
 }
 
 function renderPhonePreview(p){
-  const screen=$('screen'), badge=$('badge');
-  screen.innerHTML=''; badge.textContent=(p && p.brand?p.brand:'?');
+  const screen = $('screen'), badge = $('badge');
+  screen.innerHTML = '';
+  badge.textContent = '?';
 
+  // show image if available
   if(state.target && state.target.image){
-    const img=document.createElement('img');
-    img.className='phone-image';
-    img.alt='Phone preview';
-    img.src=state.target.image.includes('/')?state.target.image:`images/${String(state.target.brand||'').trim().replace(/\s+/g,'')}/${state.target.image}`;
-    img.loading='lazy';
+    const img = document.createElement('img');
+    img.className = 'phone-image';
+    img.alt = 'Phone preview';
+    
+    // fixed path: always inside "images/<Brand>/<image>"
+    const brandFolder = String(state.target.brand || 'Unknown').trim();
+    const imageFile = String(state.target.image || '');
+    img.src = `images/${brandFolder}/${imageFile}`;
+    img.loading = 'lazy';
     screen.appendChild(img);
   }
+
+  // badge shows brand
+  badge.textContent = (p && p.brand ? p.brand : '?');
 }
 
 function renderHistory(){
