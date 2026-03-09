@@ -94,3 +94,10 @@ button#submitBtn{padding:10px 14px;border-radius:10px;border:none;background:var
 
 /* responsive: stack on narrow */
 @media(max-width:980px){.app{grid-template-columns:1fr;}.left{order:1}.right{order:2;width:100%}}
+
+/* prevent right-click / dragging / selection on phone image */
+.phone-image {
+  pointer-events: none;       /* disables right-click */
+  user-select: none;          /* prevents selection */
+  -webkit-user-drag: none;    /* prevents drag in Chrome/Safari */
+}
