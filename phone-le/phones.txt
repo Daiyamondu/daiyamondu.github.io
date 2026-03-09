@@ -1,5 +1,0 @@
-.phone{brand:"Samsung";model:"Galaxy S25";cpu:"Snapdragon 8 Gen 4";skin:"One UI";}
-.phone{brand:"Samsung";model:"Galaxy S24";cpu:"Exynos 2400";skin:"One UI";}
-.phone{brand:"Samsung";model:"Galaxy A54";cpu:"Exynos 1380";skin:"One UI";}
-.phone{brand:"Samsung";model:"Galaxy S23 FE";cpu:"Snapdragon 8 Gen 1";skin:"One UI";}
-.phone{brand:"Samsung";model:"Galaxy A14";cpu:"Mediatek Helio G80";skin:"One UI Core";}
