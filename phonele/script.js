@@ -97,26 +97,32 @@ function normalizeBrand(parsed){
 }
 
 function autofillFromModel(parsed){
-  const input = (parsed.model || '').toLowerCase().trim();
-  if(!input) return;
+  const inputModel = (parsed.model || '').toLowerCase().trim();
+  const inputBrand = (parsed.brand || '').toLowerCase().trim();
+  if(!inputModel || !inputBrand) return;
 
-  // compute similarity to all models
+  // filter phones by brand first
+  const brandMatches = state.phones.filter(p => 
+    (p.brand || '').toLowerCase().startsWith(inputBrand)
+  );
+  if(!brandMatches.length) return; // no brand match → don't autofill
+
+  // compute similarity to all models within this brand
   let bestMatch = null;
   let bestScore = -Infinity;
 
-  state.phones.forEach(p => {
+  brandMatches.forEach(p => {
     const model = (p.model || '').toLowerCase();
     if(!model) return;
 
-    // score based on common tokens
-    const inputTokens = input.split(/\s+/);
+    const inputTokens = inputModel.split(/\s+/);
     const modelTokens = model.split(/\s+/);
     let score = 0;
 
     inputTokens.forEach(it => {
       modelTokens.forEach(mt => {
-        if(it === mt) score += 2;          // exact match
-        else if(mt.startsWith(it)) score += 1; // partial match
+        if(it === mt) score += 2;           // exact match
+        else if(mt.startsWith(it)) score += 1; // prefix match
       });
     });
 
@@ -128,7 +134,7 @@ function autofillFromModel(parsed){
 
   if(bestMatch){
     parsed.model = bestMatch.model;
-    parsed.brand = parsed.brand || bestMatch.brand;
+    parsed.brand = bestMatch.brand; // enforce correct brand
     parsed.cpu = bestMatch.cpu || '';
     parsed.skin = bestMatch.skin || '';
     parsed.image = bestMatch.image || '';
