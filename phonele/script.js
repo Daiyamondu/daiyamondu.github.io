@@ -1,17 +1,19 @@
 const state={phones:[],target:null,history:[],stats:{},gameOver:false};
 const keys=['brand','model','cpu','skin'];
 const numericKeys=['battery','year','ram','storage','screen'];
-const $ = id => document.getElementById(id);
-const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const $=id=>document.getElementById(id);
+const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
+// CSV loader (semicolon-separated)
 async function loadPhonesCSV(url){
-  const res = await fetch(url);
+  const res=await fetch(url);
   if(!res.ok) throw new Error('CSV not found');
-  const text = await res.text();
-  const lines = text.split(/\r?\n/).filter(l=>l.trim());
-  const headers = lines.shift().split(';').map(h=>h.trim().toLowerCase());
+  const text=await res.text();
+  const lines=text.split(/\r?\n/).filter(l=>l.trim());
+  const headers=lines.shift().split(';').map(h=>h.trim().toLowerCase());
   return lines.map(line=>{
-    const values = line.split(';'); const obj={};
+    const values=line.split(';');
+    const obj={};
     headers.forEach((h,i)=>{
       let val=values[i]||'';
       if(['year','battery','ram','storage','screen'].includes(h)) val=parseFloat(val)||0;
@@ -21,34 +23,42 @@ async function loadPhonesCSV(url){
   });
 }
 
-const QUALIFIERS=new Set(['pro','plus','ultra','fe','max','mini','core','lite','se']);
+// helpers
+const QUALIFIERS = new Set(['pro','plus','ultra','fe','max','mini','core','lite','se']);
 function modelFamilyKey(model){
   if(!model) return '';
-  const tokens=model.split(/\s+/).map(t=>t.replace(/\d+/g,'').toLowerCase()).filter(t=>t&&!QUALIFIERS.has(t));
+  const tokens=model.split(/\s+/).map(t=>t.replace(/\d+/g,'').toLowerCase()).filter(t=>t && !QUALIFIERS.has(t));
+  if(tokens.length===0) return '';
   return tokens.slice(0,2).join(' ').trim();
 }
-function cpuVendor(cpu){if(!cpu) return ''; return cpu.split(/\s+/)[0].toLowerCase();}
-function skinKey(skin){if(!skin) return ''; return skin.toLowerCase().replace(/\s+/g,' ').trim();}
+function cpuVendor(cpu){ if(!cpu) return ''; return cpu.split(/\s+/)[0].toLowerCase(); }
+function skinKey(skin){ if(!skin) return ''; return skin.toLowerCase().replace(/\s+/g,' ').trim(); }
 
-let suggestionsEl, suggestionItems=[];
+// suggestions
+let suggestionsEl,suggestionItems=[];
 function buildSuggestionsIndex(){
   const set=new Set();
-  state.phones.forEach(p=> set.add(`${p.brand} ${p.model}`.trim()));
+  state.phones.forEach(p=>set.add(`${p.brand} ${p.model}`.trim()));
   suggestionItems=Array.from(set).sort((a,b)=>a.localeCompare(b));
 }
 function showSuggestions(q){
   const el=suggestionsEl;
   if(!q){ el.setAttribute('aria-hidden','true'); el.innerHTML=''; return; }
   const ql=q.toLowerCase();
-  const matches=suggestionItems.filter(s=> s.toLowerCase().includes(ql)).slice(0,8);
+  const matches=suggestionItems.filter(s=>s.toLowerCase().includes(ql)).slice(0,8);
   if(matches.length===0){ el.setAttribute('aria-hidden','true'); el.innerHTML=''; return; }
   el.setAttribute('aria-hidden','false');
   el.innerHTML=matches.map(m=>`<div class="suggestion" role="option">${esc(m)}</div>`).join('');
   Array.from(el.children).forEach(child=>{
-    child.addEventListener('click',()=>{$('guessInput').value=child.textContent; el.setAttribute('aria-hidden','true'); $('guessInput').focus();});
+    child.addEventListener('click',()=>{
+      $('guessInput').value=child.textContent;
+      el.setAttribute('aria-hidden','true');
+      $('guessInput').focus();
+    });
   });
 }
 
+// compare category
 function compareCategory(guessVal,targetVal,cat){
   const g=(guessVal||'').toLowerCase().trim();
   const t=(targetVal||'').toLowerCase().trim();
@@ -71,6 +81,7 @@ function compareCategory(guessVal,targetVal,cat){
   return 'wrong';
 }
 
+// numeric comparison
 function compareNumeric(guessVal,targetVal){
   const g=Number(guessVal||0), t=Number(targetVal||0);
   if(isNaN(g)||isNaN(t)||t===0) return {direction:'na',level:'na',g,t};
@@ -81,71 +92,54 @@ function compareNumeric(guessVal,targetVal){
   return {direction:'higher',level,g,t};
 }
 
+// parse guess
 function parseGuess(raw){
   const parts=raw.trim();
   if(!parts) return {};
   const words=parts.split(/\s+/);
-  const brand=words[0];
-  const model=parts.substring(brand.length).trim();
-  return {brand,model,cpu:'',skin:'',battery:'',year:'',ram:'',storage:'',screen:''};
+  return {brand:words[0], model:parts.substring(words[0].length).trim(), cpu:'', skin:'', battery:'', year:'', ram:'', storage:'', screen:''};
 }
 
-function normalizeBrand(parsed){
-  const bLower=(parsed.brand||'').toLowerCase();
-  const match=state.phones.find(p=> (p.brand||'').toLowerCase().startsWith(bLower));
-  if(match) parsed.brand=match.brand;
-}
+// smart autofill
+function autofill(parsed){
+  const inputBrand=(parsed.brand||'').toLowerCase().trim();
+  const inputModel=(parsed.model||'').toLowerCase().trim();
+  if(!inputModel) return null;
 
-function autofillFromModel(parsed){
-  const inputModel = (parsed.model || '').toLowerCase().trim();
-  const inputBrand = (parsed.brand || '').toLowerCase().trim();
-  if(!inputModel || !inputBrand) return;
+  // try brand match first
+  let candidates=state.phones.filter(p=> (p.brand||'').toLowerCase().startsWith(inputBrand));
+  if(!candidates.length) candidates=state.phones; // fallback to all if brand not found
 
-  // filter phones by brand first
-  const brandMatches = state.phones.filter(p => 
-    (p.brand || '').toLowerCase().startsWith(inputBrand)
-  );
-  if(!brandMatches.length) return; // no brand match → don't autofill
-
-  // compute similarity to all models within this brand
-  let bestMatch = null;
-  let bestScore = -Infinity;
-
-  brandMatches.forEach(p => {
-    const model = (p.model || '').toLowerCase();
-    if(!model) return;
-
-    const inputTokens = inputModel.split(/\s+/);
-    const modelTokens = model.split(/\s+/);
-    let score = 0;
-
-    inputTokens.forEach(it => {
-      modelTokens.forEach(mt => {
-        if(it === mt) score += 2;           // exact match
-        else if(mt.startsWith(it)) score += 1; // prefix match
+  let best=null,bestScore=-Infinity;
+  candidates.forEach(p=>{
+    const model=(p.model||'').toLowerCase();
+    const inputTokens=inputModel.split(/\s+/);
+    const modelTokens=model.split(/\s+/);
+    let score=0;
+    inputTokens.forEach(it=>{
+      modelTokens.forEach(mt=>{
+        if(it===mt) score+=2;
+        else if(mt.startsWith(it)) score+=1;
       });
     });
-
-    if(score > bestScore){
-      bestScore = score;
-      bestMatch = p;
-    }
+    if(score>bestScore){ bestScore=score; best=p; }
   });
 
-  if(bestMatch){
-    parsed.model = bestMatch.model;
-    parsed.brand = bestMatch.brand; // enforce correct brand
-    parsed.cpu = bestMatch.cpu || '';
-    parsed.skin = bestMatch.skin || '';
-    parsed.image = bestMatch.image || '';
-    parsed.battery = bestMatch.battery || 0;
-    parsed.year = bestMatch.year || 0;
-    parsed.ram = bestMatch.ram || 0;
-    parsed.storage = bestMatch.storage || 0;
-    parsed.screen = bestMatch.screen || 0;
-  }
+  if(!best) return null;
+  parsed.brand=best.brand;
+  parsed.model=best.model;
+  parsed.cpu=best.cpu||'';
+  parsed.skin=best.skin||'';
+  parsed.image=best.image||'';
+  parsed.battery=best.battery||0;
+  parsed.year=best.year||0;
+  parsed.ram=best.ram||0;
+  parsed.storage=best.storage||0;
+  parsed.screen=best.screen||0;
+  return parsed;
 }
 
+// dataset stats
 function computeStats(){
   const s={};
   numericKeys.forEach(k=>{
@@ -157,31 +151,24 @@ function computeStats(){
   state.stats=s;
 }
 
+// render preview
 function renderPhonePreview(p){
-  const screen = $('screen'), badge = $('badge');
-  screen.innerHTML = '';
-  badge.textContent = '?';
-
+  const screen=$('screen'), badge=$('badge');
+  screen.innerHTML=''; badge.textContent='?';
   if(state.target && state.target.image){
-    const img = document.createElement('img');
-    img.className = 'phone-image';
-    img.alt = 'Phone preview';
-
-    let imgPath = String(state.target.image || '').trim();
-
-    // fix path: if it doesn't start with "images/", prepend it
-    if(!imgPath.startsWith('images/')){
-      imgPath = 'images/' + imgPath.replace(/^\/+/, ''); // remove leading slashes
-    }
-
-    img.src = imgPath;
-    img.loading = 'lazy';
+    const img=document.createElement('img');
+    img.className='phone-image';
+    img.alt='Phone preview';
+    let imgPath=String(state.target.image||'').trim();
+    if(!imgPath.startsWith('images/')) imgPath='images/'+imgPath.replace(/^\/+/,'');
+    img.src=imgPath;
+    img.loading='lazy';
     screen.appendChild(img);
   }
-
-  badge.textContent = (p && p.brand ? p.brand : '?');
+  badge.textContent=(p && p.brand?p.brand:'?');
 }
 
+// render history
 function renderHistory(){
   const h=$('history'); h.innerHTML='';
   state.history.slice().reverse().forEach(entry=>{
@@ -200,22 +187,30 @@ function renderHistory(){
       const compRow=document.createElement('div'); compRow.className='comparison';
       const label=document.createElement('div'); label.className='comp-label'; label.textContent=nk.charAt(0).toUpperCase()+nk.slice(1);
       const valueDiv=document.createElement('div'); valueDiv.className='comp-value';
-      valueDiv.textContent=(comp.g>0?comp.g:'—')+(nk==='battery'?' mAh':nk==='ram'||nk==='storage'?' GB':nk==='screen'?' ″':'');
+      if(nk==='battery') valueDiv.textContent=(comp.g>0?comp.g:'—')+' mAh';
+      else if(nk==='ram') valueDiv.textContent=(comp.g>0?comp.g:'—')+' GB';
+      else if(nk==='storage') valueDiv.textContent=(comp.g>0?comp.g:'—')+' GB';
+      else if(nk==='screen') valueDiv.textContent=(comp.g>0?comp.g:'—')+' ″';
+      else valueDiv.textContent=(comp.g>0?comp.g:'—');
+
       const barWrap=document.createElement('div'); barWrap.className='comp-bar';
       const fill=document.createElement('div'); fill.className='comp-fill';
       if(comp.level==='equal') fill.classList.add('equal');
       else if(comp.level==='near') fill.classList.add('near');
       else fill.classList.add('far');
       barWrap.appendChild(fill);
+
       const arrowWrap=document.createElement('div'); arrowWrap.className='comp-arrow';
       if(comp.direction==='equal') arrowWrap.innerHTML='<span class="equal-tag">=</span>';
       else if(comp.direction==='lower') arrowWrap.textContent='▲';
       else if(comp.direction==='higher') arrowWrap.textContent='▼';
       else arrowWrap.textContent='-';
+
       const min=state.stats[nk].min, max=state.stats[nk].max;
       const gVal=Number(comp.g||0);
       const rawPct=(max>min)?((gVal-min)/(max-min)*100):0;
       const pct=Math.max(4,Math.min(100,Math.round(rawPct)));
+      fill.style.width='0%';
       compRow.appendChild(label); compRow.appendChild(valueDiv); compRow.appendChild(barWrap); compRow.appendChild(arrowWrap);
       row.appendChild(compRow);
       requestAnimationFrame(()=>{ fill.style.width=pct+'%'; });
@@ -224,27 +219,30 @@ function renderHistory(){
   });
 }
 
+// compare guess
 function compareGuess(guessObj,targetObj){
-  if(!targetObj) return {result:{}, win:false, numeric:{}};
+  if(!targetObj) return {result:{},win:false,numeric:{}};
   const res={}; let win=true;
   keys.forEach(k=>{
-    const s=compareCategory(guessObj[k]||'', targetObj[k]||'', k);
+    const s=compareCategory(guessObj[k]||'',targetObj[k]||'',k);
     res[k]=s; if(s!=='correct') win=false;
   });
   const numericRes={};
   numericKeys.forEach(nk=>{
-    numericRes[nk]=compareNumeric(guessObj[nk]||0, targetObj[nk]||0);
+    numericRes[nk]=compareNumeric(guessObj[nk]||0,targetObj[nk]||0);
     if(numericRes[nk].level!=='equal') win=false;
   });
-  return {result:res, win, numeric:numericRes};
+  return {result:res,win,numeric:numericRes};
 }
 
+// on guess
 function onGuess(){
   if(state.gameOver) return;
   const raw=$('guessInput').value.trim(); if(!raw) return;
-  const parsed=parseGuess(raw);
-  normalizeBrand(parsed);
-  autofillFromModel(parsed);
+  let parsed=parseGuess(raw);
+  parsed=autofill(parsed);
+  if(!parsed){ $('status').textContent='Invalid phone'; return; }
+
   const comp=compareGuess(parsed,state.target);
   state.history.push({raw, guess:parsed, result:comp.result, numeric:comp.numeric});
   renderHistory();
@@ -254,19 +252,21 @@ function onGuess(){
     $('status').innerHTML=`<span class="equal-tag">You guessed it! ${esc(state.target.brand)} ${esc(state.target.model)} in ${state.history.length} guess${state.history.length>1?'es':''}.</span>`;
     renderPhonePreview(state.target);
     state.gameOver=true;
-    $('newBtn').classList.add('glow');
+    $('guessInput').disabled=true;
+    $('newBtn').style.animation='glow 1s infinite alternate';
   } else {
     $('status').textContent=`Guesses: ${state.history.length}`;
   }
 }
 
+// autocomplete
 function attachAutocomplete(){
   suggestionsEl=$('suggestions');
   const input=$('guessInput');
-  input.addEventListener('input', e=>showSuggestions(e.target.value));
-  input.addEventListener('focus', e=>showSuggestions(e.target.value));
-  document.addEventListener('click', ev=>{ if(!ev.target.closest('.controls-top')) suggestionsEl.setAttribute('aria-hidden','true'); });
-  input.addEventListener('keydown', e=>{
+  input.addEventListener('input',e=>showSuggestions(e.target.value));
+  input.addEventListener('focus',e=>showSuggestions(e.target.value));
+  document.addEventListener('click',ev=>{ if(!ev.target.closest('.controls-top')) suggestionsEl.setAttribute('aria-hidden','true'); });
+  input.addEventListener('keydown',e=>{
     const el=suggestionsEl;
     if(el.getAttribute('aria-hidden')==='true') return;
     const active=el.querySelector('.suggestion.active');
@@ -276,22 +276,26 @@ function attachAutocomplete(){
   });
 }
 
+// game controls
 function pickRandom(){ return state.phones[Math.floor(Math.random()*state.phones.length)]; }
-
 function newGame(){
   if(!state.phones.length){ $('status').textContent='No phones loaded'; return; }
   const picked=pickRandom();
   state.target={brand:picked.brand||'Unknown', model:picked.model||'Unknown', cpu:picked.cpu||'', skin:picked.skin||'', image:picked.image||'', battery:Number(picked.battery||0), year:Number(picked.year||0), ram:Number(picked.ram||0), storage:Number(picked.storage||0), screen:Number(picked.screen||0)};
-  state.history=[]; state.gameOver=false;
-  $('newBtn').classList.remove('glow');
+  state.history=[];
+  state.gameOver=false;
   renderPhonePreview({model:'?',brand:'?'});
   renderHistory();
   $('status').textContent='Good luck!';
+  $('guessInput').disabled=false;
+  $('guessInput').focus();
+  $('newBtn').style.animation='';
 }
 
+// init
 async function init(){
   $('status').textContent='Loading phones.csv...';
-  try{ state.phones=await loadPhonesCSV('phones.csv'); } catch(e){ console.error(e); $('status').textContent='Failed to load phones'; return; }
+  try{ state.phones=await loadPhonesCSV('phones.csv'); } catch(e){ console.error('Failed to load phones.csv',e); $('status').textContent='Failed to load phones'; return; }
   if(!state.phones.length){ $('screen').textContent='No phones found'; $('status').textContent='No phones loaded'; return; }
   computeStats();
   buildSuggestionsIndex();
@@ -300,9 +304,10 @@ async function init(){
   $('status').textContent='Ready';
 }
 
-document.addEventListener('DOMContentLoaded', ()=>{
-  $('newBtn').addEventListener('click', newGame);
-  $('submitBtn').addEventListener('click', onGuess);
-  $('guessInput').addEventListener('keydown', e=>{ if(e.key==='Enter') onGuess(); });
+// DOM
+document.addEventListener('DOMContentLoaded',()=>{
+  $('newBtn').addEventListener('click',newGame);
+  $('submitBtn').addEventListener('click',onGuess);
+  $('guessInput').addEventListener('keydown',e=>{ if(e.key==='Enter') onGuess(); });
   init();
 });
