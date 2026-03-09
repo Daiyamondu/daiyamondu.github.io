@@ -129,21 +129,23 @@ function renderPhonePreview(p){
   screen.innerHTML = '';
   badge.textContent = '?';
 
-  // show image if available
   if(state.target && state.target.image){
     const img = document.createElement('img');
     img.className = 'phone-image';
     img.alt = 'Phone preview';
-    
-    // fixed path: always inside "images/<Brand>/<image>"
-    const brandFolder = String(state.target.brand || 'Unknown').trim();
-    const imageFile = String(state.target.image || '');
-    img.src = `images/${brandFolder}/${imageFile}`;
+
+    let imgPath = String(state.target.image || '').trim();
+
+    // fix path: if it doesn't start with "images/", prepend it
+    if(!imgPath.startsWith('images/')){
+      imgPath = 'images/' + imgPath.replace(/^\/+/, ''); // remove leading slashes
+    }
+
+    img.src = imgPath;
     img.loading = 'lazy';
     screen.appendChild(img);
   }
 
-  // badge shows brand
   badge.textContent = (p && p.brand ? p.brand : '?');
 }
 
