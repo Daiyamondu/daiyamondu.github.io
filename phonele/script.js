@@ -100,33 +100,35 @@ function parseGuess(raw){
   return {brand:words[0], model:parts.substring(words[0].length).trim(), cpu:'', skin:'', battery:'', year:'', ram:'', storage:'', screen:''};
 }
 
-// smart autofill with threshold
+// strict autofill: exact numbers, penalize extra tokens
 function autofill(parsed){
   const inputBrand=(parsed.brand||'').toLowerCase().trim();
   const inputModel=(parsed.model||'').toLowerCase().trim();
   if(!inputModel) return null;
 
-  // candidates filtered by brand if available
   let candidates=state.phones.filter(p=> (p.brand||'').toLowerCase().startsWith(inputBrand));
   if(!candidates.length) candidates=state.phones;
 
   let best=null,bestScore=-Infinity;
+  const inputTokens=inputModel.split(/\s+/);
   candidates.forEach(p=>{
     const model=(p.model||'').toLowerCase();
-    const inputTokens=inputModel.split(/\s+/);
     const modelTokens=model.split(/\s+/);
     let score=0;
     inputTokens.forEach(it=>{
-      modelTokens.forEach(mt=>{
+      modelTokens.forEach((mt,idx)=>{
         if(it===mt) score+=2;
         else if(mt.startsWith(it)) score+=1;
       });
     });
+    // penalize extra tokens in phone model that user did not type
+    const extraTokens=modelTokens.filter(mt=>!inputTokens.includes(mt));
+    score -= extraTokens.length;
     if(score>bestScore){ bestScore=score; best=p; }
   });
 
-  // minimum score threshold
-  if(!best || bestScore<inputModel.split(/\s+/).length) return null;
+  // require minimum reasonable match
+  if(!best || bestScore<inputTokens.length) return null;
 
   parsed.brand=best.brand;
   parsed.model=best.model;
@@ -174,13 +176,13 @@ function renderPhonePreview(p){
 function renderHistory(){
   const h=$('history'); h.innerHTML='';
   state.history.slice().reverse().forEach(entry=>{
+    const row=document.createElement('div'); row.className='guess-row';
     if(entry.invalid){
-      const row=document.createElement('div'); row.className='guess-row';
-      row.textContent='Invalid phone';
+      row.innerHTML=`<div class="guess-title">${esc(entry.raw)}</div><div class="small muted">Invalid phone</div>`;
       h.appendChild(row);
       return;
     }
-    const row=document.createElement('div'); row.className='guess-row';
+
     const top=document.createElement('div'); top.className='guess-top';
     const left=document.createElement('div');
     left.innerHTML=`<div class="guess-title">${esc(entry.raw)}</div><div class="small muted">${esc(entry.guess.brand)} ${esc(entry.guess.model)}</div>`;
