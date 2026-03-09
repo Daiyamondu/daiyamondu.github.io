@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Phonele — Guess the phone</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- LEFT: phone preview only -->
+  <div class="card left">
+    <div class="header">
+      <div class="title">Phonele — guess the phone</div>
+      <div class="controls">
+        <button id="newBtn">New phone</button>
+      </div>
+    </div>
+
+    <div class="phone-preview">
+      <div class="phone-device" id="phoneDevice">
+        <div class="badge" id="badge">?</div>
+        <div class="screen" id="screen"><div class="phone-placeholder">Loading…</div></div>
+      </div>
+
+      <div class="meta small muted" id="leftNote" style="margin-top:12px;text-align:center">
+        Image previews animate; use images/: <span class="mono">images/*.png/.svg</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: guesses, input, suggestions, history -->
+  <div class="card right">
+    <div class="controls-top" style="display:flex;gap:8px;align-items:center;margin-bottom:10px">
+      <div style="flex:1;position:relative">
+        <input id="guessInput" placeholder='Type e.g. "Samsung Galaxy A54"' autocomplete="off" />
+        <div id="suggestions" class="suggestions" role="listbox" aria-hidden="true"></div>
+      </div>
+      <button id="submitBtn">Guess</button>
+    </div>
+
+    <div class="hint">
+      Categories: Brand, Model, CPU, Skin — numeric: Battery, Year, RAM, Storage
+    </div>
+
+    <div id="status" class="small muted" style="margin-top:8px"></div>
+
+    <div class="history" id="history" style="margin-top:12px"></div>
+  </div>
+
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
