@@ -97,19 +97,46 @@ function normalizeBrand(parsed){
 }
 
 function autofillFromModel(parsed){
-  const mlower=(parsed.model||'').toLowerCase();
-  let closest=null; let minDist=Infinity;
-  state.phones.forEach(p=>{
-    const m=p.model.toLowerCase();
-    let dist=Math.abs(m.length-mlower.length);
-    if(!m.includes(mlower)) dist+=100;
-    if(dist<minDist){ minDist=dist; closest=p; }
+  const input = (parsed.model || '').toLowerCase().trim();
+  if(!input) return;
+
+  // compute similarity to all models
+  let bestMatch = null;
+  let bestScore = -Infinity;
+
+  state.phones.forEach(p => {
+    const model = (p.model || '').toLowerCase();
+    if(!model) return;
+
+    // score based on common tokens
+    const inputTokens = input.split(/\s+/);
+    const modelTokens = model.split(/\s+/);
+    let score = 0;
+
+    inputTokens.forEach(it => {
+      modelTokens.forEach(mt => {
+        if(it === mt) score += 2;          // exact match
+        else if(mt.startsWith(it)) score += 1; // partial match
+      });
+    });
+
+    if(score > bestScore){
+      bestScore = score;
+      bestMatch = p;
+    }
   });
-  if(closest){
-    parsed.cpu=closest.cpu||''; parsed.skin=closest.skin||''; parsed.model=closest.model||parsed.model;
-    parsed.image=closest.image||''; parsed.brand=closest.brand||parsed.brand;
-    parsed.battery=closest.battery||0; parsed.year=closest.year||0; parsed.ram=closest.ram||0;
-    parsed.storage=closest.storage||0; parsed.screen=closest.screen||0;
+
+  if(bestMatch){
+    parsed.model = bestMatch.model;
+    parsed.brand = parsed.brand || bestMatch.brand;
+    parsed.cpu = bestMatch.cpu || '';
+    parsed.skin = bestMatch.skin || '';
+    parsed.image = bestMatch.image || '';
+    parsed.battery = bestMatch.battery || 0;
+    parsed.year = bestMatch.year || 0;
+    parsed.ram = bestMatch.ram || 0;
+    parsed.storage = bestMatch.storage || 0;
+    parsed.screen = bestMatch.screen || 0;
   }
 }
 
