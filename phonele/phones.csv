@@ -1,0 +1,288 @@
+brand;model;image;year;skin;cpu;battery;ram;screen;storage
+Apple;iPhone 17e;Apple/iPhone17e.jpg;2026;iOS;A19;4005;8;6.1;256
+Apple;iPhone Air;Apple/iPhone-Air.jpg;2025;iOS;A19 Pro;3149;12;6.5;256
+Apple;iPhone 17 Pro Max;Apple/iPhone-17-Pro-Max.jpg;2025;iOS;A19 Pro;5008;12;6.9;256
+Apple;iPhone 17 Pro;Apple/iPhone-17-Pro.jpg;2025;iOS;A19 Pro;4252;12;6.3;256
+Apple;iPhone 17;Apple/iPhone-17.jpg;2025;iOS;A19;3692;8;6.3;256
+Apple;iPhone 16e;Apple/iPhone-16e.jpg;2025;iOS;A18;4005;8;6.1;256
+Apple;iPhone 16 Plus;Apple/iPhone-16-Plus.jpg;2024;iOS;A18;4674;8;6.7;128
+Apple;iPhone 16;Apple/iPhone-16.jpg;2024;iOS;A18;3561;8;6.1;128
+Apple;iPhone 16 Pro;Apple/iPhone-16-Pro.jpg;2024;iOS;A18 Pro;3582;8;6.3;128
+Apple;iPhone 16 Pro Max;Apple/iPhone-16-Pro-Max.jpg;2024;iOS;A18 Pro;4685;8;6.9;256
+Apple;iPhone 15 Pro Max;Apple/iPhone-15-Pro-Max.jpg;2023;iOS;A17 Pro;4422;8;6.7;256
+Apple;iPhone 15 Plus;Apple/iPhone-15-Plus.jpg;2023;iOS;A16 Bionic;4383;6;6.7;128
+Apple;iPhone 15 Pro;Apple/iPhone-15-Pro.jpg;2023;iOS;A17 Pro;3274;8;6.1;128
+Apple;iPhone 15;Apple/iPhone-15.jpg;2023;iOS;A16 Bionic;3349;6;6.1;128
+Apple;iPhone 14 Plus;Apple/iPhone-14-Plus.jpg;2022;iOS;A15 Bionic;4325;6;6.7;128
+Apple;iPhone 14 Pro Max;Apple/iPhone-14-Pro-Max.jpg;2022;iOS;A16 Bionic;4323;6;6.7;128
+Apple;iPhone 14 Pro;Apple/iPhone-14-Pro.jpg;2022;iOS;A16 Bionic;3200;6;6.1;128
+Apple;iPhone 14;Apple/iPhone-14.jpg;2022;iOS;A15 Bionic;3279;6;6.1;128
+Apple;iPhone SE (2022);Apple/iPhone-SE-2022.jpg;2022;iOS;A15 Bionic;2018;4;4.7;64
+Apple;iPhone 13 Mini;Apple/iPhone-13-Mini.jpg;2021;iOS;A15 Bionic;2406;4;5.4;128
+Apple;iPhone 13 Pro Max;Apple/iPhone-13-Pro-Max.jpg;2021;iOS;A15 Bionic;4352;6;6.7;128
+Apple;iPhone 13 Pro;Apple/iPhone-13-Pro.jpg;2021;iOS;A15 Bionic;3095;6;6.1;128
+Apple;iPhone 13;Apple/iPhone-13.jpg;2021;iOS;A15 Bionic;3227;4;6.1;128
+Apple;iPhone 12 Mini;Apple/iPhone-12-Mini.jpg;2020;iOS;A14 Bionic;2227;4;5.4;64
+Apple;iPhone 12 Pro Max;Apple/iPhone-12-Pro-Max.jpg;2020;iOS;A14 Bionic;3687;6;6.7;128
+Apple;iPhone 12;Apple/iPhone-12.jpg;2020;iOS;A14 Bionic;2815;4;6.1;64
+Apple;iPhone 12 Pro;Apple/iPhone-12-Pro.jpg;2020;iOS;A14 Bionic;2815;6;6.1;128
+Apple;iPhone SE (2020);Apple/iPhone-SE-2020.jpg;2020;iOS;A13 Bionic;1821;3;4.7;64
+Apple;iPhone 11 Pro;Apple/iPhone-11-Pro.jpg;2019;iOS;A13 Bionic;3046;4;5.8;64
+Apple;iPhone 11 Pro Max;Apple/iPhone-11-Pro-Max.jpg;2019;iOS;A13 Bionic;3969;4;6.5;64
+Apple;iPhone 11;Apple/iPhone-11.jpg;2019;iOS;A13 Bionic;3110;4;6.1;64
+Apple;iPhone XR;Apple/iPhone-XR.jpg;2018;iOS;A12 Bionic;2942;3;6.1;64
+Apple;iPhone XS Max;Apple/iPhone-XS-Max.jpg;2018;iOS;A12 Bionic;3179;4;6.5;64
+Apple;iPhone XS;Apple/iPhone-XS.jpg;2018;iOS;A12 Bionic;2659;4;5.8;64
+Apple;iPhone X;Apple/iPhone-X.jpg;2017;iOS;A11 Bionic;2716;3;5.8;64
+Apple;iPhone 8 Plus;Apple/iPhone-8-Plus.jpg;2017;iOS;A11 Bionic;2691;3;5.5;64
+Apple;iPhone 8;Apple/iPhone-8.jpg;2017;iOS;A11 Bionic;1821;2;4.7;64
+Apple;iPhone 7 Plus;Apple/iPhone-7-Plus.jpg;2016;iOS;A10 Fusion;2900;3;5.5;256
+Apple;iPhone 7;Apple/iPhone-7.jpg;2016;iOS;A10 Fusion;1960;2;4.7;256
+Apple;iPhone SE (2016);Apple/iPhone-SE-2016.jpg;2016;iOS;A9 APL0898;1624;2;4.0;128
+Apple;iPhone 6s Plus;Apple/iPhone-6s-Plus.jpg;2015;iOS;A9;2750;2;5.5;128
+Apple;iPhone 6s;Apple/iPhone-6s.jpg;2015;iOS;A9 APL0898;1715;2;4.7;128
+Apple;iPhone 6 Plus;Apple/iPhone-6-Plus.jpg;2014;iOS;A8;2915;1;5.5;128
+Apple;iPhone 6;Apple/iPhone-6.jpg;2014;iOS;A8;1810;1;4.7;128
+Apple;iPhone 5c;Apple/iPhone-5c.jpg;2013;iOS;A6;1507;1;4.0;32
+Apple;iPhone 5s;Apple/iPhone-5s.jpg;2013;iOS;A7;1570;1;4.0;64
+Apple;iPhone 5;Apple/iPhone-5.jpg;2012;iOS;A6;1440;1;4.0;64
+Apple;iPhone 4s;Apple/iPhone-4s.jpg;2011;iOS;A5;1430;0.5;3.5;64
+Apple;iPhone 4;Apple/iPhone-4.jpg;2010;iOS;A4;1420;0.5;3.5;32
+Apple;iPhone 3GS;Apple/iPhone-3GS.jpg;2009;iOS;ARM Cortex-A8;1219;0.25;3.5;32
+Apple;iPhone 3G;Apple/iPhone-3G.jpg;2008;iOS;Samsung ARM 11;1150;0.1;3.5;16
+Apple;iPhone 2G;Apple/iPhone-2G.jpg;2007;iOS;Samsung S5L8900;1400;0.1;3.5;16
+Samsung;Galaxy S26+;Samsung/Galaxy-S26+.jpg;2026;OneUI;Snapdragon 8 Elite Gen 5;4900;12;6.7;256
+Samsung;Galaxy S26;Samsung/Galaxy-26.jpg;2026;OneUI;Snapdragon 8 Elite Gen 5;4300;12;6.3;256
+Samsung;Galaxy S26 Ultra;Samsung/Galaxy-S26-Ultra.jpg;2026;OneUI;Snapdragon 8 Elite Gen 5;5000;12;6.9;256
+Samsung;Galaxy Z Trifold;Samsung/Galaxy-Z-Trifold.jpg;2025;OneUI;Snapdragon 8 Elite;5600;16;10.0;512
+Samsung;Galaxy S25 FE;Samsung/Galaxy-S25-FE.jpg;2025;OneUI;Exynos 2400;4900;8;6.7;128
+Samsung;Galaxy A17 5G;Samsung/Galaxy-A17-5G.jpg;2025;OneUI;Exynos 1330;5000;8;6.7;128
+Samsung;Galaxy Z Flip 7 FE;Samsung/Galaxy-Z-Flip-7-FE.jpg;2025;OneUI;Exynos 2400;4000;8;6.7;128
+Samsung;Galaxy Z Flip 7;Samsung/Galaxy-Z-Flip-7.jpg;2025;OneUI;Exynos 2500;4300;12;6.9;256
+Samsung;Galaxy Z Fold 7;Samsung/Galaxy-Z-Fold-7.jpg;2025;OneUI;Snapdragon 8 Elite for Galaxy;4400;12;8.0;256
+Samsung;Galaxy S25 Edge;Samsung/Galaxy-S25-Edge.jpg;2025;OneUI;Snapdragon 8 Elite;3900;12;6.7;256
+Samsung;Galaxy A26 5G;Samsung/Galaxy-A26-5G.jpg;2025;OneUI;Exynos 1380;5000;6;6.7;128
+Samsung;Galaxy A56 5G;Samsung/Galaxy-A56-5G.jpg;2025;OneUI;Exynos 1580;5000;8;6.7;128
+Samsung;Galaxy A36 5G;Samsung/Galaxy-A36-5G.jpg;2025;OneUI;Snapdragon 6 Gen 3;5000;6;6.7;128
+Samsung;Galaxy S25 Ultra;Samsung/Galaxy-S25-Ultra.jpg;2025;OneUI;Snapdragon 8 Elite for Galaxy;5000;12;6.9;256
+Samsung;Galaxy S25+;Samsung/Galaxy-S25+.jpg;2025;OneUI;Snapdragon 8 Elite;4900;12;6.7;256
+Samsung;Galaxy S25;Samsung/Galaxy-S25.jpg;2025;OneUI;Snapdragon 8 Elite;4000;12;6.2;128
+Samsung;Galaxy Z Fold Special Edition;Samsung/Galaxy-Z-Fold-Special-Edition.jpg;2024;OneUI;Snapdragon 8 Elite Gen 3 for Galaxy;4400;16;8.0;512
+Samsung;Galaxy A16 5G;Samsung/Galaxy-A16-5G.jpg;2024;OneUI;Exynos 1330;5000;4;6.7;128
+Samsung;Galaxy S24 FE;Samsung/Galaxy-S24-FE.jpg;2024;OneUI;Exynos 2400e;4700;8;6.7;128
+Samsung;Galaxy Z Flip 6;Samsung/Galaxy-Z-Flip-6.jpg;2024;OneUI;Snapdragon 8 Elite Gen 3;4000;8;6.7;256
+Samsung;Galaxy Z Fold 6;Samsung/Galaxy-Z-Fold-6.jpg;2024;OneUI;Snapdragon 8 Elite Gen 3 for Galaxy;4400;12;7.6;256
+Samsung;Galaxy A16;Samsung/Galaxy-A16.jpg;2024;OneUI;Mediatek Helio G99;5000;4;6.7;128
+Samsung;Galaxy M55;Samsung/Galaxy-M55.jpg;2024;OneUI;Snapdragon 7 Gen 1;5000;8;6.7;128
+Samsung;Galaxy A55 5G;Samsung/Galaxy-A55-5G.jpg;2024;OneUI;Exynos 1480;5000;8;6.6;128
+Samsung;Galaxy A35 5G;Samsung/Galaxy-A35-5G.jpg;2024;OneUI;Exynos 1380;5000;6;6.6;128
+Samsung;Galaxy S24 Ultra;Samsung/Galaxy-S24-Ultra.jpg;2024;OneUI;Snapdragon 8 Gen 3;5000;12;6.8;256
+Samsung;Galaxy S24+;Samsung/Galaxy-S24+.jpg;2024;OneUI;Snapdragon 8 Gen 3;4900;12;6.7;256
+Samsung;Galaxy S24;Samsung/Galaxy-S24.jpg;2024;OneUI;Snapdragon 8 Gen 3;4000;8;6.2;128
+Samsung;Galaxy A15 5G;Samsung/Galaxy-A15-5G.jpg;2023;OneUI;Mediatek Dimensity 6100+;5000;4;6.5;128
+Samsung;Galaxy A25 5G;Samsung/Galaxy-A25-5G.jpg;2023;OneUI;Exynos 1280;5000;6;6.5;128
+Samsung;Galaxy S23 FE;Samsung/Galaxy-S23-FE.jpg;2023;OneUI;Snapdragon 8 Gen 1;4500;8;6.4;128
+Samsung;Galaxy Z Fold 5;Samsung/Galaxy-Z-Fold-5.jpg;2023;OneUI;Snapdragon 8 Gen 2;4400;12;7.6;256
+Samsung;Galaxy Z Flip 5;Samsung/Galaxy-Z-Flip-5.jpg;2023;OneUI;Snapdragon 8 Gen 2;3700;8;6.7;256
+Samsung;Galaxy M34 5G;Samsung/Galaxy-M34-5G.jpg;2023;OneUI;Exynos 1280;6000;6;6.5;128
+Samsung;Galaxy A24 4G;Samsung/Galaxy-A24-4G.jpg;2023;OneUI;Mediatek Helio G99;5000;4;6.5;128
+Samsung;Galaxy A34;Samsung/Galaxy-A34.jpg;2023;OneUI;Mediatek Dimensity 1080;5000;6;6.6;128
+Samsung;Galaxy A54 5G;Samsung/Galaxy-A54-5G.jpg;2023;OneUI;Exynos 1380;5000;6;6.4;128
+Samsung;Galaxy S23 Ultra;Samsung/Galaxy-S23-Ultra.jpg;2023;OneUI;Snapdragon 8 Gen 2;5000;8;6.8;256
+Samsung;Galaxy S23+;Samsung/Galaxy-S23+.jpg;2023;OneUI;Snapdragon 8 Gen 2;4700;8;6.6;256
+Samsung;Galaxy S23;Samsung/Galaxy-S23.jpg;2023;OneUI;Snapdragon 8 Gen 2;3900;8;6.1;128
+Samsung;Galaxy A14 5G;Samsung/Galaxy-A14-5G.jpg;2023;OneUI;Mediatek Dimensity 700;5000;4;6.6;64
+Samsung;Galaxy A23 5G;Samsung/Galaxy-A23-5G.jpg;2022;OneUI;Snapdragon 695;5000;4;6.6;64
+Samsung;Galaxy Z Fold 4;Samsung/Galaxy-Z-Fold-4.jpg;2022;OneUI;Snapdragon 8+ Gen 1;4400;12;7.6;256
+Samsung;Galaxy Z Flip 4;Samsung/Galaxy-Z-Flip-4.jpg;2022;OneUI;Snapdragon 8+ Gen 1;3700;8;6.7;128
+Samsung;Galaxy XCover 6 Pro;Samsung/Galaxy-XCover-6-Pro.jpg;2022;OneUI;Snapdragon 778G;4050;6;6.6;128
+Samsung;Galaxy M13;Samsung/Galaxy-M13.jpg;2022;OneUI;Exynos 850;5000;4;6.6;64
+Samsung;Galaxy M53 5G;Samsung/Galaxy-M53-5G.jpg;2022;OneUI;Mediatek Dimensity 900;5000;6;6.7;128
+Samsung;Galaxy A73 5G;Samsung/Galaxy-A73-5G.jpg;2022;OneUI;Snapdragon 778G;5000;6;6.7;128
+Samsung;Galaxy A33 5G;Samsung/Galaxy-A33-5G.jpg;2022;OneUI;Exynos 1280;5000;6;6.4;128
+Samsung;Galaxy M33;Samsung/Galaxy-M33.jpg;2022;OneUI;Exynos 1280;5000;6;6.6;128
+Samsung;Galaxy A53 5G;Samsung/Galaxy-A53-5G.jpg;2022;OneUI;Exynos 1280;5000;6;6.5;128
+Samsung;Galaxy A23;Samsung/Galaxy-A23.jpg;2022;OneUI;Snapdragon 680;5000;4;6.6;64
+Samsung;Galaxy A13;Samsung/Galaxy-A13.jpg;2022;OneUI;Exynos 850;5000;3;6.5;32
+Samsung;Galaxy F23;Samsung/Galaxy-F23.jpg;2022;OneUI;Snapdragon 750G 5G;5000;4;6.6;128
+Samsung;Galaxy S22;Samsung/Galaxy-S22.jpg;2022;OneUI;Snapdragon 8 Gen 1;3700;8;6.1;128
+Samsung;Galaxy S22+;Samsung/Galaxy-S22+.jpg;2022;OneUI;Snapdragon 8 Gen 1;4500;8;6.6;128
+Samsung;Galaxy S22 Ultra;Samsung/Galaxy-S22-Ultra.jpg;2022;OneUI;Snapdragon 8 Gen 1;5000;8;6.8;128
+Samsung;Galaxy S21 FE;Samsung/Galaxy-S21-FE.jpg;2022;OneUI;Snapdragon 888;4500;6;6.4;128
+Samsung;Galaxy A03;Samsung/Galaxy-A03.jpg;2022;OneUI;Unisoc T606;5000;3;6.5;32
+Samsung;Galaxy A13 5G;Samsung/Galaxy-A13-5G.jpg;2021;OneUI;Mediatek Dimensity 700;5000;4;6.5;64
+Samsung;Galaxy M32;Samsung/Galaxy-M32.jpg;2021;OneUI;Mediatek Helio G80;5000;4;6.4;64
+Samsung;Galaxy A52s;Samsung/Galaxy-A52s.jpg;2021;OneUI;Snapdragon 778G;4500;6;6.5;128
+Samsung;Galaxy Z Flip 3;Samsung/Galaxy-Z-Flip-3.jpg;2021;OneUI;Snapdragon 888;3300;8;6.7;128
+Samsung;Galaxy Z Fold 3;Samsung/Galaxy-Z-Fold-3.jpg;2021;OneUI;Snapdragon 888;4400;12;7.6;256
+Samsung;Galaxy A03s;Samsung/Galaxy-A03s.jpg;2021;OneUI;Mediatek Helio P35;5000;3;6.5;32
+Samsung;Galaxy A22;Samsung/Galaxy-A22.jpg;2021;OneUI;Mediatek Helio G80;5000;4;6.4;64
+Samsung;Galaxy A22 5G;Samsung/Galaxy-A22-5G.jpg;2021;OneUI;Mediatek Dimensity 700;5000;4;6.6;64
+Samsung;Galaxy A52 5G;Samsung/Galaxy-A52-5G.jpg;2021;OneUI;Snapdragon 750G;4500;6;6.5;128
+Samsung;Galaxy M12;Samsung/Galaxy-M12.jpg;2021;OneUI;Exynos 850;5000;4;6.5;64
+Samsung;Galaxy A52;Samsung/Galaxy-A52.jpg;2021;OneUI;Snapdragon 720G;4500;6;6.5;128
+Samsung;Galaxy A72;Samsung/Galaxy-A72.jpg;2021;OneUI;Snapdragon 720G;5000;6;6.7;128
+Samsung;Galaxy XCover 5;Samsung/Galaxy-XCover-5.jpg;2021;OneUI;Exynos 850;3000;4;5.3;64
+Samsung;Galaxy A32;Samsung/Galaxy-A32.jpg;2021;OneUI;Mediatek Helio G80;5000;4;6.4;64
+Samsung;Galaxy F62;Samsung/Galaxy-F62.jpg;2021;OneUI;Exynos 9825;7000;6;6.7;128
+Samsung;Galaxy M02;Samsung/Galaxy-M02.jpg;2021;OneUI;Mediatek MT6739W;5000;2;6.5;32
+Samsung;Galaxy S21 Ultra;Samsung/Galaxy-S21-Ultra.jpg;2021;OneUI;Snapdragon 888;5000;12;6.8;128
+Samsung;Samsung Galaxy S21+;Samsung/Galaxy-S21+.jpg;2021;OneUI;Snapdragon 888;4800;8;6.7;128
+Samsung;Galaxy S21;Samsung/Galaxy-S21.jpg;2021;OneUI;Snapdragon 888;4000;8;6.2;128
+Samsung;Galaxy A32 5G;Samsung/Galaxy-A32-5G.jpg;2021;OneUI;Mediatek Dimensity 720;5000;4;6.5;64
+Samsung;Galaxy A02s;Samsung/Galaxy-A02s.jpg;2021;OneUI;Snapdragon 450;5000;3;6.5;32
+Samsung;Galaxy A12;Samsung/Galaxy-A12.jpg;2020;OneUI;Mediatek Helio P35;5000;4;6.5;64
+Samsung;Galaxy A42;Samsung/Galaxy-A42.jpg;2020;OneUI;Snapdragon 750G;5000;4;6.6;128
+Samsung;Galaxy F41;Samsung/Galaxy-F41.jpg;2020;OneUI;Exynos 9611;6000;6;6.4;64
+Samsung;Galaxy S20 FE;Samsung/Galaxy-S20-FE.jpg;2020;OneUI;Snapdragon 865;4500;6;6.5;128
+Samsung;Galaxy Z Fold 2;Samsung/Galaxy-Z-Fold-2.jpg;2020;OneUI;Snapdragon 865+;4500;12;7.6;256
+Samsung;Galaxy M51;Samsung/Galaxy-M51.jpg;2020;OneUI;Snapdragon 730;7000;6;6.7;128
+Samsung;Galaxy Note 20;Samsung/Galaxy-Note-20.jpg;2020;OneUI;Snapdragon 865+;4300;8;6.7;128
+Samsung;Galaxy Note 20 Ultra;Samsung/Galaxy-Note-20-Ultra.jpg;2020;OneUI;Snapdragon 865+;4500;12;6.9;128
+Samsung;Galaxy Z Flip 5G;Samsung/Galaxy-Z-Flip-5G.jpg;2020;OneUI;Snapdragon 865+;3300;8;6.7;256
+Samsung;Galaxy M31s;Samsung/Galaxy-M31s.jpg;2020;OneUI;Exynos 9611;6000;6;6.5;128
+Samsung;Galaxy M01 Core;Samsung/Galaxy-M01-Core.jpg;2020;OneUI;Mediatek MT6739;3000;1;5.3;16
+Samsung;Galaxy A71 5G UW;Samsung/Galaxy-A71-5G-UW.jpg;2020;OneUI;Snapdragon 765G;4500;8;6.7;128
+Samsung;Galaxy A11;Samsung/Galaxy-A11.jpg;2020;OneUI;Snapdragon 450;4000;2;6.4;32
+Samsung;Galaxy A21;Samsung/Galaxy-A21.jpg;2020;OneUI;Mediatek Helio P35;4000;3;6.5;32
+Samsung;Galaxy A21s;Samsung/Galaxy-A21s.jpg;2020;OneUI;Exynos 850;5000;3;6.5;32
+Samsung;Galaxy A71 5G;Samsung/Galaxy-A71-5G.jpg;2020;OneUI;Snapdragon 765;4500;6;6.7;128
+Samsung;Galaxy M01;Samsung/Galaxy-M01.jpg;2020;OneUI;Snapdragon 439;4000;3;5.7;32
+Samsung;Galaxy M11;Samsung/Galaxy-M11.jpg;2020;OneUI;Snapdragon 450;5000;3;6.4;32
+Samsung;Galaxy A41;Samsung/Galaxy-A41.jpg;2020;OneUI;Mediatek Helio P65;3500;4;6.1;64
+Samsung;Galaxy A51 5G;Samsung/Galaxy-A51-5G.jpg;2020;OneUI;Exynos 980;4500;6;6.5;128
+Samsung;Galaxy A31;Samsung/Galaxy-A31.jpg;2020;OneUI;Mediatek Helio P65;5000;4;6.4;64
+Samsung;Galaxy A01;Samsung/Galaxy-A01.jpg;2020;OneUI;Snapdragon 439;3000;2;5.7;16
+Samsung;Galaxy XCover FieldPro;Samsung/Galaxy-XCover-FieldPro.jpg;2020;OneUI;Exynos 9810;4500;4;5.1;64
+Samsung;Galaxy M21;Samsung/Galaxy-M21.jpg;2020;OneUI;Exynos 9611;6000;4;6.4;64
+Samsung;Galaxy S20+;Samsung/Galaxy-S20+.jpg;2020;OneUI;Snapdragon 865;4500;12;6.7;128
+Samsung;Galaxy S20 Ultra 5G;Samsung/Galaxy-S20-Ultra-5G.jpg;2020;OneUI;Snapdragon 865;5000;12;6.9;128
+Samsung;Galaxy S20;Samsung/Galaxy-S20.jpg;2020;OneUI;Snapdragon 865;4000;12;6.2;128
+Samsung;Galaxy M31;Samsung/Galaxy-M31.jpg;2020;OneUI;Exynos 9611;6000;6;6.4;64
+Samsung;Galaxy Z Flip;Samsung/Galaxy-Z-Flip.jpg;2020;OneUI;Snapdragon 855+;3300;8;6.7;256
+Samsung;Galaxy S10 Lite;Samsung/Galaxy-S10-Lite.jpg;2020;OneUI;Snapdragon 855;4500;8;6.7;128
+Samsung;Galaxy XCover Pro;Samsung/Galaxy-XCover-Pro.jpg;2020;OneUI;Exynos 9611;4050;4;6.3;64
+Samsung;Galaxy A71;Samsung/Galaxy-A71.jpg;2020;OneUI;Snapdragon 730;4500;6;6.7;128
+Samsung;Galaxy Note10 Lite;Samsung/Galaxy-Note10-Lite.jpg;2020;OneUI;Exynos 9810;4500;6;6.7;128
+Samsung;Galaxy A51;Samsung/Galaxy-A51.jpg;2019;OneUI;Exynos 9611;4000;4;6.5;128
+Samsung;Galaxy A20s;Samsung/Galaxy-A20s.jpg;2019;OneUI;Snapdragon 450;4000;4;6.5;64
+Samsung;Galaxy M30s;Samsung/Galaxy-M30s.jpg;2019;OneUI;Exynos 9611;6000;4;6.4;64
+Samsung;Galaxy Fold;Samsung/Galaxy-Fold.jpg;2019;OneUI;Snapdragon 855;4380;12;7.3;512
+Samsung;Galaxy A90 5G;Samsung/Galaxy-A90-5G.jpg;2019;OneUI;Snapdragon 855;4500;6;6.7;128
+Samsung;Galaxy A10s;Samsung/Galaxy-A10s.jpg;2019;OneUI;Mediatek Helio P22;4000;2;6.2;32
+Samsung;Galaxy Note10+ 5G;Samsung/Galaxy-Note10+-5G.jpg;2019;OneUI;Snapdragon 855;4300;12;6.8;256
+Samsung;Galaxy Note10+;Samsung/Galaxy-Note10+.jpg;2019;OneUI;Snapdragon 855;4300;12;6.8;256
+Samsung;Galaxy Note10;Samsung/Galaxy-Note10.jpg;2019;OneUI;Snapdragon 855;3500;8;6.3;256
+Samsung;Galaxy A50s;Samsung/Galaxy-A50s.jpg;2019;OneUI;Exynos 7 Octa;4000;6;6.4;128
+Samsung;Galaxy A30s;Samsung/Galaxy-A30s.jpg;2019;OneUI;Exynos 7 Octa;4000;4;6.4;128
+Samsung;Galaxy A10e;Samsung/Galaxy-A10e.jpg;2019;OneUI;Exynos 7884;3000;2;5.8;32
+Samsung;Galaxy M40;Samsung/Galaxy-M40.jpg;2019;OneUI;Snapdragon 675;3500;6;6.3;128
+Samsung;Galaxy XCover 4S;Samsung/Galaxy-XCover-4S.jpg;2019;OneUI;Exynos 7 Octa;2800;3;5.0;32
+Samsung;Galaxy A80;Samsung/Galaxy-A80.jpg;2019;OneUI;Snapdragon 730;3700;8;6.7;128
+Samsung;Galaxy S10 5G;Samsung/Galaxy-S10-5G.jpg;2019;OneUI;Snapdragon 855;4500;8;6.7;256
+Samsung;Galaxy A70;Samsung/Galaxy-A70.jpg;2019;OneUI;Snapdragon 675;4500;6;6.7;128
+Samsung;Galaxy A60;Samsung/Galaxy-A60.jpg;2019;OneUI;Snapdragon 675;3400;6;6.3;128
+Samsung;Galaxy A20e;Samsung/Galaxy-A20e.jpg;2019;OneUI;Exynos 7884;3000;3;5.8;32
+Samsung;Galaxy A20;Samsung/Galaxy-A20.jpg;2019;OneUI;Exynos 7884;4000;3;6.4;32
+Samsung;Galaxy A40;Samsung/Galaxy-A40.jpg;2019;OneUI;Exynos 7904;3100;4;5.9;64
+Samsung;Galaxy A10;Samsung/Galaxy-A10.jpg;2019;OneUI;Exynos 7884;3400;2;6.2;32
+Samsung;Galaxy A50;Samsung/Galaxy-A50.jpg;2019;OneUI;Exynos 7 Octa;4000;4;6.4;128
+Samsung;Galaxy S10e;Samsung/Galaxy-S10e.jpg;2019;OneUI;Snapdragon 855;3100;6;5.8;128
+Samsung;Galaxy S10+;Samsung/Galaxy-S10+.jpg;2019;OneUI;Snapdragon 855;4100;8;6.4;128
+Samsung;Galaxy S10;Samsung/Galaxy-S10.jpg;2019;OneUI;Snapdragon 855;3400;8;6.1;128
+Samsung;Galaxy M30;Samsung/Galaxy-M30.jpg;2019;OneUI;Exynos 7 Octa;5000;6;6.4;128
+Samsung;Galaxy A30;Samsung/Galaxy-A30.jpg;2019;OneUI;Exynos 7 Octa;4000;4;6.4;64
+Samsung;Galaxy M10;Samsung/Galaxy-M10.jpg;2019;OneUI;Exynos 7 Octa;3400;3;6.2;32
+Samsung;Galaxy M20;Samsung/Galaxy-M20.jpg;2019;OneUI;Exynos 7 Octa;5000;4;6.3;64
+Samsung;Samsung Galaxy A9 (2018);Samsung/Galaxy-A9-2018.jpg;2018;Samsung Experience;Snapdragon 660;3800;6;6.3;128
+Samsung;Galaxy J4 Core;Samsung/Galaxy-J4-Core.jpg;2018;Samsung Experience;Exynos 7 Quad;3300;1;6.0;16
+Samsung;Galaxy J4+;Samsung/Galaxy-J4+.jpg;2018;Samsung Experience;Snapdragon 425;3300;3;6.0;32
+Samsung;Galaxy J6+;Samsung/Galaxy-J6+.jpg;2018;Samsung Experience;Snapdragon 425;3300;3;6.0;32
+Samsung;Galaxy A7 (2018);Samsung/Galaxy-A7-2018.jpg;2018;Samsung Experience;Exynos 7 Octa;3300;6;6.0;128
+Samsung;Galaxy A8 Star;Samsung/Galaxy-A8-Star.jpg;2018;Samsung Experience;Snapdragon 660;3700;6;6.3;64
+Samsung;Galaxy J2 Core;Samsung/Galaxy-J2-Core.jpg;2018;Samsung Experience;Exynos 7 Quad;2600;1;5.0;8
+Samsung;Galaxy Note9;Samsung/Galaxy-Note9.jpg;2018;Samsung Experience;Snapdragon 845;4000;6;6.4;128
+Samsung;Galaxy J7 (2018);Samsung/Galaxy-J7-2018.jpg;2018;Samsung Experience;Exynos 7 Octa;3300;2;5.5;32
+Samsung;Galaxy J8;Samsung/Galaxy-J8.jpg;2018;Samsung Experience;Snapdragon 450;3500;4;6.0;64
+Samsung;Galaxy J3 (2018);Samsung/Galaxy-J3-2018.jpg;2018;Samsung Experience;Exynos 7 Quad;2600;2;5.0;16
+Samsung;Galaxy J6;Samsung/Galaxy-J6.jpg;2018;Samsung Experience;Exynos 7 Octa;3000;3;5.6;32
+Samsung;Galaxy J4;Samsung/Galaxy-J4.jpg;2018;Samsung Experience;Exynos 7 Quad;3000;3;5.5;32
+Samsung;Galaxy A6+;Samsung/Galaxy-A6+.jpg;2018;Samsung Experience;Snapdragon 450;3500;3;6.0;32
+Samsung;Galaxy A6;Samsung/Galaxy-A6.jpg;2018;Samsung Experience;Exynos 7 Octa;3000;3;5.6;32
+Samsung;Galaxy S9+;Samsung/Galaxy-S9+.jpg;2018;Samsung Experience;Snapdragon 845;3500;6;6.2;64
+Samsung;Galaxy S9;Samsung/Galaxy-S9.jpg;2018;Samsung Experience;Snapdragon 845;3000;4;5.8;64
+Samsung;Galaxy J2 (2018);Samsung/Galaxy-J2-2018.jpg;2018;Samsung Experience;Snapdragon 425;2600;1.5;5.0;16
+Samsung;Galaxy A8+ (2018) ;Samsung/Galaxy-A8+-2018.jpg;2018;Samsung Experience;Exynos 5 Octa;3500;6;6.0;64
+Samsung;Galaxy A8 (2018);Samsung/Galaxy-A8-2018.jpg;2018;Samsung Experience;Exynos 5 Octa;3000;4;5.6;64
+Samsung;Galaxy J2 (2017);Samsung/Galaxy-J2-2017.jpg;2017;Samsung Experience;Exynos 3475;2000;1;4.7;8
+Samsung;Galaxy Note8;Samsung/Galaxy-Note8.jpg;2017;Samsung Experience;Snapdragon 835;3300;6;6.3;64
+Samsung;Galaxy S8 Active;Samsung/Galaxy-S8-Active.jpg;2017;Samsung Experience;Snapdragon 835;4000;4;5.8;64
+Samsung;Galaxy J3 (2017);Samsung/Galaxy-J3-2017.jpg;2017;Samsung Experience;Exynos 7 Quad;2400;2;5.0;16
+Samsung;Galaxy Note Fan Edition;Samsung/Galaxy-Note-Fan-Edition;2017;Samsung Experience;Exynos 8 Octa;3200;4;5.7;64
+Samsung;Galaxy J5 (2017);Samsung/Galaxy-J5-2017.jpg;2017;Samsung Experience;Exynos 7 Octa;3000;2;5.2;16
+Samsung;Galaxy J7 (2017);Samsung/Galaxy-J7-2017.jpg;2017;Samsung Experience;Exynos 7 Octa;3600;3;5.5;16
+Samsung;Galaxy J7 Max;Samsung/Galaxy-J7-Max.jpg;2017;Samsung Experience;Mediatek Helio P20;3300;4;5.7;32
+Samsung;Z4;Samsung/Z4.jpg;2017;Tizen;Spreadtrum 9830A;2050;1;4.5;8
+Samsung;Galaxy XCover 4;Samsung/Galaxy-XCover-4.jpg;2017;Samsung Experience;Exynos 7 Quad;2800;2;5.0;16
+Samsung;Galaxy S8+;Samsung/Galaxy-S8+.jpg;2017;Samsung Experience;Snapdragon 835;3500;4;6.2;64
+Samsung;Galaxy S8;Samsung/Galaxy-S8.jpg;2017;Samsung Experience;Snapdragon 835;3000;4;5.8;64
+Samsung;Galaxy C7 Pro;Samsung/Galaxy-C7-Pro.jpg;2017;Samsung Experience;Snapdragon 626;3300;4;5.7;64
+Samsung;Galaxy C9 Pro;Samsung/Galaxy-C9-Pro.jpg;2017;Samsung Experience;Snapdragon 653;4000;6;6.0;64
+Samsung;Galaxy A3 (2017);Samsung/Galaxy-A3-2017.jpg;2017;Samsung Experience;Exynos 7 Octa;2350;2;4.7;16
+Samsung;Galaxy A7 (2017);Samsung/Galaxy-A7-2017.jpg;2017;Samsung Experience;Exynos 7 Octa;3600;3;5.7;32
+Samsung;Galaxy A5 (2017);Samsung/Galaxy-A5-2017.jpg;2017;Samsung Experience;Exynos 7 Octa;3000;3;5.2;32
+Samsung;W2017;Samsung/W2017.jpg;2017;Samsung Experience;Snapdragon 820;2300;4;4.2;64
+Samsung;Galaxy A8 (2016);Samsung/Galaxy-A8-2016.jpg;2016;Samsung Experience;Exynos 7 Octa;3300;3;5.7;32
+Samsung;Galaxy J7 Prime;Samsung/Galaxy-J7-Prime.jpg;2016;Samsung Experience;Exynos 7 Octa;3300;3;5.5;16
+Samsung;Z2;Samsung/Z2.jpg;2016;Tizen;Spreadtrum SC9830A;1500;1;4.0;8
+Samsung;Galaxy J2 (2016);Samsung/Galaxy-J2-2016.jpg;2016;Samsung Experience;Spreadtrum SC9830A;2600;1.5;5.0;8
+Samsung;Galaxy S7 Active;Samsung/Galaxy-S7-Active.jpg;2016;Samsung Experience;Snapdragon 820;4000;4;5.1;32
+Samsung;Galaxy C5;Samsung/Galaxy-C5.jpg;2016;Samsung Experience;Snapdragon 617;2600;4;5.2;64
+Samsung;Galaxy C7;Samsung/Galaxy-C7.jpg;2016;Samsung Experience;Snapdragon 625;3300;4;5.7;64
+Samsung;Galaxy J7 (2016);Samsung/Galaxy-J7-2016.jpg;2016;Samsung Experience;Exynos 7 Octa;3300;2;5.5;16
+Samsung;Galaxy Note7;Samsung/Galaxy-Note7.jpg;2016;TouchWiz;Samsung Exynos 820;3500;4;5.7;64
+Samsung;Galaxy J5 (2016);Samsung/Galaxy-J5-2016.jpg;2016;TouchWiz;Snapdragon 410;3100;2;5.2;16
+Samsung;Galaxy S7 Edge;Samsung/Galaxy-S7-Edge.jpg;2016;TouchWiz;Snapdragon 820;3600;4;5.5;32
+Samsung;Galaxy S7;Samsung/Galaxy-S7.jpg;2016;TouchWiz;Snapdragon 820;3000;4;5.1;32
+Samsung;Galaxy J1 (2016);Samsung/Galaxy-J1-2016.jpg;2016;TouchWiz;Exynos 3 Quad;2050;1;4.5;8
+Samsung;Galaxy J3 (2016);Samsung/Galaxy-J3-2016.jpg;2016;TouchWiz;Snapdragon 410;2600;1.5;5.0;8
+Samsung;Galaxy A3 (2016);Samsung/Galaxy-A3-2016.jpg;2016;TouchWiz;Exynos 7 Quad;2300;1.5;4.7;16
+Samsung;Galaxy A5 (2016);Samsung/Galaxy-A5-2016.jpg;2016;TouchWiz;Snapdragon 615;2900;2;5.2;16
+Samsung;Galaxy A9 (2016);Samsung/Galaxy-A9-2016.jpg;2016;TouchWiz;Snapdragon 652;4000;3;6.0;32
+Samsung;Galaxy A7 (2016);Samsung/Galaxy-A7-2016.jpg;2016;TouchWiz;Snapdragon 615;3300;3;5.5;16
+Samsung;W2016;Samsung/W2016.jpg;2016;TouchWiz;Exynos 7 Octa;2000;3;3.9;64
+Samsung;Z3;Samsung/Z3.jpg;2015;Tizen;Spreadtrum SC7730S;2600;1;5.0;8
+Samsung;Galaxy J2;Samsung/Galaxy-J2.jpg;2015;TouchWiz;Exynos 3475;2000;1;4.7;8
+Samsung;Galaxy S5 Neo;Samsung/Galaxy-S5-Neo.jpg;2015;TouchWiz;Exynos 7 Octa;2800;2;5.1;16
+Samsung;Galaxy S6 Edge+;Samsung/Galaxy-S6-Edge+.jpg;2015;TouchWiz;Exynos 7 Octa;3000;4;5.7;64
+Samsung;Galaxy Note5;Samsung/Galaxy-Note5.jpg;2015;TouchWiz;Exynos 7 Octa;3000;4;5.7;64
+Samsung;Galaxy A8;Samsung/Galaxy-A8.jpg;2015;TouchWiz;Snapdragon 615;3050;2;5.7;32
+Samsung;Galaxy J7;Samsung/Galaxy-J7.jpg;2015;TouchWiz;Snapdragon 615;3000;1.5;5.5;16
+Samsung;Galaxy J5;Samsung/Galaxy-J5.jpg;2015;TouchWiz;Snapdragon 410;2600;1.5;5.0;8
+Samsung;Galaxy S6 Active;Samsung/Galaxy-S6-Active.jpg;2015;TouchWiz;Exynos 7 Octa;3500;3;5.1;32
+Samsung;Galaxy S6 Edge;Samsung/Galaxy-S6-Edge.jpg;2015;TouchWiz;Exynos 7 Octa;2600;3;5.1;128
+Samsung;Galaxy S6;Samsung/Galaxy-S6.jpg;2015;TouchWiz;Exynos 7 Octa;2550;3;5.1;128
+Samsung;Galaxy XCover 3;Samsung/Galaxy-XCover-3.jpg;2015;TouchWiz;Marvell Armada PXA1908;3100;1.5;4.5;8
+Samsung;Galaxy J1;Samsung/Galaxy-J1.jpg;2015;TouchWiz;Spreadtrum SC7727S;1850;0.5;4.3;4
+Samsung;Z1;Samsung/Z1.jpg;2015;Tizen;Spreadtrum SC7727S;1500;0.75;4.0;4
+Samsung;Galaxy A7;Samsung/Galaxy-A7.jpg;2015;TouchWiz;Snapdragon 615;2600;2;5.5;16
+Samsung;Galaxy A3;Samsung/Galaxy-A3.jpg;2014;TouchWiz;Snapdragon 410;1900;1.5;4.5;16
+Samsung;Galaxy A5;Samsung/Galaxy-A5.jpg;2014;TouchWiz;Snapdragon 410;2300;2;5.0;16
+Samsung;Galaxy S5 Plus;Samsung/Galaxy-S5-Plus.jpg;2014;TouchWiz;Snapdragon 805;2800;2;5.1;16
+Samsung;Galaxy Note4;Samsung/Galaxy-Note4.jpg;2014;TouchWiz;Exynos 7 Octa;3220;3;5.7;32
+Samsung;Galaxy Note Edge;Samsung/Galaxy-Note-Edge.jpg;2014;TouchWiz;Snapdragon 805;3000;3;5.6;32
+Samsung;Galaxy S5 Mini;Samsung/Galaxy-S5-Mini.jpg;2014;TouchWiz;Exynos 3 Quad;2100;1.5;4.5;16
+Samsung;Galaxy S5 Active;Samsung/Galaxy-S5-Active.jpg;2014;TouchWiz;Snapdragon 801;2800;2;5.1;16
+Samsung;Galaxy K Zoom;Samsung/Galaxy-K-Zoom.jpg;2014;TouchWiz;Exynos 5 Hexa;2430;2;4.8;8
+Samsung;Galaxy S5;Samsung/Galaxy-S5.jpg;2014;TouchWiz;Snapdragon 801;2800;2;5.1;32
+Samsung;Galaxy Round;Samsung/Galaxy-Round.jpg;2013;TouchWiz;Snapdragon 800;2800;3;5.7;32
+Samsung;Galaxy Note3;Samsung/Galaxy-Note3.jpg;2013;TouchWiz;Snapdragon 800;3200;3;5.7;64
+Samsung;Galaxy S4 Zoom;Samsung/Galaxy-S4-Zoom.jpg;2013;TouchWiz;Exynos 4 Dual;2330;1.5;4.3;8
+Samsung;Galaxy S4 Mini;Samsung/Galaxy-S4-Mini.jpg;2013;TouchWiz;Snapdragon 400;1900;1.5;4.3;8
+Samsung;Galaxy S4;Samsung/Galaxy-S4.jpg;2013;TouchWiz;Snapdragon 600;2600;2;5.0;16
+Samsung;Galaxy Note 2;Samsung/Galaxy-Note-2.jpg;2012;TouchWiz;Exynos 4 Quad;3100;2;5.5;64
+Samsung;Galaxy S3;Samsung/Galaxy-S3;2012;TouchWiz;Exynos 4 Quad;2100;1;4.8;32
+Samsung;Galaxy Note;Samsung/Galaxy-Note.jpg;2011;TouchWiz;Eyxnos 4;2500;1;5.3;32
+Samsung;Galaxy S2;Samsung/Galaxy-S2.jpg;2011;TouchWiz;Exynos 4 Dual;1650;1;4.3;32
+Samsung;Galaxy S;Samsung/Galaxy-S.jpg;2010;TouchWiz;Samsung Exynos 3110;1500;0.5;4.0;16
+Samsung;Galaxy;Samsung/Galaxy.jpg;2009;TouchWiz;Samsung S5PC110;1500;0.5;3.2;8
