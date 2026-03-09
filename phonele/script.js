@@ -4,7 +4,7 @@ const numericKeys=['battery','year','ram','storage','screen'];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
-// CSV loader (semicolon-separated)
+// CSV loader
 async function loadPhonesCSV(url){
   const res=await fetch(url);
   if(!res.ok) throw new Error('CSV not found');
@@ -45,7 +45,7 @@ function showSuggestions(q){
   const el=suggestionsEl;
   if(!q){ el.setAttribute('aria-hidden','true'); el.innerHTML=''; return; }
   const ql=q.toLowerCase();
-  const matches=suggestionItems.filter(s=>s.toLowerCase().includes(ql)).slice(0,8);
+  const matches=suggestionItems.filter(s=> s.toLowerCase().includes(ql)).slice(0,8);
   if(matches.length===0){ el.setAttribute('aria-hidden','true'); el.innerHTML=''; return; }
   el.setAttribute('aria-hidden','false');
   el.innerHTML=matches.map(m=>`<div class="suggestion" role="option">${esc(m)}</div>`).join('');
@@ -100,15 +100,15 @@ function parseGuess(raw){
   return {brand:words[0], model:parts.substring(words[0].length).trim(), cpu:'', skin:'', battery:'', year:'', ram:'', storage:'', screen:''};
 }
 
-// smart autofill
+// smart autofill with threshold
 function autofill(parsed){
   const inputBrand=(parsed.brand||'').toLowerCase().trim();
   const inputModel=(parsed.model||'').toLowerCase().trim();
   if(!inputModel) return null;
 
-  // try brand match first
+  // candidates filtered by brand if available
   let candidates=state.phones.filter(p=> (p.brand||'').toLowerCase().startsWith(inputBrand));
-  if(!candidates.length) candidates=state.phones; // fallback to all if brand not found
+  if(!candidates.length) candidates=state.phones;
 
   let best=null,bestScore=-Infinity;
   candidates.forEach(p=>{
@@ -125,7 +125,9 @@ function autofill(parsed){
     if(score>bestScore){ bestScore=score; best=p; }
   });
 
-  if(!best) return null;
+  // minimum score threshold
+  if(!best || bestScore<inputModel.split(/\s+/).length) return null;
+
   parsed.brand=best.brand;
   parsed.model=best.model;
   parsed.cpu=best.cpu||'';
@@ -172,6 +174,12 @@ function renderPhonePreview(p){
 function renderHistory(){
   const h=$('history'); h.innerHTML='';
   state.history.slice().reverse().forEach(entry=>{
+    if(entry.invalid){
+      const row=document.createElement('div'); row.className='guess-row';
+      row.textContent='Invalid phone';
+      h.appendChild(row);
+      return;
+    }
     const row=document.createElement('div'); row.className='guess-row';
     const top=document.createElement('div'); top.className='guess-top';
     const left=document.createElement('div');
@@ -241,7 +249,12 @@ function onGuess(){
   const raw=$('guessInput').value.trim(); if(!raw) return;
   let parsed=parseGuess(raw);
   parsed=autofill(parsed);
-  if(!parsed){ $('status').textContent='Invalid phone'; return; }
+  if(!parsed){
+    state.history.push({raw,invalid:true});
+    renderHistory();
+    $('guessInput').value='';
+    return;
+  }
 
   const comp=compareGuess(parsed,state.target);
   state.history.push({raw, guess:parsed, result:comp.result, numeric:comp.numeric});
@@ -249,13 +262,11 @@ function onGuess(){
   $('guessInput').value=''; $('suggestions').setAttribute('aria-hidden','true');
 
   if(comp.win){
-    $('status').innerHTML=`<span class="equal-tag">You guessed it! ${esc(state.target.brand)} ${esc(state.target.model)} in ${state.history.length} guess${state.history.length>1?'es':''}.</span>`;
+    $('status').innerHTML=`<span class="equal-tag">You guessed it! ${esc(state.target.brand)} ${esc(state.target.model)} in ${state.history.filter(e=>!e.invalid).length} guess${state.history.filter(e=>!e.invalid).length>1?'es':''}.</span>`;
     renderPhonePreview(state.target);
     state.gameOver=true;
     $('guessInput').disabled=true;
     $('newBtn').style.animation='glow 1s infinite alternate';
-  } else {
-    $('status').textContent=`Guesses: ${state.history.length}`;
   }
 }
 
