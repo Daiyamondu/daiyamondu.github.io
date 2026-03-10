@@ -131,21 +131,3 @@ button#submitBtn{padding:10px 14px;border-radius:10px;border:none;background:var
 
 /* glow for new button */
 @keyframes glow {0%{box-shadow:0 0 8px var(--accent)}50%{box-shadow:0 0 20px var(--accent)}100%{box-shadow:0 0 8px var(--accent)}}
-
-/* Hints row below phone preview */
-.hints-row{
-  display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; justify-content:center;
-}
-.hint-chip{
-  padding:6px 10px; border-radius:10px; font-size:13px; cursor:pointer; min-width:80px;
-  text-align:center; user-select:none;
-  background:rgba(255,255,255,0.03); color:var(--muted); display:flex; align-items:center; justify-content:center;
-  gap:4px; position:relative;
-}
-.hint-chip.locked{opacity:0.5; cursor:default;}
-.hint-chip.locked:hover::after{
-  content: attr(data-tooltip); position:absolute; top:-28px; left:50%; transform:translateX(-50%);
-  background:rgba(0,0,0,0.75); color:white; font-size:11px; padding:2px 6px; border-radius:4px; white-space:nowrap;
-}
-.hint-chip.unlocked{background:linear-gradient(90deg,rgba(16,185,129,0.12),rgba(16,185,129,0.08)); color:var(--green);}
-.hint-chip .lock-icon{font-size:12px;}

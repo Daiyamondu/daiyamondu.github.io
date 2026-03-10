@@ -1,21 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Phonele — Guess the phone</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Phonele — Guess the phone</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="app">
 
-  <!-- LEFT: phone preview + hints -->
+  <!-- LEFT: phone preview only -->
   <div class="card left">
     <div class="header">
       <div class="title">Phonele — guess the phone</div>
-      <div class="controls" style="display:flex;gap:8px">
+      <div class="controls">
         <button id="newBtn">New phone</button>
-        <button id="giveUpBtn">Give up</button>
       </div>
     </div>
 
@@ -24,8 +23,17 @@
         <div class="badge" id="badge">?</div>
         <div class="screen" id="screen"></div>
       </div>
-      <!-- Hints row -->
-      <div id="hintsRow" class="hints-row"></div>
+
+      <!-- HINTS area -->
+      <div id="hintsWrap" class="hints-wrap" aria-live="polite">
+        <div class="hints-header">
+          <div class="hints-title">Hints</div>
+          <button id="toggleHints" class="hint-toggle" title="Hide hints">Hide</button>
+        </div>
+        <div id="hints" class="hints"></div>
+        <div id="hints-note" class="muted small" style="margin-top:8px">Hints unlock automatically after a few guesses — you can hide them if you don't want help.</div>
+      </div>
+
     </div>
   </div>
 
@@ -40,7 +48,7 @@
     </div>
 
     <div class="hint">
-      Categories: Brand, Model, Chipset, Skin — numeric: Battery, Year, RAM, Storage
+      Categories: Brand, Model, CPU, Skin — numeric: Battery, Year, RAM, Storage
     </div>
 
     <div id="status" class="small muted" style="margin-top:8px"></div>
@@ -52,4 +60,5 @@
 
 <script src="script.js" defer></script>
 </body>
+</html>
 </html>
