@@ -1,0 +1,823 @@
+Brand;Model;Version;OS;Image;Month;Year;Display;Chipset;Battery;Storage;RAM
+Apple;GSMArena;;;./images/Apple/logo-fallback.gif;;;;;;;
+Apple;iPhone;3G;;./images/Apple/apple-iphone3g.jpg;06;2008;3.5;;1220;16;16
+Apple;iPhone;3GS;;./images/Apple/apple-iphone-3gs-ofic.jpg;06;2009;3.5;;1400;32;32
+Apple;iPhone;4;;./images/Apple/apple-iphone-4-ofic-final.jpg;06;2010;3.5;Apple A4;1420;32;32
+Apple;iPhone;4s;;./images/Apple/apple-iphone-4s-new.jpg;10;2011;3.5;Apple A5;1432;64;64
+Apple;iPhone;5;;./images/Apple/apple-iphone-5-ofic.jpg;09;2012;4.0;Apple A6;1440;64;64
+Apple;iPhone;5c;;./images/Apple/apple-iphone-5c-new2.jpg;09;2013;4.0;Apple A6;1510;32;32
+Apple;iPhone;5s;;./images/Apple/apple-iphone-5s-ofic.jpg;09;2013;4.0;Apple A7;1560;64;64
+Apple;iPhone;6;;./images/Apple/apple-iphone-6-4.jpg;09;2014;4.7;Apple A8;1810;128;128
+Apple;iPhone;6s Plus;;./images/Apple/apple-iphone-6s-plus.jpg;09;2015;5.5;Apple A9 (14;2750;128;2
+Apple;iPhone;7;;./images/Apple/apple-iphone-7r4.jpg;09;2016;4.7;Apple A10 Fusion;1960;256;2
+Apple;iPhone;8;;./images/Apple/apple-iphone-8-new.jpg;09;2017;4.7;Apple A11 Bionic;1821;256;2
+Apple;iPhone;11;;./images/Apple/apple-iphone-11.jpg;09;2019;6.1;Apple A13 Bionic;3110;256;4
+Apple;iPhone;11 Pro;;./images/Apple/apple-iphone-11-pro-max-.jpg;09;2019;5.8;Apple A13 Bionic;3046;512;4
+Apple;iPhone;12;;./images/Apple/apple-iphone-12.jpg;10;2020;6.1;Apple A14 Bionic;2815;256;4
+Apple;iPhone;12 mini;;./images/Apple/apple-iphone-12-mini.jpg;10;2020;5.4;Apple A14 Bionic;2227;256;4
+Apple;iPhone;12 Pro;;./images/Apple/apple-iphone-12-pro--.jpg;10;2020;6.1;Apple A14 Bionic;2815;512;6
+Apple;iPhone;13;;./images/Apple/apple-iphone-13.jpg;09;2021;6.1;Apple A15 Bionic;3240;512;4
+Apple;iPhone;13 mini;;./images/Apple/apple-iphone-13-mini.jpg;09;2021;5.4;Apple A15 Bionic;2438;512;4
+Apple;iPhone;13 Pro;;./images/Apple/apple-iphone-13-pro.jpg;09;2021;6.1;Apple A15 Bionic;3095;1024;6
+Apple;iPhone;14;;./images/Apple/apple-iphone-14.jpg;09;2022;6.1;Apple A15 Bionic;3279;512;6
+Apple;iPhone;14 Plus;;./images/Apple/apple-iphone-14-plus.jpg;09;2022;6.7;Apple A15 Bionic;4323;512;6
+Apple;iPhone;14 Pro;;./images/Apple/apple-iphone-14-pro.jpg;09;2022;6.1;Apple A16 Bionic;3200;1024;6
+Apple;iPhone;15;;./images/Apple/apple-iphone-15.jpg;09;2023;6.1;Apple A16 Bionic;3349;512;6
+Apple;iPhone;15 Plus;;./images/Apple/apple-iphone-15-plus-.jpg;09;2023;6.7;Apple A16 Bionic;4383;512;6
+Apple;iPhone;15 Pro;;./images/Apple/apple-iphone-15-pro.jpg;09;2023;6.1;Apple A17 Pro;3274;1024;8
+Apple;iPhone;16;;./images/Apple/apple-iphone-16.jpg;09;2024;6.1;Apple A18;3561;512;8
+Apple;iPhone;16 Plus;;./images/Apple/apple-iphone-16-plus.jpg;09;2024;6.7;Apple A18;4674;512;8
+Apple;iPhone;16 Pro;;./images/Apple/apple-iphone-16-pro.jpg;09;2024;6.3;Apple A18 Pro;3582;1024;8
+Apple;iPhone;16e;;./images/Apple/apple-iphone-16e.jpg;02;2025;6.1;Apple A18;4005;512;8
+Apple;iPhone;17;;./images/Apple/apple-iphone-17.jpg;09;2025;6.3;Apple A19;3692;512;8
+Apple;iPhone;17 Air;;./images/Apple/apple-iphone-air.jpg;09;2025;6.5;Apple A19 Pro;3149;1024;12
+Apple;iPhone;17 Pro;;./images/Apple/apple-iphone-17-pro.jpg;09;2025;6.3;Apple A19 Pro;3998;1024;12
+Apple;iPhone;17e;;./images/Apple/apple-iphone-17e.jpg;03;2026;6.1;Apple A19;4005;512;8
+Apple;iPhone;SE (2020);;./images/Apple/apple-iphone-se-2020.jpg;04;2020;4.7;Apple A13 Bionic;1821;256;3
+Apple;iPhone;SE (2022);;./images/Apple/apple-iphone-se-2022.jpg;03;2022;4.7;Apple A15 Bionic;2018;256;4
+Apple;iPhone;;;./images/Apple/apple-iphone.gif;01;2007;3.5;;1400;16;16
+Apple;iPhone;SE;;./images/Apple/apple-iphone-5se-ofic.jpg;03;2016;4.0;Apple A9;1624;128;2
+Apple;iPhone;X;;./images/Apple/apple-iphone-x.jpg;09;2017;5.8;Apple A11 Bionic;2716;256;3
+Apple;iPhone;XR;;./images/Apple/apple-iphone-xr-new.jpg;09;2018;6.1;Apple A12 Bionic;2942;256;3
+Apple;iPhone;XS;;./images/Apple/apple-iphone-xs-new.jpg;09;2018;5.8;Apple A12 Bionic;2658;512;4
+Apple;iPhone;XS Max;;./images/Apple/apple-iphone-xs-max-new1.jpg;09;2018;6.5;Apple A12 Bionic;3174;512;4
+Fairphone;;3;Android;./images/Fairphone/fairphone3.jpg;08;2019;5.65;Snapdragon 632;3040;64;4
+Fairphone;;4;Android;./images/Fairphone/fairphone4.jpg;09;2021;6.3;Snapdragon 750G 5G;3905;256;8
+Fairphone;;5;Android;./images/Fairphone/fairphone-5.jpg;08;2023;6.46;QCM6490;4200;256;8
+Fairphone;;6;Android;./images/Fairphone/fairphone-6.jpg;06;2025;6.31;Snapdragon 7s Gen 3;4415;256;8
+Google;Pixel;2;Android;./images/Google/google-pixel-2.jpg;10;2017;5.0;Snapdragon 835;2700;128;4
+Google;Pixel;2 XL;Android;./images/Google/google-pixel-xl2-.jpg;10;2017;6.0;Snapdragon 835;3520;128;4
+Google;Pixel;3;Android;./images/Google/google-pixel-3-.jpg;10;2018;5.5;Snapdragon 845;2915;128;4
+Google;Pixel;3 XL;Android;./images/Google/google-pixel-3xl-.jpg;10;2018;6.3;Snapdragon 845;3430;128;4
+Google;Pixel;3a;Android;./images/Google/google-pixel-3a.jpg;05;2019;5.6;Snapdragon 670;3000;64;4
+Google;Pixel;3a XL;Android;./images/Google/google-pixel-3a-xl-.jpg;05;2019;6.0;Snapdragon 670;3700;64;4
+Google;Pixel;4;Android;./images/Google/google-pixel-4-r1.jpg;10;2019;5.7;Snapdragon 855;2800;128;6
+Google;Pixel;4 XL;Android;./images/Google/google-pixel-4-r1.jpg;10;2019;6.3;Snapdragon 855;3700;128;6
+Google;Pixel;4a;Android;./images/Google/google-pixel-4a.jpg;08;2020;5.81;Snapdragon 730G;3140;128;6
+Google;Pixel;4a 5G;Android;./images/Google/google-pixel-4a-5g.jpg;09;2020;6.2;Snapdragon 765G 5G;3885;128;6
+Google;Pixel;5;Android;./images/Google/google-pixel-5-5g.jpg;09;2020;6.0;Snapdragon 765G 5G;4080;128;8
+Google;Pixel;5a 5G;Android;./images/Google/google-pixel-5a-5g.jpg;08;2021;6.34;Snapdragon 765G 5G;4680;128;6
+Google;Pixel;6;Android;./images/Google/google-pixel-6.jpg;10;2021;6.4;Google Tensor;4614;256;8
+Google;Pixel;6 Pro;Android;./images/Google/google-pixel-6-pro.jpg;10;2021;6.7;Google Tensor;5003;512;12
+Google;Pixel;6a;Android;./images/Google/google-pixel-6a.jpg;05;2022;6.1;Google Tensor;4410;128;6
+Google;Pixel;7;Android;./images/Google/google-pixel7-new.jpg;10;2022;6.3;Google Tensor G2;4355;256;8
+Google;Pixel;7 Pro;Android;./images/Google/google-pixel7-pro-new.jpg;10;2022;6.7;Google Tensor G2;5000;512;12
+Google;Pixel;7a;Android;./images/Google/google-pixel-7a.jpg;05;2023;6.1;Google Tensor G2;4385;128;8
+Google;Pixel;8;Android;./images/Google/google-pixel-8.jpg;10;2023;6.2;Google Tensor G3;4575;256;8
+Google;Pixel;8 Pro;Android;./images/Google/google-pixel-8-pro.jpg;10;2023;6.7;Google Tensor G3;5050;1024;12
+Google;Pixel;8a;Android;./images/Google/google-pixel-8a.jpg;05;2024;6.1;Google Tensor G3;4492;256;8
+Google;Pixel;9;Android;./images/Google/google-pixel-9-.jpg;08;2024;6.3;Google Tensor G4;4700;256;12
+Google;Pixel;9 Pro;Android;./images/Google/google-pixel-9-pro-.jpg;08;2024;6.3;Google Tensor G4;4700;1024;16
+Google;Pixel;9 Pro Fold;Android;./images/Google/google-pixel-9-pro-fold-.jpg;08;2024;8.0;Google Tensor G4;4650;512;16
+Google;Pixel;9 Pro XL;Android;./images/Google/google-pixel-9-pro-xl-.jpg;08;2024;6.8;Google Tensor G4;5060;1024;16
+Google;Pixel;9a;Android;./images/Google/google-pixel-9a.jpg;03;2025;6.3;Google Tensor G4;5100;256;8
+Google;Pixel;10 5G;Android;./images/Google/google-pixel-10-.jpg;08;2025;6.3;Google Tensor G5;4970;256;12
+Google;Pixel;10 Pro 5G;Android;./images/Google/google-pixel-10-pro-.jpg;08;2025;6.3;Google Tensor G5;4870;1024;16
+Google;Pixel;10 Pro Fold;Android;./images/Google/google-pixel-10-pro-fold--.jpg;08;2025;8.0;Google Tensor G5;5015;1024;16
+Google;Pixel;10 Pro XL 5G;Android;./images/Google/google-pixel-10-pro-xl-.jpg;08;2025;6.8;Google Tensor G5;5200;1024;16
+Google;Pixel;10a 5G;Android;./images/Google/google-pixel-10a.jpg;02;2026;6.3;Google Tensor G4;5100;256;8
+Google;Pixel;;Android;./images/Google/google-pixel.jpg;10;2016;5.0;Snapdragon 821;2770;128;4
+Google;Pixel Fold;;Android;./images/Google/google-pixel-fold.jpg;05;2023;7.6;Google Tensor G2;4821;512;12
+Google;Pixel XL;;Android;./images/Google/google-pixel-xl.jpg;10;2016;5.5;Snapdragon 821;3450;128;4
+Huawei;Enjoy;9;Android;./images/Huawei/huawei-enjoy-9.jpg;12;2018;6.26;Snapdragon 450;4000;64;4
+Huawei;Enjoy;9e;Android;./images/Huawei/huawei-enjoy-9e2.jpg;03;2019;6.09;MT6765 Helio P35;3020;64;3
+Huawei;Enjoy;9s;Android;./images/Huawei/huawei-p-smart-plus-2019-starlight-blue.jpg;03;2019;6.21;Kirin 710;3400;128;6
+Huawei;Enjoy;10;Android;./images/Huawei/huawei-enjoy-10.jpg;10;2019;6.39;Kirin 710F;4000;128;6
+Huawei;Enjoy;10 Plus;Android;./images/Huawei/huawei-enjoy-10-plus.jpg;09;2019;6.59;Kirin 710F;4000;128;8
+Huawei;Enjoy;10e;Android;./images/Huawei/huawei-enjoy-10-e.jpg;03;2020;6.3;MT6765 Helio P35;5000;128;4
+Huawei;Enjoy;10s;Android;./images/Huawei/huawei-enjoy-10s.jpg;10;2019;6.3;Kirin 710F;4000;128;8
+Huawei;Enjoy;20 Plus 5G;Android;./images/Huawei/huawei-enjoy-20-plus.jpg;09;2020;6.63;Dimensity 720;4200;128;8
+Huawei;Enjoy;20 Pro;Android;./images/Huawei/huawei-enjoy-20-pro.jpg;06;2020;6.5;Dimensity 800;4000;128;8
+Huawei;Enjoy;20 SE;Android;./images/Huawei/huawei-enjoy-20-se.jpg;12;2020;6.67;Kirin 710A;5000;128;8
+Huawei;Enjoy;20e;;./images/Huawei/huawei-enjoy-20e.jpg;10;2021;6.3;MT6765 Helio P35;5000;128;6
+Huawei;Enjoy;60 Pro;;./images/Huawei/huawei-enjoy-60-pro.jpg;05;2023;6.8;Snapdragon 680 4G;5000;512;8
+Huawei;Enjoy;60X;;./images/Huawei/huawei-enjoy-60x.jpg;04;2023;6.95;Snapdragon 680 4G;7000;512;8
+Huawei;Enjoy;70;;./images/Huawei/huawei-enjoy-70.jpg;12;2023;6.75;Kirin 710A;6000;256;8
+Huawei;Enjoy;70X;;./images/Huawei/huawei-enjoy-70x.jpg;01;2025;6.78;Kirin 8000A;6100;512;8
+Huawei;Enjoy;70z;;./images/Huawei/huawei-enjoy-70z.jpg;02;2024;6.75;Kirin 710A;6000;256;8
+Huawei;Enjoy Z;5G;Android;./images/Huawei/huawei-enjoy-z-5g.jpg;05;2020;6.5;Dimensity 800;4000;128;8
+Huawei;Mate;10;Android;./images/Huawei/huawei-mate10-.jpg;10;2017;5.9;Kirin 970;4000;64;4
+Huawei;Mate;10 Lite;Android;./images/Huawei/huawei-mate-10-lite.jpg;10;2017;5.9;Kirin 659;3340;64;4
+Huawei;Mate;10 Porsche Design;Android;./images/Huawei/huawei-mate10-porshe-design-.jpg;10;2017;6.0;Kirin 970;4000;256;6
+Huawei;Mate;10 Pro;Android;./images/Huawei/huawei-mate10-pro.jpg;10;2017;6.0;Kirin 970;4000;128;6
+Huawei;Mate;20;Android;./images/Huawei/huawei-mate-20-.jpg;10;2018;6.53;Kirin 980;4000;128;6
+Huawei;Mate;20 lite;Android;./images/Huawei/huawei-mate-20-lite-r1.jpg;08;2018;6.3;Kirin 710;3750;64;6
+Huawei;Mate;20 Pro;Android;./images/Huawei/huawei-mate-20-pro-1.jpg;10;2018;6.39;Kirin 980;4200;256;8
+Huawei;Mate;20 RS Porsche Design;Android;./images/Huawei/huawei-mate-20-rs-porsche-design-red.jpg;10;2018;6.39;Kirin 980;4200;512;8
+Huawei;Mate;20 X;Android;./images/Huawei/huawei-mate-20x-.jpg;10;2018;7.2;Kirin 980;5000;256;8
+Huawei;Mate;30;Android;./images/Huawei/huawei-mate30-.jpg;09;2019;6.62;Kirin 990;4200;128;8
+Huawei;Mate;30 Pro;Android;./images/Huawei/huawei-mate30-pro-.jpg;09;2019;6.53;Kirin 990;4500;256;8
+Huawei;Mate;30 RS Porsche Design;Android;./images/Huawei/huawei-mate-30-rs-porsche-design.jpg;09;2019;6.53;Kirin 990 5G;4500;512;12
+Huawei;Mate;30E Pro 5G;Android;./images/Huawei/huawei-mate30-pro-5g.jpg;10;2020;6.53;Kirin 990E 5G;4500;256;8
+Huawei;Mate;40;Android;./images/Huawei/huawei-mate-40.jpg;10;2020;6.5;Kirin 9000E 5G;4200;256;8
+Huawei;Mate;40 Pro;Android;./images/Huawei/huawei-mate40-pro.jpg;10;2020;6.76;Kirin 9000 5G;4400;512;8
+Huawei;Mate;40 Pro 4G;;./images/Huawei/huawei-mate40-pro.jpg;06;2021;6.76;Kirin 9000;4400;512;8
+Huawei;Mate;40 Pro+;Android;./images/Huawei/huawei-mate40-pro-plus.jpg;10;2020;6.76;Kirin 9000 5G;4400;256;12
+Huawei;Mate;40 RS Porsche Design;Android;./images/Huawei/huawei-mate40-rs.jpg;10;2020;6.76;Kirin 9000 5G;4400;512;12
+Huawei;Mate;40E 4G;;./images/Huawei/huawei-mate-40.jpg;06;2021;6.5;Kirin 990E;4200;256;8
+Huawei;Mate;50;;./images/Huawei/huawei-mate-50.jpg;09;2022;6.7;Snapdragon 8+ Gen 1 4G;4460;512;8
+Huawei;Mate;50 Pro;;./images/Huawei/huawei-mate-50-pro.jpg;09;2022;6.74;Snapdragon 8+ Gen 1 4G;4700;512;8
+Huawei;Mate;50 RS Porsche Design;;./images/Huawei/huawei-mate-50-rs-porsche-design.jpg;09;2022;6.74;Snapdragon 8+ Gen 1 4G;4700;512;12
+Huawei;Mate;50E;;./images/Huawei/huawei-mate-50e.jpg;09;2022;6.7;Snapdragon 778G 5G;4460;256;8
+Huawei;Mate;60;;./images/Huawei/huawei-mate-60.jpg;08;2023;6.69;Kirin 9000S;4750;1024;12
+Huawei;Mate;60 Pro;;./images/Huawei/huawei-mate-60-pro.jpg;08;2023;6.82;Kirin 9000S;5000;1024;12
+Huawei;Mate;60 Pro+;;./images/Huawei/huawei-mate-60-pro-plus.jpg;09;2023;6.82;Kirin 9000S;5000;1024;16
+Huawei;Mate;60 RS Ultimate;;./images/Huawei/huawei-mate-60-rs-ultimate.jpg;09;2023;6.82;Kirin 9000S;5000;1024;16
+Huawei;Mate;70;;./images/Huawei/huawei-mate-70.jpg;11;2024;6.7;Kirin 9020;5300;1024;12
+Huawei;Mate;70 Pro;;./images/Huawei/huawei-mate-70-pro.jpg;11;2024;6.9;Kirin 9020;5500;1024;16
+Huawei;Mate;70 Pro+;;./images/Huawei/huawei-mate-70-pro-plus.jpg;11;2024;6.9;Kirin 9020;5700;1024;16
+Huawei;Mate;70 RS Ultimate;;./images/Huawei/huawei-mate-70-rs-ultimate.jpg;11;2024;6.9;Kirin 9020;5700;1024;16
+Huawei;Mate;80 Pro 5G;;./images/Huawei/huawei-mate-80-pro.jpg;11;2025;6.75;Kirin 9030 Pro (512GB;5750;512;16
+Huawei;Mate RS Porsche Design;;Android;./images/Huawei/huawei-mate-rs-porsche-design-1.jpg;03;2018;6.0;Kirin 970;4000;512;6
+Huawei;Mate X;2;Android;./images/Huawei/huawei-mate-x2-new.jpg;02;2021;8.0;Kirin 9000 5G;4500;512;12
+Huawei;Mate X;2 4G;;./images/Huawei/huawei-mate-x2-new.jpg;06;2021;8.0;Kirin 9000;4500;512;8
+Huawei;Mate X;3;;./images/Huawei/huawei-mate-x3.jpg;03;2023;7.85;Snapdragon 8+ Gen 1 4G;4800;1024;12
+Huawei;Mate X;5;;./images/Huawei/huawei-mate-x5.jpg;09;2023;7.85;Kirin 9000S;5060;1024;16
+Huawei;Mate X;6;;./images/Huawei/huawei-mate-x6-.jpg;11;2024;7.93;Kirin 9020;5110;1024;16
+Huawei;Mate X;7 5G;;./images/Huawei/huawei-mate-x7.jpg;11;2025;8.0;Kirin 9030 Pro;5600;1024;20
+Huawei;Mate X;;Android;./images/Huawei/huawei-mate-x-.jpg;02;2019;8.0;Kirin 980;4500;512;8
+Huawei;Mate Xs;2;;./images/Huawei/huawei-mate-xs-2.jpg;04;2022;7.8;Snapdragon 888 4G;4880;512;12
+Huawei;Mate Xs;;Android;./images/Huawei/huawei-mate-xs-.jpg;02;2020;8.0;Kirin 990 5G;4500;512;8
+Huawei;Mate XT Ultimate;;;./images/Huawei/huawei-mate-xt-ultimate.jpg;09;2024;10.2;Kirin 9010;5600;1024;16
+Huawei;Mate XTs Ultimate;5G;;./images/Huawei/huawei-mate-xts-ultimate.jpg;09;2025;10.2;Kirin 9020;5600;1024;16
+Huawei;nova;2s;Android;./images/Huawei/huawei-nova-2s.jpg;12;2017;6.0;Kirin 960;3340;128;6
+Huawei;nova;3;Android;./images/Huawei/huawei-nova3.jpg;07;2018;6.3;Kirin 970;3750;128;6
+Huawei;nova;3i;Android;./images/Huawei/huawei-nova-3i.jpg;07;2018;6.3;Kirin 710;3340;128;6
+Huawei;nova;4;Android;./images/Huawei/huawei-nova-4-.jpg;12;2018;6.4;Kirin 970;3750;128;8
+Huawei;nova;4e;Android;./images/Huawei/huawei-nova-4e-.jpg;03;2019;6.15;Kirin 710;3340;128;6
+Huawei;nova;5;Android;./images/Huawei/huawei-nova-5-.jpg;06;2019;6.39;Kirin 810;3500;128;8
+Huawei;nova;5i Pro;Android;./images/Huawei/huawei-nova-5i-pro.jpg;07;2019;6.26;Kirin 810;4000;256;8
+Huawei;nova;5T;Android;./images/Huawei/huawei-nova-5t.jpg;08;2019;6.26;Kirin 980;3750;128;8
+Huawei;nova;5z;Android;./images/Huawei/huawei-nova-5z.jpg;10;2019;6.26;Kirin 810;4000;128;6
+Huawei;nova;6;Android;./images/Huawei/huawei-nova-6.jpg;12;2019;6.57;Kirin 990;4100;128;8
+Huawei;nova;7 SE;Android;./images/Huawei/huawei-nova7-se-new.jpg;04;2020;6.5;Kirin 820 5G;4000;256;8
+Huawei;nova;7i;Android;./images/Huawei/huawei-p40-lite.jpg;01;2020;6.4;Kirin 810;4200;128;8
+Huawei;nova;8;Android;./images/Huawei/huawei-nova-8.jpg;08;2021;6.57;Kirin 820E;3800;256;8
+Huawei;nova;8 Pro 4G;Android;./images/Huawei/huawei-nova-8-pro-5g.jpg;04;2021;6.72;Kirin 985 5G;4000;256;8
+Huawei;nova;8i;Android;./images/Huawei/huawei-nova-8i.jpg;07;2021;6.67;Snapdragon 662;4300;128;8
+Huawei;nova;9;;./images/Huawei/huawei-nova-9-5g.jpg;09;2021;6.57;Snapdragon 778G 4G;4300;256;8
+Huawei;nova;9 Pro;;./images/Huawei/huawei-nova-9-pro-5g-.jpg;09;2021;6.72;Snapdragon 778G 4G;4000;256;8
+Huawei;nova;9 SE;Android;./images/Huawei/huawei-nova-9-se.jpg;03;2022;6.78;Snapdragon 680 4G;4000;512;8
+Huawei;nova;10;;./images/Huawei/huawei-nova-10.jpg;07;2022;6.67;Snapdragon 778G 4G;4000;256;8
+Huawei;nova;10 Pro;;./images/Huawei/huawei-nova-10-pro.jpg;07;2022;6.78;Snapdragon 778G 4G;4500;256;8
+Huawei;nova;10 SE;;./images/Huawei/huawei-nova10-se.jpg;10;2022;6.67;Snapdragon 680G 4G;4500;256;8
+Huawei;nova;10 Youth;;./images/Huawei/huawei-nova10-yough.jpg;03;2023;6.78;Snapdragon 680G 4G;4000;256;8
+Huawei;nova;11;;./images/Huawei/huawei-nova11.jpg;04;2023;6.7;Snapdragon 778G 4G;4500;512;8
+Huawei;nova;11 Pro;;./images/Huawei/huawei-nova11-pro.jpg;04;2023;6.78;Snapdragon 778G 4G;4500;512;8
+Huawei;nova;11 SE;;./images/Huawei/huawei-nova-11-se.jpg;10;2023;6.67;Snapdragon 680 4G;4500;512;8
+Huawei;nova;11 Ultra;;./images/Huawei/huawei-nova11-ultra.jpg;04;2023;6.78;Snapdragon 778G 4G;4500;512;12
+Huawei;nova;11i;;./images/Huawei/huawei-nova-11i.jpg;05;2023;6.8;Snapdragon 680 4G;5000;256;8
+Huawei;nova;12;;./images/Huawei/huawei-nova-12.jpg;12;2023;6.7;Kirin 830;4600;512;8
+Huawei;nova;12 Lite;;./images/Huawei/huawei-nova-12-lite.jpg;12;2023;6.7;Snapdragon 778G 4G;4500;512;8
+Huawei;nova;12 Pro;;./images/Huawei/huawei-nova-12-pro.jpg;12;2023;6.76;Kirin 9000S;4600;512;12
+Huawei;nova;12 SE;;./images/Huawei/huawei-nova-11-se.jpg;03;2024;6.67;Snapdragon 680 4G;4500;256;8
+Huawei;nova;12 Ultra;;./images/Huawei/huawei-nova-12-ultra.jpg;12;2023;6.76;Kirin 9000S;4600;1024;12
+Huawei;nova;12i;;./images/Huawei/huawei-nova-12i.jpg;03;2024;6.7;Snapdragon 680 4G;5000;256;8
+Huawei;nova;12s;;./images/Huawei/huawei-nova-12s.jpg;03;2024;6.7;Snapdragon 778G 4G;4500;256;8
+Huawei;nova;13i;;./images/Huawei/huawei-nova-13i.jpg;12;2024;6.7;Snapdragon 680 4G;5000;256;8
+Huawei;nova;14i;;./images/Huawei/huawei-nova-14i.jpg;10;2025;6.95;Snapdragon 680 4G;7000;256;8
+Huawei;nova;15 Pro 5G;;./images/Huawei/huawei-nova15-pro.jpg;12;2025;6.84;Kirin 9010S;6500;1024;12
+Huawei;nova Flip;;;./images/Huawei/huawei-nova-flip.jpg;08;2024;6.94;Kirin 8000;4440;1024;12
+Huawei;nova Flip S;5G;;./images/Huawei/huawei-nova-s.jpg;10;2025;6.94;Kirin 8030;4440;512;12
+Huawei;nova Y;60;Android;./images/Huawei/huawei-nova-y60.jpg;09;2021;6.6;MT6765 Helio P35;5000;64;4
+Huawei;nova Y;70 Plus;;./images/Huawei/huawei-nova-y70-plus.jpg;04;2022;6.75;Kirin 710A;6000;128;4
+Huawei;nova Y;71;;./images/Huawei/huawei-nova-y71.jpg;05;2023;6.75;Kirin 710A;6000;128;8
+Huawei;nova Y;72;Android;./images/Huawei/huawei-enjoy-70.jpg;01;2024;6.75;Kirin 710A;6000;256;8
+Huawei;Nova Y;72S 4G;Android;./images/Huawei/huawei-nova-y72s.jpg;04;2025;6.75;Snapdragon 680 4G;6000;256;8
+Huawei;Nova Y;73 4G;Android;./images/Huawei/huawei-nova-y73.jpg;05;2025;6.67;Kirin 710A;6620;256;8
+Huawei;nova Y;90;;./images/Huawei/huawei-nova-y90.jpg;06;2022;6.7;Snapdragon 680 4G;5000;128;8
+Huawei;nova Y;91;;./images/Huawei/huawei-nova-y91.jpg;05;2023;6.95;Snapdragon 680 4G;7000;256;8
+Huawei;P;9 lite mini;Android;./images/Huawei/huawei-y6-pro-2017-p9-lite-mini.jpg;08;2017;5.0;Snapdragon 425;3020;16;2
+Huawei;P;20;Android;./images/Huawei/huawei-p20-.jpg;03;2018;5.8;Kirin 970;3400;128;6
+Huawei;P;20 lite;Android;./images/Huawei/huawei-p20-lite-.jpg;03;2018;5.84;Kirin 659;3000;128;4
+Huawei;P;20 Pro;Android;./images/Huawei/huawei-p20-pro-.jpg;03;2018;6.1;Kirin 970;4000;256;8
+Huawei;P;30;Android;./images/Huawei/huawei-p30.jpg;03;2019;6.1;Kirin 980;3650;256;8
+Huawei;P;30 lite;Android;./images/Huawei/huawei-p30-lite-.jpg;03;2019;6.15;Kirin 710;3340;256;8
+Huawei;P;30 Pro;Android;./images/Huawei/huawei-p30-pro.jpg;03;2019;6.47;Kirin 980;4200;512;8
+Huawei;P;40;Android;./images/Huawei/huawei-p40.jpg;03;2020;6.1;Kirin 990 5G;3800;256;8
+Huawei;P;40 4G;Android;./images/Huawei/huawei-p40-4g.jpg;02;2021;6.1;Kirin 990;3800;128;8
+Huawei;P;40 lite;Android;./images/Huawei/huawei-p40-lite.jpg;02;2020;6.4;Kirin 810;4200;128;8
+Huawei;P;40 lite 5G;Android;./images/Huawei/huawei-p40-lite-5g.jpg;05;2020;6.5;Kirin 820 5G;4000;128;8
+Huawei;P;40 Pro;Android;./images/Huawei/huawei-p40-pro.jpg;03;2020;6.58;Kirin 990 5G;4200;512;8
+Huawei;P;40 Pro+;Android;./images/Huawei/huawei-p40-pro-plus.jpg;03;2020;6.58;Kirin 990 5G;4200;512;8
+Huawei;P;50;;./images/Huawei/huawei-p50.jpg;07;2021;6.5;Snapdragon 888 4G;4100;256;8
+Huawei;P;50 Pocket;;./images/Huawei/huawei-p50-pocket.jpg;12;2021;6.9;Snapdragon 888 4G;4000;512;12
+Huawei;P;50 Pro;;./images/Huawei/huawei-p50-pro.jpg;07;2021;6.6;Kirin 9000;4360;512;12
+Huawei;P;50E;;./images/Huawei/huawei-p50e.jpg;03;2022;6.5;Snapdragon 778G 4G;4100;256;8
+Huawei;P;60;;./images/Huawei/huawei-p60.jpg;03;2023;6.67;Snapdragon 8+ Gen 1 4G;4815;512;8
+Huawei;P;60 Art;;./images/Huawei/huawei-p60-art.jpg;03;2023;6.67;Snapdragon 8+ Gen 1 4G;5100;1024;12
+Huawei;P;60 Pro;;./images/Huawei/huawei-p60-pro.jpg;03;2023;6.67;Snapdragon 8+ Gen 1 4G;4815;512;12
+Huawei;P smart;2019;Android;./images/Huawei/huawei-p-smart-2019.jpg;12;2018;6.21;Kirin 710;3400;128;4
+Huawei;P smart;2020;Android;./images/Huawei/huawei-p-smart-2020-.jpg;04;2020;6.21;Kirin 710;3400;128;4
+Huawei;P smart;2021;Android;./images/Huawei/huawei-p-smart-2021.jpg;09;2020;6.67;Kirin 710A;5000;128;4
+Huawei;P smart;;Android;./images/Huawei/huawei-p-smart-.jpg;12;2017;5.65;Kirin 659;3000;64;4
+Huawei;P smart Pro;2019;Android;./images/Huawei/huawei-y9s.jpg;12;2019;6.59;Kirin 710F;4000;128;6
+Huawei;P Smart S;;Android;./images/Huawei/huawei-enjoy-10s.jpg;06;2020;6.3;Kirin 710F;4000;128;4
+Huawei;P Smart Z;;Android;./images/Huawei/huawei-p-smart-z-.jpg;05;2019;6.59;Kirin 710F;4000;64;4
+Huawei;P Smart+;2019;Android;./images/Huawei/huawei-p-smart-plus-2019-starlight-blue.jpg;07;2018;6.21;Kirin 710;3400;128;6
+Huawei;Y;3 (2018);Android;./images/Huawei/huawei-y3-2018.jpg;05;2018;5.0;MT6737M;2280;8;8
+Huawei;Y;5 lite (2018);Android;./images/Huawei/huawei-y5-prime-2018-.jpg;12;2018;5.45;MT6739;3020;16;16
+Huawei;Y;5p;Android;./images/Huawei/huawei-y5p.jpg;05;2020;5.45;MT6762R Helio P22;3020;32;2
+Huawei;Y;6 Pro (2019);Android;./images/Huawei/huawei-y6-pro-2019-.jpg;02;2019;6.09;MT6761 Helio A22;3020;32;3
+Huawei;Y;6p;Android;./images/Huawei/huawei-y6p.jpg;05;2020;6.3;MT6762R Helio P22;5000;64;4
+Huawei;Y;6s (2019);Android;./images/Huawei/huawei-y6s.jpg;01;2020;6.09;MT6765 Helio P35;3020;64;3
+Huawei;Y;7 Pro (2019);Android;./images/Huawei/huawei-y7-pro-2019-.jpg;01;2019;6.26;Snapdragon 450;4000;128;4
+Huawei;Y;7a;Android;./images/Huawei/huawei-p-smart-2021.jpg;10;2020;6.67;Kirin 710A;5000;128;4
+Huawei;Y;7p;Android;./images/Huawei/huawei-y7p-.jpg;02;2020;6.39;Kirin 710F;4000;64;4
+Huawei;Y;8p;Android;./images/Huawei/huawei-enjoy-10s.jpg;05;2020;6.3;Kirin 710F;4000;128;6
+Huawei;Y;8s;Android;./images/Huawei/huawei-y8s.png;05;2020;6.5;Kirin 710;4000;128;4
+Huawei;Y;9 (2019);Android;./images/Huawei/huawei-y9-2019-.jpg;10;2018;6.5;Kirin 710;4000;128;6
+Huawei;Y;9 Prime (2019);Android;./images/Huawei/huawei-y9-prime-2019-.jpg;08;2019;6.59;Kirin 710F;4000;128;4
+Huawei;Y;9a;Android;./images/Huawei/huawei-y9a.jpg;09;2020;6.63;MT6769V;4300;128;8
+Huawei;Y;9s;Android;./images/Huawei/huawei-y9s.jpg;11;2019;6.59;Kirin 710F;4000;128;6
+Huawei;Y Max;;Android;./images/Huawei/huawei-y-max-ars-l22.jpg;11;2018;7.12;Snapdragon 660;5000;128;4
+Nothing;CMF Phone;1;Android;./images/Nothing/nothing-cmf-phone-1-ofic.jpg;07;2024;6.67;Dimensity 7300;5000;256;8
+Nothing;CMF Phone;2 Pro 5G;Android;./images/Nothing/nothing-cmf-phone-2-pro.jpg;04;2025;6.77;Dimensity 7300 Pro;5000;256;8
+Nothing;Phone;(1);Android;./images/Nothing/nothing-phone-1.jpg;07;2022;6.55;Snapdragon 778G+ 5G;4500;256;12
+Nothing;Phone;(2);Android;./images/Nothing/nothing-phone2_.jpg;07;2023;6.7;Snapdragon 8+ Gen 1;4700;512;12
+Nothing;Phone;(2a);Android;./images/Nothing/nothing-phone-2a.jpg;03;2024;6.7;Dimensity 7200 Pro;5000;256;12
+Nothing;Phone;(2a) Plus;Android;./images/Nothing/nothing-phone-2a-plus.jpg;07;2024;6.7;Dimensity 7350 Pro;5000;256;12
+Nothing;Phone;(3) 5G;Android;./images/Nothing/nothing-phone-3-new.jpg;07;2025;6.67;Snapdragon 8s Gen 4;5150;512;16
+Nothing;Phone;(3a);Android;./images/Nothing/nothing-phone-3a-new.jpg;03;2025;6.77;Snapdragon 7s Gen 3;5000;256;12
+Nothing;Phone;(3a) Lite 5G;Android;./images/Nothing/nothing-phone-3a-lite-.jpg;10;2025;6.77;Dimensity 7300 Pro;5000;256;8
+Nothing;Phone;(3a) Pro;Android;./images/Nothing/nothing-phone-3a-pro-new.jpg;03;2025;6.77;Snapdragon 7s Gen 3;5000;256;12
+Nothing;Phone;(4a) 5G;Android;./images/Nothing/nothing-phone-4a.jpg;03;2026;6.78;Snapdragon 7s Gen 4;5080;256;12
+Nothing;Phone;(4a) Pro 5G;Android;./images/Nothing/nothing-phone-4a-pro.jpg;03;2026;6.83;Snapdragon 7 Gen 4;5080;256;12
+Oneplus;Ace;2;Android;./images/Oneplus/oneplus-ace2.jpg;02;2023;6.74;Snapdragon 8+ Gen 1;5000;512;18
+Oneplus;Ace;2V;Android;./images/Oneplus/oneplus-ace-2v.jpg;03;2023;6.74;Dimensity 9000;5000;1024;16
+Oneplus;Ace;3;Android;./images/Oneplus/oneplus-ace3.jpg;01;2024;6.78;Snapdragon 8 Gen 2;5500;1024;16
+Oneplus;Ace;3V;Android;./images/Oneplus/oneplus-ace-3v.jpg;03;2024;6.74;Snapdragon 7+ Gen 3;5500;512;16
+Oneplus;Ace;5;Android;./images/Oneplus/oneplus-ace5.jpg;12;2024;6.78;Snapdragon 8 Gen 3;6415;1024;16
+Oneplus;Ace;5 Ultra 5G;Android;./images/Oneplus/oneplus-ace-5-ultra.jpg;05;2025;6.83;Dimensity 9400+;6700;1024;16
+Oneplus;Ace;6T 5G;Android;./images/Oneplus/oneplus-ace-6t.jpg;12;2025;6.83;Snapdragon 8 Gen 5;8300;1024;16
+Oneplus;Ace;;Android;./images/Oneplus/oneplus-ace.jpg;04;2022;6.7;Dimensity 8100 Max;4500;512;12
+Oneplus;Ace Pro;;Android;./images/Oneplus/oneplus-10t-5g.jpg;08;2022;6.7;Snapdragon 8+ Gen 1;4800;512;16
+Oneplus;Ace Racing;;Android;./images/Oneplus/oneplus-ace-race.jpg;05;2022;6.59;Dimensity 8100 Max;5000;256;12
+Oneplus;Nord;2 Lite;Android;./images/Oneplus/oneplus-nord-ce-2-lite-5g-0.jpg;;;6.59;Snapdragon 695 5G;4500;128;8
+Oneplus;Nord;2T;Android;./images/Oneplus/oneplus-nord-2t.jpg;05;2022;6.43;Dimensity 1300;4500;256;12
+Oneplus;Nord;3;Android;./images/Oneplus/oneplus-nord-3r.jpg;07;2023;6.74;Dimensity 9000;5000;256;16
+Oneplus;Nord;4;Android;./images/Oneplus/oneplus-nord4.jpg;07;2024;6.74;Snapdragon 7+ Gen 3;5500;512;16
+Oneplus;Nord;5 5G;Android;./images/Oneplus/oneplus-nord5.jpg;07;2025;6.83;Snapdragon 8s Gen 3;6800;512;12
+Oneplus;Nord;;Android;./images/Oneplus/oneplus-nord.jpg;07;2020;6.44;Snapdragon 765G 5G;4115;256;12
+Oneplus;Nord CE;2 Lite 5G;Android;./images/Oneplus/oneplus-nord-ce-2-lite-5g-0.jpg;04;2022;6.59;Snapdragon 695 5G;5000;128;8
+Oneplus;Nord CE;3;Android;./images/Oneplus/oneplus-nord-ce3-5g.jpg;07;2023;6.7;Snapdragon 782G;5000;256;12
+Oneplus;Nord CE;4;Android;./images/Oneplus/oneplus-nord-ce4-.jpg;04;2024;6.7;Snapdragon 7 Gen 3;5500;256;8
+Oneplus;Nord N;20 5G;Android;./images/Oneplus/oneplus-nord-n20-5g-.jpg;04;2022;6.43;Snapdragon 695 5G;4500;128;6
+Oneplus;Nord N;20 SE;Android;./images/Oneplus/oneplus-nord-n20-se.jpg;08;2022;6.56;MT6765G Helio G35;5000;128;4
+Oneplus;Nord N;30;Android;./images/Oneplus/oneplus-nord-n30-5g.jpg;06;2023;6.72;Snapdragon 695 5G;5000;128;8
+Oneplus;Nord N;30 SE;Android;./images/Oneplus/oneplus-nord-n30-se-5g.jpg;01;2024;6.72;Dimensity 6020;5000;128;4
+Oneplus;Nord N;100;Android;./images/Oneplus/oneplus-nord-n100-.jpg;10;2020;6.52;Snapdragon 460;5000;64;4
+Oneplus;Nord N;300;Android;./images/Oneplus/oneplus-nord-n300-5g.jpg;10;2022;6.56;Dimensity 810;5000;64;4
+Oneplus;One;;Android;./images/Oneplus/oneplus-one.jpg;04;2014;5.5;Snapdragon 801;3100;64;3
+Oneplus;Open;2;Android;./images/Oneplus/oneplus-open-10.jpg;;;8.0;Snapdragon 8 Elite;5900;1024;16
+Oneplus;Open;;Android;./images/Oneplus/oneplus-open-10.jpg;10;2023;7.82;Snapdragon 8 Gen 2;4805;1024;16
+Oneplus;Turbo;6 5G;Android;./images/Oneplus/oneplus-turbo-6.jpg;01;2026;6.78;Snapdragon 8s Gen 4;9000;512;16
+Oneplus;Turbo;6V 5G;Android;./images/Oneplus/oneplus-turbo-6v.jpg;01;2026;6.78;Snapdragon 7s Gen 4;9000;512;12
+Oneplus;X;;Android;./images/Oneplus/oneplus-x.jpg;10;2015;5.0;Snapdragon 801;2525;16;3
+Oneplus;;2;Android;./images/Oneplus/oneplus-two.jpg;07;2015;5.5;Snapdragon 810;3300;64;4
+Oneplus;;3;Android;./images/Oneplus/oneplus-3-.jpg;06;2016;5.5;Snapdragon 820;3000;64;6
+Oneplus;;3T;Android;./images/Oneplus/oneplus-3t-.jpg;11;2016;5.5;Snapdragon 821;3400;128;6
+Oneplus;;5;Android;./images/Oneplus/oneplus-5.jpg;06;2017;5.5;Snapdragon 835;3300;128;8
+Oneplus;;5T;Android;./images/Oneplus/oneplus-5t.jpg;11;2017;6.01;Snapdragon 835;3300;128;8
+Oneplus;;6;Android;./images/Oneplus/oneplus-6-red.jpg;05;2018;6.28;Snapdragon 845;3300;256;8
+Oneplus;;6T;Android;./images/Oneplus/oneplus-6t-thunder-purple.jpg;10;2018;6.41;Snapdragon 845;3700;256;8
+Oneplus;;7;Android;./images/Oneplus/oneplus-7--.jpg;05;2019;6.41;Snapdragon 855;3700;256;12
+Oneplus;;7 Pro 5G;Android;./images/Oneplus/oneplus-7-pro-r1.jpg;05;2019;6.67;Snapdragon 855;4000;256;12
+Oneplus;;7T Pro;Android;./images/Oneplus/oneplus-7t-pro.jpg;10;2019;6.67;Snapdragon 855+;4085;256;12
+Oneplus;;8;Android;./images/Oneplus/oneplus-8.jpg;04;2020;6.55;Snapdragon 865 5G;4300;256;12
+Oneplus;;8T+ 5G;Android;./images/Oneplus/oneplus-8t.jpg;10;2020;6.55;Snapdragon 865 5G;4500;256;12
+Oneplus;;9;Android;./images/Oneplus/oneplus-9-.jpg;03;2021;6.55;Snapdragon 888 5G;4500;256;12
+Oneplus;;9 Pro;Android;./images/Oneplus/oneplus-9-pro-.jpg;03;2021;6.7;Snapdragon 888 5G;4500;256;12
+Oneplus;;9E;Android;./images/Oneplus/smartphone.jpg;;;6.5;Snapdragon 690 5G;5000;128;8
+Oneplus;;9R;Android;./images/Oneplus/oneplus-9r.jpg;03;2021;6.55;Snapdragon 870 5G;4500;256;12
+Oneplus;;9RT 5G;Android;./images/Oneplus/oneplus-9-rt-r.jpg;10;2021;6.62;Snapdragon 888 5G;4500;256;12
+Oneplus;;10 Pro;Android;./images/Oneplus/oneplus-10-pro.jpg;01;2022;6.7;Snapdragon 8 Gen 1;5000;512;12
+Oneplus;;10R;Android;./images/Oneplus/oneplus-10r.jpg;04;2022;6.7;Dimensity 8100 Max;5000;256;12
+Oneplus;;10T;Android;./images/Oneplus/oneplus-10t-5g.jpg;08;2022;6.7;Snapdragon 8+ Gen 1;4800;256;16
+Oneplus;;11;Android;./images/Oneplus/oneplus-11.jpg;01;2023;6.7;Snapdragon 8 Gen 2;5000;512;16
+Oneplus;;11R;Android;./images/Oneplus/oneplus-ace2.jpg;02;2023;6.74;Snapdragon 8+ Gen 1;5000;512;18
+Oneplus;;12;Android;./images/Oneplus/oneplus-12.jpg;12;2023;6.82;Snapdragon 8 Gen 3;5400;1024;24
+Oneplus;;12R;Android;./images/Oneplus/oneplus-12r-new.jpg;01;2024;6.78;Snapdragon 8 Gen 2;5500;256;16
+Oneplus;;13;Android;./images/Oneplus/oneplus-13.jpg;10;2024;6.82;Snapdragon 8 Elite;6000;1024;24
+Oneplus;;13R;Android;./images/Oneplus/oneplus-13r.jpg;01;2025;6.78;Snapdragon 8 Gen 3;6000;512;16
+Oneplus;;13S 5G;Android;./images/Oneplus/oneplus-13s-.jpg;06;2025;6.32;Snapdragon 8 Elite;5850;512;12
+Oneplus;;13T 5G;Android;./images/Oneplus/oneplus-13t.jpg;04;2025;6.32;Snapdragon 8 Elite;6260;1024;16
+Oneplus;;15R 5G;Android;./images/Oneplus/oneplus-15r.jpg;12;2025;6.83;Snapdragon 8 Gen 5;7400;512;12
+Samsung;Galaxy S;4 mini I9195I;Android;./images/Samsung/samsung-galaxy-s4-mini-plus-gt-i9195i.jpg;06;2015;4.3;Snapdragon 410;1900;8;1.5
+Samsung;Galaxy S;5 Neo;Android;./images/Samsung/samsung-galaxy-s5-neo.jpg;08;2015;5.1;Exynos 7580 Octa;2800;16;2
+Samsung;Galaxy S;6;Android;./images/Samsung/samsung-galaxy-s6.jpg;03;2015;5.1;Exynos 7420 Octa;2550;128;3
+Samsung;Galaxy S;7;Android;./images/Samsung/samsung-galaxy-s7--.jpg;02;2016;5.1;Exynos 8890 Octa;3000;64;4
+Samsung;Galaxy S;8;Android;./images/Samsung/samsung-galaxy-s8-.jpg;03;2017;5.8;Exynos 8895;3000;64;4
+Samsung;Galaxy S;9;Android;./images/Samsung/samsung-galaxy-s9-.jpg;02;2018;5.8;Exynos 9810;3000;256;4
+Samsung;Galaxy S;9+;Android;./images/Samsung/samsung-galaxy-s9-plus-blue.jpg;02;2018;6.2;Exynos 9810;3500;256;6
+Samsung;Galaxy S;10;Android;./images/Samsung/samsung-galaxy-s10.jpg;02;2019;6.1;Exynos 9820;3400;512;8
+Samsung;Galaxy S;10 Lite;Android;./images/Samsung/sasmung-galaxy-s10-lite-.jpg;01;2020;6.7;Snapdragon 855;4500;512;8
+Samsung;Galaxy S;10+;Android;./images/Samsung/samsung-galaxy-s10-plus-new.jpg;02;2019;6.4;Exynos 9820;4100;1024;12
+Samsung;Galaxy S;10e;Android;./images/Samsung/samsung-galaxy-s10e.jpg;02;2019;5.8;Exynos 9820;3100;256;8
+Samsung;Galaxy S;20;Android;./images/Samsung/samsung-galaxy-s20-.jpg;02;2020;6.2;Exynos 990;4000;128;8
+Samsung;Galaxy S;20 FE;Android;./images/Samsung/samsung-galaxy-s20-fe-4g.jpg;09;2020;6.5;Exynos 990;4500;256;8
+Samsung;Galaxy S;20 FE 5G;Android;./images/Samsung/samsung-galaxy-s20-fe-5g.jpg;09;2020;6.5;Snapdragon 865 5G;4500;256;8
+Samsung;Galaxy S;20 Ultra;Android;./images/Samsung/samsung-galaxy-s20-ultra-.jpg;02;2020;6.9;Exynos 990;5000;512;16
+Samsung;Galaxy S;20+;Android;./images/Samsung/samsung-galaxy-s20-plus.jpg;02;2020;6.7;Exynos 990;4500;128;8
+Samsung;Galaxy S;21 5G;Android;./images/Samsung/samsung-galaxy-s21-5g-r.jpg;01;2021;6.2;Exynos 2100;4000;256;8
+Samsung;Galaxy S;21 FE 5G;Android;./images/Samsung/samsung-galaxy-s21-fe-5g.jpg;01;2022;6.4;Snapdragon 888 5G;4500;256;8
+Samsung;Galaxy S;21 Ultra 5G;Android;./images/Samsung/samsung-galaxy-s21-ultra-5g-.jpg;01;2021;6.8;Exynos 2100;5000;512;16
+Samsung;Galaxy S;21+ 5G;Android;./images/Samsung/samsung-galaxy-s21-plus-5g-.jpg;01;2021;6.7;Exynos 2100;4800;256;8
+Samsung;Galaxy S;22 5G;Android;./images/Samsung/samsung-galaxy-s22-5g.jpg;02;2022;6.1;Exynos 2200;3700;256;8
+Samsung;Galaxy S;22 Ultra 5G;Android;./images/Samsung/samsung-galaxy-s22-ultra-5g.jpg;02;2022;6.8;Exynos 2200;5000;1024;12
+Samsung;Galaxy S;22+ 5G;Android;./images/Samsung/samsung-galaxy-s22-plus-5g.jpg;02;2022;6.6;Exynos 2200;4500;256;8
+Samsung;Galaxy S;23;Android;./images/Samsung/samsung-galaxy-s23-5g.jpg;02;2023;6.1;Snapdragon 8 Gen 2;3900;512;8
+Samsung;Galaxy S;23 FE;Android;./images/Samsung/samsung-galaxy-s23-fe.jpg;10;2023;6.4;Exynos 2200;4500;256;8
+Samsung;Galaxy S;23 Ultra;Android;./images/Samsung/samsung-galaxy-s23-ultra-5g.jpg;02;2023;6.8;Snapdragon 8 Gen 2;5000;1024;12
+Samsung;Galaxy S;23+;Android;./images/Samsung/samsung-galaxy-s23-plus-5g.jpg;02;2023;6.6;Snapdragon 8 Gen 2;4700;512;8
+Samsung;Galaxy S;24;Android;./images/Samsung/samsung-galaxy-s24-5g-sm-s921.jpg;01;2024;6.2;Snapdragon 8 Gen 3;4000;512;12
+Samsung;Galaxy S;24 FE;Android;./images/Samsung/samsung-galaxy-s24-fe-r1.jpg;09;2024;6.7;Exynos 2400e;4700;512;8
+Samsung;Galaxy S;24 Ultra;Android;./images/Samsung/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg;01;2024;6.8;Snapdragon 8 Gen 3;5000;1024;12
+Samsung;Galaxy S;24+;Android;./images/Samsung/samsung-galaxy-s24-plus-5g-sm-s926.jpg;01;2024;6.7;Snapdragon 8 Gen 3;4900;512;12
+Samsung;Galaxy S;25;Android;./images/Samsung/samsung-galaxy-s25-sm-s931.jpg;01;2025;6.2;Snapdragon 8 Elite;4000;512;12
+Samsung;Galaxy S;25 Edge;Android;./images/Samsung/samsung-galaxy-s25-edge.jpg;05;2025;6.7;Snapdragon 8 Elite;3900;512;12
+Samsung;Galaxy S;25 FE 5G;Android;./images/Samsung/samsung-galaxy-s25-fe.jpg;09;2025;6.7;Exynos 2400;4900;512;8
+Samsung;Galaxy S;25 Ultra;Android;./images/Samsung/samsung-galaxy-s25-ultra-sm-s938.jpg;01;2025;6.9;Snapdragon 8 Elite;5000;1024;16
+Samsung;Galaxy S;25+;Android;./images/Samsung/samsung-galaxy-s25-plus-sm-s936.jpg;01;2025;6.7;Snapdragon 8 Elite;4900;512;12
+Samsung;Galaxy S;26 5G;Android;./images/Samsung/samsung-galaxy-s26.jpg;02;2026;6.3;Snapdragon 8 Elite Gen 5;4300;512;12
+Samsung;Galaxy S;26 Ultra 5G;Android;./images/Samsung/samsung-galaxy-s26-ultra-new.jpg;02;2026;6.9;Snapdragon 8 Elite Gen 5;5000;1024;16
+Samsung;Galaxy S;26+ 5G;Android;./images/Samsung/samsung-galaxy-s26-plus.jpg;02;2026;6.7;Snapdragon 8 Elite Gen 5;4900;512;12
+Samsung;Galaxy A;01;Android;./images/Samsung/samsung-galaxy-a01.jpg;12;2019;5.7;Snapdragon 439;3000;32;2
+Samsung;Galaxy A;02;Android;./images/Samsung/samsung-galaxy-a02.jpg;01;2021;6.5;MT6739W;5000;64;4
+Samsung;Galaxy A;02s;Android;./images/Samsung/samsung-galaxy-a02s-sm-a025-new.jpg;11;2020;6.5;Snapdragon 450;5000;64;4
+Samsung;Galaxy A;2 Core;Android;./images/Samsung/samsung-galaxy-a2-core-sm-a260f.jpg;04;2019;5.0;Exynos 7870 Octa;2600;16;16
+Samsung;Galaxy A;03;Android;./images/Samsung/samsung-galaxy-a03.jpg;11;2021;6.5;Unisoc T606;5000;128;4
+Samsung;Galaxy A;03s;Android;./images/Samsung/samsung-galaxy-a03s.jpg;08;2021;6.5;MT6765 Helio P35;5000;64;4
+Samsung;Galaxy A;3;Android;./images/Samsung/samsung-a3.jpg;10;2014;4.5;Snapdragon 410;1900;16;1.5
+Samsung;Galaxy A;04;Android;./images/Samsung/samsung-galaxy-a04.jpg;08;2022;6.5;MT6765 Helio P35;5000;128;8
+Samsung;Galaxy A;04e;Android;./images/Samsung/samsung-galaxy-a04e.jpg;10;2022;6.5;MT6765 Helio P35;5000;128;4
+Samsung;Galaxy A;04s;Android;./images/Samsung/samsung-galaxy-a04s.jpg;08;2022;6.5;Exynos 850;5000;128;4
+Samsung;Galaxy A;05;Android;./images/Samsung/samsung-galaxy-a05.jpg;09;2023;6.7;Helio G85;5000;128;6
+Samsung;Galaxy A;05s;Android;./images/Samsung/samsung-galaxy-a05s.jpg;09;2023;6.7;Snapdragon 680 4G;5000;128;6
+Samsung;Galaxy A;5;Android;./images/Samsung/samsung-a5.jpg;10;2014;5.0;Snapdragon 410;2300;16;2
+Samsung;Galaxy A;06;Android;./images/Samsung/samsung-galaxy-a06-1.jpg;08;2024;6.7;Helio G85;5000;128;6
+Samsung;Galaxy A;6+ (2018);Android;./images/Samsung/samsung-galaxy-a6-plus-2018-.jpg;05;2018;6.0;Snapdragon 450;3500;64;4
+Samsung;Galaxy A;6s;Android;./images/Samsung/samsung-galaxy-a6s-.jpg;10;2018;6.0;Snapdragon 660;3300;128;6
+Samsung;Galaxy A;07;Android;./images/Samsung/samsung-galaxy-a07.jpg;08;2025;6.7;Helio G99;5000;256;8
+Samsung;Galaxy A;7;Android;./images/Samsung/samsung-a7.jpg;01;2015;5.5;Snapdragon 615;2600;16;2
+Samsung;Galaxy A;8;Android;./images/Samsung/samsung-galaxy-a8-.jpg;07;2015;5.7;Snapdragon 615;3050;32;2
+Samsung;Galaxy A;8s;Android;./images/Samsung/samsung-galaxy-a8s-.jpg;12;2018;6.4;Snapdragon 710;3400;128;8
+Samsung;Galaxy A;9 (2018);Android;./images/Samsung/samsung-galaxy-a9-2018.jpg;10;2018;6.3;Snapdragon 660;3800;128;8
+Samsung;Galaxy A;9 Pro (2016);Android;./images/Samsung/samsung-galaxy-a9-pro1.jpg;03;2016;6.0;Snapdragon 652;5000;32;4
+Samsung;Galaxy A;10;Android;./images/Samsung/samsung-galaxy-a10.jpg;02;2019;6.2;Exynos 7884;3400;32;4
+Samsung;Galaxy A;10e;Android;./images/Samsung/samsung-galaxy-a10e-sm-a102u.jpg;07;2019;5.83;Exynos 7884;3000;32;3
+Samsung;Galaxy A;10s;Android;./images/Samsung/samsung-galaxy-a10s.jpg;08;2019;6.2;MT6762 Helio P22;4000;32;3
+Samsung;Galaxy A;11;Android;./images/Samsung/samsung-galaxy-a11.jpg;03;2020;6.4;Snapdragon 450;4000;64;4
+Samsung;Galaxy A;12;Android;./images/Samsung/samsung-galaxy-a12-sm-a125.jpg;11;2020;6.5;MT6765 Helio P35;5000;128;6
+Samsung;Galaxy A;12 Nacho;Android;./images/Samsung/samsung-galaxy-a12-nacho.jpg;08;2021;6.5;Exynos 850;5000;128;4
+Samsung;Galaxy A;13;Android;./images/Samsung/samsung-galaxy-a13.jpg;03;2022;6.6;Exynos 850;5000;128;6
+Samsung;Galaxy A;14;Android;./images/Samsung/samsung-galaxy-a14-4g.jpg;02;2023;6.6;MT6769 Helio G80;5000;128;8
+Samsung;Galaxy A;15;Android;./images/Samsung/samsung-galaxy-a15-lte-.jpg;12;2023;6.5;Helio G99;5000;256;8
+Samsung;Galaxy A;16;Android;./images/Samsung/samsung-galaxy-a16-lte.jpg;10;2024;6.7;Helio G99;5000;256;8
+Samsung;Galaxy A;17;Android;./images/Samsung/samsung-galaxy-a17.jpg;09;2025;6.7;Helio G99;5000;256;8
+Samsung;Galaxy A;17 5G;Android;./images/Samsung/samsung-galaxy-a17-5g.jpg;08;2025;6.7;Exynos 1330;5000;256;8
+Samsung;Galaxy A;20;Android;./images/Samsung/samsung-galaxy-a20.jpg;03;2019;6.4;Exynos 7884;4000;32;3
+Samsung;Galaxy A;20e;Android;./images/Samsung/samsung-galaxy-a20e.jpg;04;2019;5.8;Exynos 7884;3000;32;3
+Samsung;Galaxy A;20s;Android;./images/Samsung/samsung-galaxy-a20s-sm-a207.jpg;09;2019;6.5;Snapdragon 450;4000;64;4
+Samsung;Galaxy A;21;Android;./images/Samsung/samsung-galaxy-a21-r.jpg;04;2020;6.5;MT6765 Helio P35;4000;32;3
+Samsung;Galaxy A;21s;Android;./images/Samsung/samsung-galaxy-a21s-.jpg;05;2020;6.5;Exynos 850;5000;128;6
+Samsung;Galaxy A;22;Android;./images/Samsung/samsung-galaxy-a22.jpg;06;2021;6.4;MT6769V;5000;128;6
+Samsung;Galaxy A;23;Android;./images/Samsung/samsung-galaxy-a23.jpg;03;2022;6.6;Snapdragon 680 4G;5000;128;8
+Samsung;Galaxy A;24 4G;Android;./images/Samsung/samsung-galaxy-a24-4g-2.jpg;04;2023;6.5;Helio G99;5000;128;8
+Samsung;Galaxy A;25;Android;./images/Samsung/samsung-galaxy-a25.jpg;12;2023;6.5;Exynos 1280;5000;256;8
+Samsung;Galaxy A;26;Android;./images/Samsung/samsung-galaxy-a26.jpg;03;2025;6.7;Exynos 1380;5000;256;8
+Samsung;Galaxy A;30;Android;./images/Samsung/samsung-galaxy-a30.jpg;02;2019;6.4;Exynos 7904;4000;64;4
+Samsung;Galaxy A;30s;Android;./images/Samsung/samsung-galaxy-a30s.jpg;08;2019;6.4;Exynos 7904;4000;128;4
+Samsung;Galaxy A;31;Android;./images/Samsung/samsung-galaxy-a31.jpg;03;2020;6.4;MT6768 Helio P65;5000;128;8
+Samsung;Galaxy A;32;Android;./images/Samsung/samsung-galaxy-a32-4g-new.jpg;02;2021;6.4;MT6769V;5000;128;8
+Samsung;Galaxy A;34;Android;./images/Samsung/samsung-galaxy-a34.jpg;03;2023;6.6;Dimensity 1080;5000;256;8
+Samsung;Galaxy A;35;Android;./images/Samsung/samsung-galaxy-a35.jpg;03;2024;6.6;Exynos 1380;5000;256;12
+Samsung;Galaxy A;36;Android;./images/Samsung/samsung-galaxy-a36.jpg;03;2025;6.7;Snapdragon 6 Gen 3;5000;256;12
+Samsung;Galaxy A;40;Android;./images/Samsung/samsung-galaxy-a40.jpg;03;2019;5.9;Exynos 7904;3100;128;4
+Samsung;Galaxy A;41;Android;./images/Samsung/samsung-galaxy-a41.jpg;03;2020;6.1;MT6768 Helio P65;3500;64;8
+Samsung;Galaxy A;50;Android;./images/Samsung/samsung-galaxy-a50-sm-a505f-ds.jpg;02;2019;6.4;Exynos 9610;4000;128;6
+Samsung;Galaxy A;50s;Android;./images/Samsung/samsung-galaxy-a50s.jpg;08;2019;6.4;Exynos 9611;4000;128;6
+Samsung;Galaxy A;51;Android;./images/Samsung/samsung-galaxy-a51-sm-a515.jpg;12;2019;6.5;Exynos 9611;4000;256;8
+Samsung;Galaxy A;52;Android;./images/Samsung/samsung-galaxy-a52-4g.jpg;03;2021;6.5;Snapdragon 720G;4500;256;8
+Samsung;Galaxy A;52s 5G;Android;./images/Samsung/samsung-galaxy-a52s-5g.jpg;08;2021;6.5;Snapdragon 778G 5G;4500;256;8
+Samsung;Galaxy A;54;Android;./images/Samsung/samsung-galaxy-a54.jpg;03;2023;6.4;Exynos 1380;5000;256;8
+Samsung;Galaxy A;55;Android;./images/Samsung/samsung-galaxy-a55.jpg;03;2024;6.6;Exynos 1480;5000;256;12
+Samsung;Galaxy A;56;Android;./images/Samsung/samsung-galaxy-a56-.jpg;03;2025;6.7;Exynos 1580;5000;256;12
+Samsung;Galaxy A;60;Android;./images/Samsung/samsung-galaxy-a60-.jpg;04;2019;6.3;Snapdragon 675;3500;128;6
+Samsung;Galaxy A;70;Android;./images/Samsung/samsung-galaxy-a70.jpg;03;2019;6.7;Snapdragon 675;4500;128;8
+Samsung;Galaxy A;70s;Android;./images/Samsung/samsung-galaxy-a70s-.jpg;09;2019;6.7;Snapdragon 675;4500;128;8
+Samsung;Galaxy A;71;Android;./images/Samsung/samsung-galaxy-a71.jpg;12;2019;6.7;Snapdragon 730;4500;128;8
+Samsung;Galaxy A;72;Android;./images/Samsung/samsung-galaxy-a72-4g.jpg;03;2021;6.7;Snapdragon 720G;5000;256;8
+Samsung;Galaxy A;80;Android;./images/Samsung/samsung-galaxy-a80-.jpg;04;2019;6.7;Snapdragon 730;3700;128;8
+Samsung;Galaxy A Quantum;;Android;./images/Samsung/samsung-galaxy-a71-5g.jpg;05;2020;6.7;QRNG security chipset;4500;128;8
+Samsung;Galaxy M;01;Android;./images/Samsung/samsung-galaxy-m01.jpg;06;2020;5.7;Snapdragon 439;4000;32;3
+Samsung;Galaxy M;01s;Android;./images/Samsung/samsung-galaxy-m01s-m017f.jpg;07;2020;6.2;MT6762 Helio P22;4000;32;3
+Samsung;Galaxy M;02;Android;./images/Samsung/samsung-galaxy-m02.jpg;02;2021;6.5;MT6739W;5000;32;3
+Samsung;Galaxy M;02s;Android;./images/Samsung/samsung-galaxy-m02s.jpg;01;2021;6.5;Snapdragon 450;5000;64;4
+Samsung;Galaxy M;04;Android;./images/Samsung/samsung-galaxy-m04-.jpg;12;2022;6.5;MT6765 Helio P35;5000;128;4
+Samsung;Galaxy M;05;Android;./images/Samsung/samsung-galaxy-m05.jpg;09;2024;6.7;Helio G85;5000;64;4
+Samsung;Galaxy M;06;Android;./images/Samsung/samsung-galaxy-m06-5g.jpg;02;2025;6.74;Dimensity 6300;5000;128;6
+Samsung;Galaxy M;07;Android;./images/Samsung/samsung-galaxy-m07.jpg;10;2025;6.7;Helio G99;5000;64;4
+Samsung;Galaxy M;10;Android;./images/Samsung/samsung-galaxy-m10-m105f.jpg;01;2019;6.22;Exynos 7870 Octa;3400;32;3
+Samsung;Galaxy M;10s;Android;./images/Samsung/samsung-galaxy-m10s-m107f.jpg;09;2019;6.4;Exynos 7884B;4000;32;3
+Samsung;Galaxy M;11;Android;./images/Samsung/samsung-galaxy-m11-sm-m115.jpg;03;2020;6.4;Snapdragon 450;5000;64;4
+Samsung;Galaxy M;12;Android;./images/Samsung/samsung-galaxy-m12.jpg;04;2021;6.5;Exynos 850;5000;128;4
+Samsung;Galaxy M;13;Android;./images/Samsung/samsung-galaxy-m13.jpg;05;2022;6.6;Exynos 850;5000;128;4
+Samsung;Galaxy M;14;Android;./images/Samsung/samsung-galaxy-m14-5g-sm-m146.jpg;03;2023;6.6;Exynos 1330;6000;128;6
+Samsung;Galaxy M;14 4G;Android;./images/Samsung/samsung-galaxy-m14-4g.jpg;03;2024;6.7;Snapdragon 680 4G;5000;128;6
+Samsung;Galaxy M;15;Android;./images/Samsung/samsung-galaxy-m15.jpg;03;2024;6.5;Dimensity 6100+;6000;256;8
+Samsung;Galaxy M;16;Android;./images/Samsung/samsung-galaxy-m16-5g-.jpg;02;2025;6.7;Dimensity 6300;5000;256;8
+Samsung;Galaxy M;17 5G;Android;./images/Samsung/samsung-galaxy-a17.jpg;10;2025;6.7;Exynos 1330;5000;128;8
+Samsung;Galaxy M;20;Android;./images/Samsung/samsung-galaxy-m20-m205f.jpg;01;2019;6.3;Exynos 7904;5000;64;4
+Samsung;Galaxy M;21;Android;./images/Samsung/samsung-galaxy-m21.jpg;03;2020;6.4;Exynos 9611;6000;128;6
+Samsung;Galaxy M;21 2021;Android;./images/Samsung/samsung-galaxy-m21-2021.jpg;07;2021;6.4;Exynos 9611;6000;128;6
+Samsung;Galaxy M;21s;Android;./images/Samsung/samsung-galaxy-m21s.jpg;11;2020;6.4;Exynos 9611;6000;64;4
+Samsung;Galaxy M;22;Android;./images/Samsung/samsung-galaxy-m22-.jpg;09;2021;6.4;MT6769V;5000;128;6
+Samsung;Galaxy M;23;Android;./images/Samsung/samsung-galaxy-m23.jpg;03;2022;6.6;Snapdragon 750G 5G;5000;128;6
+Samsung;Galaxy M;30;Android;./images/Samsung/samsung-galaxy-m30-.jpg;02;2019;6.4;Exynos 7904;5000;128;6
+Samsung;Galaxy M;30s;Android;./images/Samsung/samsung-galaxy-m30s-.jpg;09;2019;6.4;Exynos 9611;6000;128;6
+Samsung;Galaxy M;31;Android;./images/Samsung/samsung-galaxy-m31-sm-m315f.jpg;02;2020;6.4;Exynos 9611;6000;128;8
+Samsung;Galaxy M;31 Prime;Android;./images/Samsung/samsung-galaxy-m31-sm-m315f.jpg;10;2020;6.4;Exynos 9611;6000;128;6
+Samsung;Galaxy M;31s;Android;./images/Samsung/samsung-galaxy-m31s.jpg;07;2020;6.5;Exynos 9611;6000;128;8
+Samsung;Galaxy M;32;Android;./images/Samsung/samsung-galaxy-m32.jpg;06;2021;6.4;MT6769V;6000;128;8
+Samsung;Galaxy M;33;Android;./images/Samsung/samsung-galaxy-m33.jpg;03;2022;6.6;Exynos 1280;6000;128;8
+Samsung;Galaxy M;35;Android;./images/Samsung/samsung-galaxy-m35-.jpg;05;2024;6.6;Exynos 1380;6000;256;8
+Samsung;Galaxy M;40;Android;./images/Samsung/samsung-galaxy-m40-m405f.jpg;06;2019;6.3;Snapdragon 675;3500;128;6
+Samsung;Galaxy M;51;Android;./images/Samsung/samsung-galaxy-m51.jpg;08;2020;6.7;Snapdragon 730G;7000;128;8
+Samsung;Galaxy M;53;Android;./images/Samsung/samsung-galaxy-m53-5g.jpg;04;2022;6.7;Dimensity 900;5000;256;8
+Samsung;Galaxy M;54;Android;./images/Samsung/samsung-galaxy-m54-5g.jpg;03;2023;6.7;Exynos 1380;6000;256;8
+Samsung;Galaxy M;55;Android;./images/Samsung/samsung-galaxy-m55.jpg;03;2024;6.7;Snapdragon 7 Gen 1;5000;256;12
+Samsung;Galaxy M;55s;Android;./images/Samsung/samsung-galaxy-m55s.jpg;09;2024;6.7;Snapdragon 7 Gen 1;5000;256;8
+Samsung;Galaxy M;62;Android;./images/Samsung/samsung-galaxy-m62.jpg;02;2021;6.7;Exynos 9825;7000;256;8
+Samsung;Galaxy F;02s;Android;./images/Samsung/samsung-galaxy-f02s.jpg;04;2021;6.5;Snapdragon 450;5000;64;4
+Samsung;Galaxy F;04;Android;./images/Samsung/samsung-galaxy-f04-new.jpg;01;2023;6.5;MT6765 Helio P35;5000;64;4
+Samsung;Galaxy F;05;Android;./images/Samsung/samsung-galaxy-f05.jpg;09;2024;6.7;Helio G85;5000;64;4
+Samsung;Galaxy F;07;Android;./images/Samsung/samsung-galaxy-f07.jpg;10;2025;6.7;Helio G99;5000;64;4
+Samsung;Galaxy F;12;Android;./images/Samsung/samsung-galaxy-f12.jpg;04;2021;6.5;Exynos 850;6000;128;4
+Samsung;Galaxy F;13;Android;./images/Samsung/samsung-galaxy-f13.jpg;06;2022;6.6;Exynos 850;6000;128;6
+Samsung;Galaxy F;14;Android;./images/Samsung/samsung-galaxy-f14.jpg;03;2023;6.6;Exynos 1330;6000;128;6
+Samsung;Galaxy F;14 4G;Android;./images/Samsung/samsung-galaxy-f14-4g.jpg;08;2024;6.7;Snapdragon 680 4G;5000;64;4
+Samsung;Galaxy F;15;Android;./images/Samsung/samsung-galaxy-f15-5g.jpg;03;2024;6.6;Dimensity 6100+;6000;128;8
+Samsung;Galaxy F;16;Android;./images/Samsung/samsung-galaxy-f16-5g.jpg;03;2025;6.7;Dimensity 6300;5000;128;8
+Samsung;Galaxy F;17 5G;Android;./images/Samsung/samsung-galaxy-f17-5g-.jpg;09;2025;6.7;Exynos 1330;5000;128;8
+Samsung;Galaxy F;22;Android;./images/Samsung/samsung-galaxy-f22.jpg;07;2021;6.4;MT6769V;6000;128;6
+Samsung;Galaxy F;23;Android;./images/Samsung/samsung-galaxy-m23.jpg;03;2022;6.6;Snapdragon 750G 5G;5000;128;6
+Samsung;Galaxy F;34;Android;./images/Samsung/samsung-galaxy-f34.jpg;08;2023;6.5;Exynos 1280;6000;128;8
+Samsung;Galaxy F;41;Android;./images/Samsung/samsung-galaxy-f41-sm-f415fds.jpg;10;2020;6.4;Exynos 9611;6000;128;6
+Samsung;Galaxy F;54;Android;./images/Samsung/samsung-galaxy-f54-5g.jpg;06;2023;6.7;Exynos 1380;6000;256;8
+Samsung;Galaxy F;55;Android;./images/Samsung/samsung-galaxy-f55.jpg;05;2024;6.7;Snapdragon 7 Gen 1;5000;256;12
+Samsung;Galaxy F;62;Android;./images/Samsung/samsung-galaxy-f62.jpg;02;2021;6.7;Exynos 9825;7000;128;8
+Samsung;Galaxy F;70e 5G;Android;./images/Samsung/samsung-galaxy-f70e.jpg;02;2026;6.7;Dimensity 6300;6000;128;6
+Samsung;Galaxy J;1;Android;./images/Samsung/samsung-galaxy-j1-sm-j100h1.jpg;01;2015;4.3;Spreadtrum;1850;4;4
+Samsung;Galaxy J;2;Android;./images/Samsung/samsung-galaxy-j2.jpg;09;2015;4.7;Exynos 3475 Quad;2000;8;8
+Samsung;Galaxy J;3 Pro;Android;./images/Samsung/samsung-galaxy-j3-2017r1.jpg;06;2016;5.0;Snapdragon 410;2600;16;2
+Samsung;Galaxy J;4;Android;./images/Samsung/samsung-galaxy-j4-j400.jpg;05;2018;5.5;Exynos 7570 Quad;3000;32;3
+Samsung;Galaxy J;5;Android;./images/Samsung/samsung-galaxy-j5-sm-j500f.jpg;06;2015;5.0;Snapdragon 410;2600;16;1.5
+Samsung;Galaxy J;6;Android;./images/Samsung/samsung-galaxy-j6-j600.jpg;05;2018;5.6;Exynos 7870 Octa;3000;64;4
+Samsung;Galaxy J;7;Android;./images/Samsung/samsung-galaxy-j7-j700f.jpg;06;2015;5.5;Snapdragon 615;3000;16;1.5
+Samsung;Galaxy J;8;Android;./images/Samsung/samsung-galaxy-j8-j800.jpg;05;2018;6.0;Snapdragon 450;3500;64;4
+Samsung;Galaxy Note;4;Android;./images/Samsung/samsung-galaxy-note-4-new.jpg;09;2014;5.7;Snapdragon 805;3220;32;3
+Samsung;Galaxy Note;5;Android;./images/Samsung/samsung-galaxy-note5.jpg;08;2015;5.7;Exynos 7420 Octa;3000;128;4
+Samsung;Galaxy Note;7;Android;./images/Samsung/samsung-galaxy-note7.jpg;08;2016;5.7;Exynos 8890 Octa;3500;64;4
+Samsung;Galaxy Note;8;Android;./images/Samsung/samsung-galaxy-note-8-sm-n950.jpg;08;2017;6.3;Exynos 8895;3300;256;6
+Samsung;Galaxy Note;9;Android;./images/Samsung/samsung-galaxy-note9-r1.jpg;08;2018;6.4;Exynos 9810;4000;512;8
+Samsung;Galaxy Note;10;Android;./images/Samsung/samsung-galaxy-note10-.jpg;08;2019;6.3;Exynos 9825;3500;256;8
+Samsung;Galaxy Note;10 Lite;Android;./images/Samsung/sasmung-galaxy-note10-lite-r.jpg;01;2020;6.7;Exynos 9810;4500;128;8
+Samsung;Galaxy Note;10+;Android;./images/Samsung/samsung-galaxy-note10-plus-.jpg;08;2019;6.8;Exynos 9825;4300;512;12
+Samsung;Galaxy Note;20;Android;./images/Samsung/samsung-galaxy-note20-5g-r.jpg;08;2020;6.7;Exynos 990;4300;256;8
+Samsung;Galaxy Note;20 Ultra;Android;./images/Samsung/samsung-galaxy-note20-ultra-.jpg;08;2020;6.9;Exynos 990;4500;512;12
+Samsung;Galaxy Note;20 Ultra 5G;Android;./images/Samsung/samsung-galaxy-note20-ultra-.jpg;08;2020;6.9;Exynos 990;4500;512;12
+Samsung;Galaxy Note Edge;;Android;./images/Samsung/samsung-galaxy-note-edge1.jpg;09;2014;5.6;Snapdragon 805;3000;64;3
+Samsung;Galaxy Note FE;;Android;./images/Samsung/samsung-galaxy-note-fe1.jpg;07;2017;5.7;Exynos 8890 Octa;3200;64;4
+Samsung;Galaxy XCover;3;Android;./images/Samsung/samsung-galaxy-xcover-3-new.jpg;03;2015;4.5;Marvell Armada PXA1908;2200;8;1.5
+Samsung;Galaxy XCover;4;Android;./images/Samsung/samsung-galaxy-xcover4-g390f-.jpg;03;2017;5.0;Exynos 7570 Quad;2800;16;2
+Samsung;Galaxy XCover;4s;Android;./images/Samsung/samsung-galaxy-xcover-4s-sm-g398.jpg;06;2019;5.0;Exynos 7885;2800;32;3
+Samsung;Galaxy XCover;5;Android;./images/Samsung/samsung-galaxy-xcover-5.jpg;03;2021;5.3;Exynos 850;3000;64;4
+Samsung;Galaxy XCover;6 Pro;Android;./images/Samsung/samsung-galaxy-xcover6-pro-r.jpg;06;2022;6.6;Snapdragon 778G 5G;4050;128;6
+Samsung;Galaxy XCover;7;Android;./images/Samsung/samsung-galaxy-xcover7.jpg;01;2024;6.6;Dimensity 6100+;4050;128;6
+Samsung;Galaxy XCover FieldPro;;Android;./images/Samsung/samsung-galaxy-xcover-fieldpro-sm-g889f.jpg;10;2019;5.1;Exynos 9810;4500;64;4
+Samsung;Galaxy XCover Pro;;Android;./images/Samsung/samsung-galaxy-xcover-pro-.jpg;01;2020;6.3;Exynos 9611;4050;64;4
+Samsung;Galaxy Z Flip;4;Android;./images/Samsung/samsung-galaxy-z-flip4-5g.jpg;08;2022;6.7;Snapdragon 8+ Gen 1;3700;512;8
+Samsung;Galaxy Z Flip;5;Android;./images/Samsung/samsung-galaxy-z-flip5-5g.jpg;07;2023;6.7;Snapdragon 8 Gen 2;3700;512;8
+Samsung;Galaxy Z Flip;6;Android;./images/Samsung/samsung-galaxy-z-flip6.jpg;07;2024;6.7;Snapdragon 8 Gen 3;4000;512;12
+Samsung;Galaxy Z Flip;7;Android;./images/Samsung/samsung-galaxy-z-flip7.jpg;07;2025;6.9;Exynos 2500;4300;512;12
+Samsung;Galaxy Z Flip;7 FE 5G;Android;./images/Samsung/samsung-galaxy-z-flip7-fe-.jpg;07;2025;6.7;Exynos 2400;4000;256;8
+Samsung;Galaxy Z Flip;;Android;./images/Samsung/samsung-galaxy-z-flip-01.jpg;02;2020;6.7;Snapdragon 855+;3300;256;8
+Samsung;Galaxy Z Fold;3 5G;Android;./images/Samsung/samsung-galaxy-z-fold3-5g.jpg;08;2021;7.6;Snapdragon 888 5G;4400;512;12
+Samsung;Galaxy Z Fold;4;Android;./images/Samsung/samsung-galaxy-z-fold4.jpg;08;2022;7.6;Snapdragon 8+ Gen 1;4400;1024;12
+Samsung;Galaxy Z Fold;5;Android;./images/Samsung/samsung-galaxy-z-fold5-5g.jpg;07;2023;7.6;Snapdragon 8 Gen 2;4400;1024;12
+Samsung;Galaxy Z Fold;6;Android;./images/Samsung/samsung-galaxy-z-fold6.jpg;07;2024;7.6;Snapdragon 8 Gen 3;4400;1024;12
+Samsung;Galaxy Z Fold;7;Android;./images/Samsung/samsung-galaxy-z-fold7.jpg;07;2025;8.0;Snapdragon 8 Elite;4400;1024;16
+Samsung;Galaxy Z Fold Special;;Android;./images/Samsung/samsung-galaxy-z-fold-special-edition.jpg;10;2024;8.0;Snapdragon 8 Gen 3;4400;512;16
+Samsung;Galaxy Z TriFold;5G;Android;./images/Samsung/samsung-galaxy-z-trifold-.jpg;12;2025;10.0;Snapdragon 8 Elite;5600;1024;16
+Xiaomi;Mi A;1 (Mi 5X);Android;./images/Xiaomi/xiaomi-mi-a1.jpg;09;2017;5.5;Snapdragon 625;3080;64;4
+Xiaomi;Mi A;2 Lite (Redmi 6 Pro);Android;./images/Xiaomi/xiaomi-mi-a2-lite.jpg;07;2018;5.84;Snapdragon 625;4000;64;4
+Xiaomi;Mi A;3;Android;./images/Xiaomi/xiaomi-mi-a3.jpg;07;2019;6.09;Snapdragon 665;4030;128;6
+Xiaomi;Mi CC;9;Android;./images/Xiaomi/xiaomi-mi-cc9-.jpg;07;2019;6.39;Snapdragon 710;4030;256;8
+Xiaomi;Mi CC;9 Pro;Android;./images/Xiaomi/xiaomi-mi-cc9-pro-.jpg;11;2019;6.47;Snapdragon 730G;5260;256;8
+Xiaomi;Mi CC;9e;Android;./images/Xiaomi/xiaomi-mi-cc9e-.jpg;07;2019;6.01;Snapdragon 665;4030;128;6
+Xiaomi;Mi Max;2;Android;./images/Xiaomi/xiaomi-mi-max2.jpg;05;2017;6.44;Snapdragon 625;5300;128;4
+Xiaomi;Mi Max;3;Android;./images/Xiaomi/xiaomi-mi-max3-.jpg;07;2018;6.9;Snapdragon 636;5500;128;6
+Xiaomi;Mi Max;4;Android;./images/Xiaomi/smartphone.jpg;;;7.2;Snapdragon 660;5800;128;6
+Xiaomi;Mi Max;;Android;./images/Xiaomi/xiaomi-mi-max-.jpg;05;2016;6.44;Snapdragon 650;4850;128;4
+Xiaomi;Mi Mix;2;Android;./images/Xiaomi/xiaomi-mi-mix2-new.jpg;09;2017;5.99;Snapdragon 835;3400;256;8
+Xiaomi;Mi Mix;2S;Android;./images/Xiaomi/xiaomi-mi-mix-2s.jpg;03;2018;5.99;Snapdragon 845;3400;256;8
+Xiaomi;Mi Mix;3;Android;./images/Xiaomi/xiaomi-mi-mix3.jpg;10;2018;6.39;Snapdragon 845;3200;256;10
+Xiaomi;Mi Mix;3 5G;Android;./images/Xiaomi/xiaomi-mi-mix3.jpg;02;2019;6.39;Snapdragon 855;3800;128;6
+Xiaomi;Mi Mix;;Android;./images/Xiaomi/xiaomi-mix-.jpg;10;2016;6.4;Snapdragon 821;4400;256;6
+Xiaomi;Mi Mix Alpha;;Android;./images/Xiaomi/xiaomi-mi-mix-alpha.jpg;09;2019;7.92;Snapdragon 855+;4050;512;12
+Xiaomi;Mi Mix Fold;;Android;./images/Xiaomi/xiaomi-mi-mix-fold.jpg;03;2021;8.01;Snapdragon 888 5G;5020;512;16
+Xiaomi;Mi Note;2;Android;./images/Xiaomi/xiaomi-mi-note2-.jpg;10;2016;5.7;Snapdragon 821;4070;128;6
+Xiaomi;Mi Note;3;Android;./images/Xiaomi/xiaomi-mi-note3-.jpg;09;2017;5.5;Snapdragon 660;3500;128;6
+Xiaomi;Mi Note;10;Android;./images/Xiaomi/xiaomi-mi-note10-.jpg;11;2019;6.47;Snapdragon 730G;5260;256;6
+Xiaomi;Mi Note;10 Lite;Android;./images/Xiaomi/xiaomi-mi-note-10-lite-.jpg;04;2020;6.47;Snapdragon 730G;5260;128;8
+Xiaomi;Mi Note;10 Pro;Android;./images/Xiaomi/xiaomi-mi-note10-.jpg;11;2019;6.47;Snapdragon 730G;5260;256;8
+Xiaomi;Mi Note;;Android;./images/Xiaomi/xiaomi-note-2015.jpg;01;2015;5.7;Snapdragon 801;3000;64;3
+Xiaomi;Mi Note Pro;;Android;./images/Xiaomi/xiaomi-note-pro2.jpg;01;2015;5.7;Snapdragon 810;3090;64;4
+Xiaomi;Mi Play;;Android;./images/Xiaomi/xiaomi-miplay.jpg;12;2018;5.84;MT6765 Helio P35;3000;128;6
+Xiaomi;Mix Flip;2 5G;Android;./images/Xiaomi/xiaomi-mix-flip2.jpg;06;2025;6.86;Snapdragon 8 Elite;5165;1024;16
+Xiaomi;Mix Flip;;Android;./images/Xiaomi/xiaomi-mix-flip.jpg;07;2024;6.86;Snapdragon 8 Gen 3;4780;1024;16
+Xiaomi;Mix Fold;2;Android;./images/Xiaomi/xiaomi-mix-fold-2.jpg;08;2022;8.02;Snapdragon 8+ Gen 1;4500;1024;12
+Xiaomi;Mix Fold;3;Android;./images/Xiaomi/xiaomi-mix-fold3-.jpg;08;2023;8.03;Snapdragon 8 Gen 2;4800;1024;16
+Xiaomi;Mix Fold;4;Android;./images/Xiaomi/xiaomi-mix-fold4.jpg;07;2024;7.98;Snapdragon 8 Gen 3;5100;1024;16
+Xiaomi;Poco C;3;Android;./images/Xiaomi/xiaomi-poco-c3.jpg;10;2020;6.43;MT6765G Helio G35;5000;64;4
+Xiaomi;Poco C;31;Android;./images/Xiaomi/xiaomi-poco-c31.jpg;09;2021;6.53;MT6765G Helio G35;5000;64;4
+Xiaomi;Poco C;40;Android;./images/Xiaomi/xiaomi-poco-c40.jpg;06;2022;6.71;JLQ JR510;6000;64;4
+Xiaomi;Poco C;50;Android;./images/Xiaomi/xiaomi-poco-c50.jpg;01;2023;6.52;MT6761 Helio A22;5000;32;3
+Xiaomi;Poco C;51;Android;./images/Xiaomi/xiaomi-poco-c51.jpg;04;2023;6.52;Helio G36;5000;128;6
+Xiaomi;Poco C;55;Android;./images/Xiaomi/xiaomi-poco-c55.jpg;02;2023;6.71;MT6769Z Helio G85;5000;128;6
+Xiaomi;Poco C;61;Android;./images/Xiaomi/xiaomi-poco-c61.jpg;03;2024;6.71;Helio G36;5000;128;6
+Xiaomi;Poco C;65;Android;./images/Xiaomi/xiaomi-poco-c65.jpg;11;2023;6.74;MT6769Z Helio G85;5000;256;8
+Xiaomi;Poco C;71 4G;Android;./images/Xiaomi/xiaomi-poco-c71.jpg;04;2025;6.88;Unisoc T7250;5200;128;6
+Xiaomi;Poco C;75;Android;./images/Xiaomi/xiaomi-poco-c75-.jpg;10;2024;6.88;Helio G81 Ultra;5160;256;8
+Xiaomi;Poco C;85;Android;./images/Xiaomi/xiaomi-poco-c85.jpg;09;2025;6.9;Helio G81 Ultra;6000;256;8
+Xiaomi;Poco C;85 5G;Android;./images/Xiaomi/xiaomi-poco-c85-5g.jpg;12;2025;6.9;Dimensity 6300;6000;256;8
+Xiaomi;Poco C;85x 5G;Android;./images/Xiaomi/xiaomi-poco-c85x-.jpg;03;2026;6.9;Dimensity 6300;6300;128;4
+Xiaomi;Poco F;2 Pro;Android;./images/Xiaomi/xiaomi-poco-f2-pro.jpg;05;2020;6.67;Snapdragon 865 5G;4700;256;8
+Xiaomi;Poco F;3;Android;./images/Xiaomi/xiaomi-poco-f3.jpg;03;2021;6.67;Snapdragon 870 5G;4520;256;8
+Xiaomi;Poco F;4;Android;./images/Xiaomi/xiaomi-poco-f4-5g-.jpg;06;2022;6.67;Snapdragon 870 5G;4500;256;8
+Xiaomi;Poco F;5;Android;./images/Xiaomi/xiaomi-poco-f5-2.jpg;05;2023;6.67;Snapdragon 7+ Gen 2;5000;256;12
+Xiaomi;Poco F;6;Android;./images/Xiaomi/xiaomi-poco-f6.jpg;05;2024;6.67;Snapdragon 8s Gen 3;5000;512;12
+Xiaomi;Poco F;7 Pro;Android;./images/Xiaomi/xiaomi-poco-f7-pro.jpg;03;2025;6.67;Snapdragon 8 Gen 3;6000;512;12
+Xiaomi;Poco F;8 Pro 5G;Android;./images/Xiaomi/xiaomi-poco-f8-pro.jpg;11;2025;6.59;Snapdragon 8 Elite;6210;512;12
+Xiaomi;Poco M;2;Android;./images/Xiaomi/xiaomi-poco-m2-mzb9921in.jpg;09;2020;6.53;MT6769V;5000;128;6
+Xiaomi;Poco M;3;Android;./images/Xiaomi/xiaomi-poco-m3-.jpg;11;2020;6.53;Snapdragon 662;6000;128;6
+Xiaomi;Poco M;4 Pro;Android;./images/Xiaomi/xiaomi-poco-m4-pro.jpg;02;2022;6.43;MT6781 Helio G96;5000;256;8
+Xiaomi;Poco M;5;Android;./images/Xiaomi/xiaomi-poco-m5.jpg;09;2022;6.58;Helio G99;5000;128;6
+Xiaomi;Poco M;5s;Android;./images/Xiaomi/xiaomi-poco-m5s.jpg;09;2022;6.43;MT6785V;5000;256;8
+Xiaomi;Poco M;6;Android;./images/Xiaomi/xiaomi-poco-m6-5g-.jpg;12;2023;6.74;Dimensity 6100+;5000;256;8
+Xiaomi;Poco M;6 Pro 4G;Android;./images/Xiaomi/xiaomi-poco-m6-pro-4g.jpg;01;2024;6.67;Helio G99 Ultra;5000;512;12
+Xiaomi;Poco M;7;Android;./images/Xiaomi/xiaomi-poco-m7-4g.jpg;08;2025;6.9;Snapdragon 685;7000;256;8
+Xiaomi;Poco M;8 Pro 5G;Android;./images/Xiaomi/xiaomi-poco-m8-pro.jpg;01;2026;6.83;Snapdragon 7s Gen 4;6500;512;12
+Xiaomi;Poco X;2;Android;./images/Xiaomi/xiaomi-poco-x2.jpg;02;2020;6.67;Snapdragon 730G;4500;256;8
+Xiaomi;Poco X;3;Android;./images/Xiaomi/xiaomi-poco-x3.jpg;09;2020;6.67;Snapdragon 732G;6000;128;8
+Xiaomi;Poco X;4 NFC;Android;./images/Xiaomi/smartphone.jpg;;;6.67;Dimensity 920;5160;256;8
+Xiaomi;Poco X;4 Pro 5G;Android;./images/Xiaomi/xiaomi-poco-x4-pro.jpg;02;2022;6.67;Snapdragon 695 5G;5000;256;8
+Xiaomi;Poco X;5;Android;./images/Xiaomi/xiaomi-poco-x5-5g.jpg;02;2023;6.67;Snapdragon 695 5G;5000;256;8
+Xiaomi;Poco X;6;Android;./images/Xiaomi/xiaomi-poco-x6.jpg;01;2024;6.67;Snapdragon 7s Gen 2;5100;512;12
+Xiaomi;Poco X;7;Android;./images/Xiaomi/xiaomi-poco-x7.jpg;01;2025;6.67;Dimensity 7300 Ultra;5110;512;12
+Xiaomi;Pocophone F;1;Android;./images/Xiaomi/xiaomi-pocophone-f1-.jpg;08;2018;6.18;Snapdragon 845;4000;256;8
+Xiaomi;Redmi;1S;Android;./images/Xiaomi/Xiaomi-Hongmi-Redmi-1s.jpg;05;2014;4.7;Snapdragon 400;2000;8;8
+Xiaomi;Redmi;2;Android;./images/Xiaomi/xiaomi-redmi-2.jpg;01;2015;4.7;Snapdragon 410;2200;16;2
+Xiaomi;Redmi;2A;Android;./images/Xiaomi/xiaomi-redmi-2.jpg;03;2015;4.7;Leadcore L1860C;2200;8;8
+Xiaomi;Redmi;3;Android;./images/Xiaomi/xiaomi-redmi-3-.jpg;01;2016;5.0;Snapdragon 616;4100;32;3
+Xiaomi;Redmi;3s;Android;./images/Xiaomi/xiaomi-redmi-3s.jpg;06;2016;5.0;Snapdragon 430;4100;32;3
+Xiaomi;Redmi;3x;Android;./images/Xiaomi/xiaomi-redmi-3x.jpg;06;2016;5.0;Snapdragon 430;4100;32;2
+Xiaomi;Redmi;4 Prime;Android;./images/Xiaomi/xiaomi-redmi-4-prime-new.jpg;11;2016;5.0;Snapdragon 625;4100;32;3
+Xiaomi;Redmi;4A;Android;./images/Xiaomi/xiaomi-redmi-4a-.jpg;11;2016;5.0;Snapdragon 425;3120;32;3
+Xiaomi;Redmi;5;Android;./images/Xiaomi/xiaomi-redmi-5.jpg;12;2017;5.7;Snapdragon 450;3300;64;4
+Xiaomi;Redmi;5A;Android;./images/Xiaomi/xiaomi-redmi-5a.jpg;11;2017;5.0;Snapdragon 425;3000;32;3
+Xiaomi;Redmi;6;Android;./images/Xiaomi/xiaomi-redmi-6.jpg;06;2018;5.45;MT6762 Helio P22;3000;64;4
+Xiaomi;Redmi;6A;Android;./images/Xiaomi/xiaomi-redmi-6a.jpg;06;2018;5.45;MT6761 Helio A22;3000;32;3
+Xiaomi;Redmi;7;Android;./images/Xiaomi/xiaomi-redmi-7.jpg;03;2019;6.26;Snapdragon 632;4000;64;4
+Xiaomi;Redmi;7A;Android;./images/Xiaomi/xiaomi-redmi-7a-mzb8008in.jpg;05;2019;5.45;Snapdragon 439;4000;32;3
+Xiaomi;Redmi;8;Android;./images/Xiaomi/xiaomi-redmi-8.jpg;10;2019;6.22;Snapdragon 439;5000;64;4
+Xiaomi;Redmi;8A Pro;Android;./images/Xiaomi/xiaomi-redmi-8a-dual.jpg;04;2020;6.22;Snapdragon 439;5000;32;3
+Xiaomi;Redmi;9;Android;./images/Xiaomi/xiaomi-redmi-9.jpg;06;2020;6.53;MT6769V;5020;128;6
+Xiaomi;Redmi;9 Activ;Android;./images/Xiaomi/xiaomi-redmi-9-activ.jpg;09;2021;6.53;MT6765G Helio G35;5000;128;6
+Xiaomi;Redmi;9 Power;Android;./images/Xiaomi/xiaomi-redmi-9-power.jpg;12;2020;6.53;Snapdragon 662;6000;128;6
+Xiaomi;Redmi;9 Prime;Android;./images/Xiaomi/xiaomi-redmi-9.jpg;08;2020;6.53;MT6769V;5020;128;4
+Xiaomi;Redmi;9A;Android;./images/Xiaomi/xiaomi-redmi-9a-1.jpg;06;2020;6.53;MT6762G Helio G25;5000;128;6
+Xiaomi;Redmi;9AT;Android;./images/Xiaomi/xiaomi-redmi-9a-1.jpg;09;2020;6.53;MT6762G Helio G25;5000;32;2
+Xiaomi;Redmi;9C;Android;./images/Xiaomi/xiaomi-redmi-9c-.jpg;06;2020;6.53;MT6765G Helio G35;5000;128;4
+Xiaomi;Redmi;9i;Android;./images/Xiaomi/xiaomi-redmi-9a-1.jpg;09;2020;6.53;MT6762G Helio G25;5000;128;4
+Xiaomi;Redmi;9T;Android;./images/Xiaomi/xiaomi-redmi-9-power.jpg;01;2021;6.53;Snapdragon 662;6000;128;6
+Xiaomi;Redmi;10;Android;./images/Xiaomi/xiaomi-redmi-10-.jpg;08;2021;6.5;MT6769H Helio G88;5000;128;6
+Xiaomi;Redmi;10 2022;Android;./images/Xiaomi/xiaomi-redmi-note-11-4g.jpg;02;2022;6.5;MT6769H Helio G88;5000;128;6
+Xiaomi;Redmi;10 Power;Android;./images/Xiaomi/xiaomi-redmi-10-power-.jpg;04;2022;6.7;Snapdragon 680 4G;6000;128;8
+Xiaomi;Redmi;10 Prime;Android;./images/Xiaomi/xiaomi-redmi-10-.jpg;09;2021;6.5;MT6769H Helio G88;6000;128;6
+Xiaomi;Redmi;10 Prime+ 5G;Android;./images/Xiaomi/smartphone.jpg;;;6.58;Dimensity 700;5000;128;6
+Xiaomi;Redmi;10A;Android;./images/Xiaomi/xiaomi-redmi-10a.jpg;03;2022;6.53;MT6762G Helio G25;5000;128;6
+Xiaomi;Redmi;10C;Android;./images/Xiaomi/xiaomi-redmi-10c.jpg;03;2022;6.71;Snapdragon 680 4G;5000;128;4
+Xiaomi;Redmi;10X Pro 5G;Android;./images/Xiaomi/xiaomi-redmi-10x-pro-5g.jpg;05;2020;6.57;Dimensity 820;4520;256;8
+Xiaomi;Redmi;11;Android;./images/Xiaomi/xiaomi-redmi-note-11e.jpg;;;6.58;Dimensity 700;5000;128;6
+Xiaomi;Redmi;11 Prime;Android;./images/Xiaomi/xiaomi-redmi-11-prime-4g.jpg;09;2022;6.58;Helio G99;5000;128;6
+Xiaomi;Redmi;12;Android;./images/Xiaomi/xiaomi-redmi-12-.jpg;06;2023;6.79;MT6769H Helio G88;5000;256;8
+Xiaomi;Redmi;12C;Android;./images/Xiaomi/xiaomi-redmi-12c.jpg;12;2022;6.71;MT6769Z Helio G85;5000;128;6
+Xiaomi;Redmi;13;Android;./images/Xiaomi/xiaomi-redmi-13-.jpg;06;2024;6.79;Helio G91 Ultra;5030;256;8
+Xiaomi;Redmi;13C 5G;Android;./images/Xiaomi/xiaomi-redmi-13c-5g.jpg;12;2023;6.74;Dimensity 6100+;5000;256;8
+Xiaomi;Redmi;13R;Android;./images/Xiaomi/xiaomi-redmi-13r-5g.jpg;12;2023;6.74;Dimensity 6100+;5000;128;4
+Xiaomi;Redmi;13x 4G;Android;./images/Xiaomi/xiaomi-redmi-13x-4g.jpg;03;2025;6.79;Helio G91 Ultra;5030;256;8
+Xiaomi;Redmi;14C 5G;Android;./images/Xiaomi/xiaomi-redmi-14c.jpg;01;2025;6.88;Snapdragon 4 Gen 2;5160;256;6
+Xiaomi;Redmi;14R;Android;./images/Xiaomi/xiaomi-redmi-14r.jpg;09;2024;6.88;Snapdragon 4 Gen 2;5160;256;12
+Xiaomi;Redmi;15;Android;./images/Xiaomi/xiaomi-redmi-15-4g.jpg;08;2025;6.9;Snapdragon 685;7000;256;8
+Xiaomi;Redmi;15C 5G;Android;./images/Xiaomi/xiaomi-redmi-15c.jpg;09;2025;6.9;Dimensity 6300;6000;256;8
+Xiaomi;Redmi;20X;Android;./images/Xiaomi/smartphone.jpg;;;6.5;Dimensity 700;5000;128;6
+Xiaomi;Redmi;;Android;./images/Xiaomi/xiaomi-hongmi.jpg;07;2013;4.7;MT6589T;2000;4;4
+Xiaomi;Redmi A;1;Android;./images/Xiaomi/xiaomi-a1.jpg;09;2022;6.52;MT6761 Helio A22;5000;32;3
+Xiaomi;Redmi A;2;Android;./images/Xiaomi/xiaomi-redmi-a2-.jpg;03;2023;6.52;Helio G36;5000;64;4
+Xiaomi;Redmi A;3;Android;./images/Xiaomi/xiaomi-redmi-a3.jpg;02;2024;6.71;Helio G36;5000;128;8
+Xiaomi;Redmi A;3x;Android;./images/Xiaomi/xiaomi-a3x-new.jpg;05;2024;6.71;Unisoc T603;5000;128;4
+Xiaomi;Redmi A;4;Android;./images/Xiaomi/xiaomi-redmi-a4-5g-.jpg;10;2024;6.88;Snapdragon 4s Gen 2;5160;128;6
+Xiaomi;Redmi A;5 4G;Android;./images/Xiaomi/xiaomi-redmi-a5-4g.jpg;03;2025;6.88;Unisoc T7250;5200;128;6
+Xiaomi;Redmi Go;;Android;./images/Xiaomi/xiaomi-redmi-go.jpg;01;2019;5.0;Snapdragon 425;3000;16;16
+Xiaomi;Redmi K;20;Android;./images/Xiaomi/xiaomi-redmi-k20pro-.jpg;05;2019;6.39;Snapdragon 730;4000;256;8
+Xiaomi;Redmi K;20 Pro;Android;./images/Xiaomi/xiaomi-redmi-k20pro-.jpg;05;2019;6.39;Snapdragon 855;4000;256;8
+Xiaomi;Redmi K;30;Android;./images/Xiaomi/xiaomi-redmi-k30.jpg;12;2019;6.67;Snapdragon 730G;4500;256;8
+Xiaomi;Redmi K;30 Pro;Android;./images/Xiaomi/xiaomi-redmi-k30-pro.jpg;03;2020;6.67;Snapdragon 865 5G;4700;256;12
+Xiaomi;Redmi K;30 Ultra;Android;./images/Xiaomi/xiaomi-redmi-k30-ultra.jpg;08;2020;6.67;Dimensity 1000+;4500;512;8
+Xiaomi;Redmi K;30i 5G;Android;./images/Xiaomi/xiaomi-redmi-k30i-5g-.jpg;05;2020;6.67;Snapdragon 765G 5G;4500;256;8
+Xiaomi;Redmi K;30S;Android;./images/Xiaomi/xiaomi-mi-10t-5g-.jpg;10;2020;6.67;Snapdragon 865 5G;5000;256;8
+Xiaomi;Redmi K;40;Android;./images/Xiaomi/xiaomi-redmi-k40.jpg;02;2021;6.67;Snapdragon 870 5G;4520;256;12
+Xiaomi;Redmi K;40 Gaming;Android;./images/Xiaomi/xiaomi-redmi-k40-gaming.jpg;04;2021;6.67;Dimensity 1200;5065;256;12
+Xiaomi;Redmi K;40 Pro;Android;./images/Xiaomi/xiaomi-redmi-k40-pro.jpg;02;2021;6.67;Snapdragon 888 5G;4520;256;12
+Xiaomi;Redmi K;40 Pro+;Android;./images/Xiaomi/xiaomi-redmi-k40-pro-plus.jpg;02;2021;6.67;Snapdragon 888 5G;4520;256;12
+Xiaomi;Redmi K;40S;Android;./images/Xiaomi/xiaomi-redmi-k40s.jpg;03;2022;6.67;Snapdragon 870 5G;4500;256;12
+Xiaomi;Redmi K;50;Android;./images/Xiaomi/xiaomi-redmi-k50.jpg;03;2022;6.67;Dimensity 8100;5500;512;12
+Xiaomi;Redmi K;50 Gaming;Android;./images/Xiaomi/xiaomi-redmi-k50-gaming.jpg;02;2022;6.67;Snapdragon 8 Gen 1;4700;256;12
+Xiaomi;Redmi K;50 Pro;Android;./images/Xiaomi/xiaomi-redmi-k50-pro.jpg;03;2022;6.67;Dimensity 9000;5000;512;12
+Xiaomi;Redmi K;50 Ultra;Android;./images/Xiaomi/xiaomi-redmi-k50-ultra.jpg;08;2022;6.67;Snapdragon 8+ Gen 1;5000;512;12
+Xiaomi;Redmi K;50i;Android;./images/Xiaomi/xiaomi-redmi-k50i-5g.jpg;07;2022;6.6;Dimensity 8100;5080;256;8
+Xiaomi;Redmi K;60;Android;./images/Xiaomi/xiaomi-redmi-k60.jpg;12;2022;6.67;Snapdragon 8+ Gen 1;5500;1024;16
+Xiaomi;Redmi K;60 Pro;Android;./images/Xiaomi/xiaomi-redmi-k60-pro.jpg;12;2022;6.67;Snapdragon 8 Gen 2;5000;512;16
+Xiaomi;Redmi K;60 Ultra;Android;./images/Xiaomi/xiaomi-redmi-k60-ultra.jpg;08;2023;6.67;Dimensity 9200+;5000;1024;24
+Xiaomi;Redmi K;60E;Android;./images/Xiaomi/xiaomi-redmi-k60e.jpg;12;2022;6.67;Dimensity 8200;5500;512;12
+Xiaomi;Redmi K;70;Android;./images/Xiaomi/xiaomi-redmi-k70.jpg;11;2023;6.67;Snapdragon 8 Gen 2;5000;1024;16
+Xiaomi;Redmi K;70 Pro;Android;./images/Xiaomi/xiaomi-redmi-k70-pro.jpg;11;2023;6.67;Snapdragon 8 Gen 3;5000;1024;24
+Xiaomi;Redmi K;70 Ultra;Android;./images/Xiaomi/xiaomi-redmi-k70-ultra-.jpg;07;2024;6.67;Dimensity 9300+;5500;1024;24
+Xiaomi;Redmi K;70E;Android;./images/Xiaomi/xiaomi-redmi-k70e.jpg;11;2023;6.67;Dimensity 8300 Ultra;5500;1024;16
+Xiaomi;Redmi K;80;Android;./images/Xiaomi/xiaomi-redmi-k80-.jpg;11;2024;6.67;Snapdragon 8 Gen 3;6550;1024;16
+Xiaomi;Redmi K;80 Pro;Android;./images/Xiaomi/xiaomi-redmi-k80-pro-.jpg;11;2024;6.67;Snapdragon 8 Elite;6000;1024;16
+Xiaomi;Redmi K;80 Ultra 5G;Android;./images/Xiaomi/xiaomi-redmi-k80-ultra.jpg;06;2025;6.83;Dimensity 9400+;7410;1024;16
+Xiaomi;Redmi Note;2;Android;./images/Xiaomi/xiaomi-redmi-note-2--.jpg;08;2015;5.5;MT6795 Helio X10;3060;32;2
+Xiaomi;Redmi Note;3;Android;./images/Xiaomi/xiaomi-redmi-note-3.jpg;01;2016;5.5;Snapdragon 650;4050;32;3
+Xiaomi;Redmi Note;4;Android;./images/Xiaomi/xiaomi-redmi-note-4-sn.jpg;01;2017;5.5;Snapdragon 625;4100;64;4
+Xiaomi;Redmi Note;4X;Android;./images/Xiaomi/xiaomi-redmi-note-4x.jpg;02;2017;5.5;Snapdragon 625;4100;64;4
+Xiaomi;Redmi Note;5 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-5-pro.jpg;02;2018;5.99;Snapdragon 636;4000;64;6
+Xiaomi;Redmi Note;6 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-6-pro-r.jpg;09;2018;6.26;Snapdragon 636;4000;64;6
+Xiaomi;Redmi Note;7;Android;./images/Xiaomi/xiaomi-redmi-note-7.jpg;01;2019;6.3;Snapdragon 660;4000;128;6
+Xiaomi;Redmi Note;7S;Android;./images/Xiaomi/xiaomi-redmi-note-7s.jpg;05;2019;6.3;Snapdragon 660;4000;64;4
+Xiaomi;Redmi Note;8;Android;./images/Xiaomi/xiaomi-redmi-note-8-1.jpg;08;2019;6.3;Snapdragon 665;4000;128;6
+Xiaomi;Redmi Note;8T;Android;./images/Xiaomi/xiaomi-redmi-note-8t.jpg;11;2019;6.3;Snapdragon 665;4000;128;4
+Xiaomi;Redmi Note;9;Android;./images/Xiaomi/xiaomi-redmi-note-9.jpg;04;2020;6.53;MT6769Z Helio G85;5020;128;6
+Xiaomi;Redmi Note;9 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-9-pro-global-.jpg;04;2020;6.67;Snapdragon 720G;5020;128;8
+Xiaomi;Redmi Note;9S;Android;./images/Xiaomi/xiaomi-redmi-note-9-pro.jpg;03;2020;6.67;Snapdragon 720G;5020;128;6
+Xiaomi;Redmi Note;9T;Android;./images/Xiaomi/xiaomi-redmi-note-9t-5g.jpg;01;2021;6.53;Dimensity 800U;5000;128;6
+Xiaomi;Redmi Note;10;Android;./images/Xiaomi/xiaomi-redmi-note10--.jpg;03;2021;6.43;Snapdragon 678;5000;128;6
+Xiaomi;Redmi Note;10 Lite;Android;./images/Xiaomi/xiaomi-redmi-note-10-lite.jpg;10;2021;6.67;Snapdragon 720G;5020;128;6
+Xiaomi;Redmi Note;10 Pro;Android;./images/Xiaomi/xiaomi-redmi-note10-pro.jpg;03;2021;6.67;Snapdragon 732G;5020;256;8
+Xiaomi;Redmi Note;10S;Android;./images/Xiaomi/xiaomi-redmi-note10s.jpg;03;2021;6.43;MT6785V;5000;128;8
+Xiaomi;Redmi Note;10T 5G;Android;./images/Xiaomi/xiaomi-redmi-note-10t-5g.jpg;07;2021;6.5;Dimensity 700;5000;128;6
+Xiaomi;Redmi Note;11;Android;./images/Xiaomi/xiaomi-redmi-note-11-global.jpg;01;2022;6.43;Snapdragon 680 4G;5000;128;6
+Xiaomi;Redmi Note;11 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-11-pro-global.jpg;01;2022;6.67;MT6781 Helio G96;5000;128;8
+Xiaomi;Redmi Note;11 Pro+ 5G;Android;./images/Xiaomi/xiaomi-redmi-note11-pro-plus-new.jpg;10;2021;6.67;Dimensity 920;4500;256;8
+Xiaomi;Redmi Note;11 SE (India);Android;./images/Xiaomi/xiaomi-redmi-note10s.jpg;08;2022;6.43;MT6785V;5000;128;8
+Xiaomi;Redmi Note;11E Pro;Android;./images/Xiaomi/xiaomi-redmi-note-11e-pro.jpg;03;2022;6.67;Snapdragon 695 5G;5000;256;8
+Xiaomi;Redmi Note;11R;Android;./images/Xiaomi/xiaomi-redmi-note-11r.jpg;09;2022;6.58;Dimensity 700;5000;128;8
+Xiaomi;Redmi Note;11S 5G;Android;./images/Xiaomi/xiaomi-redmi-note-11s-5g.jpg;03;2022;6.6;Dimensity 810;5000;128;8
+Xiaomi;Redmi Note;11SE;Android;./images/Xiaomi/xiaomi-redmi-note-11se.jpg;05;2022;6.5;Dimensity 700;5000;128;8
+Xiaomi;Redmi Note;11T Pro+;Android;./images/Xiaomi/xiaomi-redmi-note-11t-pro-plus.jpg;05;2022;6.6;Dimensity 8100;4400;512;8
+Xiaomi;Redmi Note;12;Android;./images/Xiaomi/redmi-note-12-5g-international.jpg;10;2022;6.67;Snapdragon 4 Gen 1;5000;256;8
+Xiaomi;Redmi Note;12 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-12-pro.jpg;10;2022;6.67;Dimensity 1080;5000;256;12
+Xiaomi;Redmi Note;12 Pro+;Android;./images/Xiaomi/xiaomi-redmi-note-12-pro-plus.jpg;10;2022;6.67;Dimensity 1080;5000;256;12
+Xiaomi;Redmi Note;12 Turbo;Android;./images/Xiaomi/xiaomi-redmi-note-12-turbo.jpg;03;2023;6.67;Snapdragon 7+ Gen 2;5000;1024;16
+Xiaomi;Redmi Note;12R Pro;Android;./images/Xiaomi/xiaomi-redmi-note-12r-pro-.jpg;06;2023;6.67;Snapdragon 4 Gen 1;5000;256;12
+Xiaomi;Redmi Note;12S;Android;./images/Xiaomi/xiaomi-redmi-note-12s.jpg;03;2023;6.43;MT6781 Helio G96;5000;256;8
+Xiaomi;Redmi Note;12T Pro;Android;./images/Xiaomi/xiaomi-redmi-note-12t-pro.jpg;05;2023;6.6;Dimensity 8200 Ultra;5080;512;12
+Xiaomi;Redmi Note;13;Android;./images/Xiaomi/xiaomi-redmi-note-13-5g.jpg;01;2024;6.67;Dimensity 6080;5000;512;12
+Xiaomi;Redmi Note;13 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-13-pro-5g.jpg;09;2023;6.67;Snapdragon 7s Gen 2;5100;512;16
+Xiaomi;Redmi Note;13 Pro 4G;Android;./images/Xiaomi/xiaomi-redmi-note-13-pro-4g.jpg;01;2024;6.67;Helio G99 Ultra;5000;512;12
+Xiaomi;Redmi Note;13 Pro+;Android;./images/Xiaomi/xiaomi-redmi-note-13-pro-plus-int.jpg;09;2023;6.67;Dimensity 7200 Ultra;5000;512;16
+Xiaomi;Redmi Note;13R Pro;Android;./images/Xiaomi/xiaomi-redmi-note-13r-pro.jpg;11;2023;6.67;Dimensity 6080;5000;256;12
+Xiaomi;Redmi Note;14;Android;./images/Xiaomi/xiaomi-redmi-note-14-5g-in.jpg;12;2024;6.67;Dimensity 7025 Ultra;5110;256;8
+Xiaomi;Redmi Note;14 Pro;Android;./images/Xiaomi/xiaomi-redmi-note-14-pro-5g.jpg;09;2024;6.67;Dimensity 7300 Ultra;5500;512;12
+Xiaomi;Redmi Note;14 Pro+;Android;./images/Xiaomi/xiaomi-redmi-note-14-pro-plus-5g.jpg;09;2024;6.67;Snapdragon 7s Gen 3;6200;512;16
+Xiaomi;Redmi Note;14S;Android;./images/Xiaomi/xiaomi-redmi-note-14s.jpg;03;2025;6.67;Helio G99 Ultra;5000;512;12
+Xiaomi;Redmi Note;15;Android;./images/Xiaomi/xiaomi-redmi-note-15-4g-global.jpg;12;2025;6.77;Helio G100 Ultra;6000;512;8
+Xiaomi;Redmi Note;15 Pro (Global);Android;./images/Xiaomi/xiaomi-redmi-note-15-pro-4g-global.jpg;12;2025;6.77;Helio G200 Ultra;6500;512;12
+Xiaomi;Redmi Note;;Android;./images/Xiaomi/xiaomi-redmi-note-new.jpg;03;2014;5.5;MT6592;3200;8;2
+Xiaomi;Redmi Note Prime;;Android;./images/Xiaomi/xiaomi-redmi-note-prime-.jpg;12;2015;5.5;Snapdragon 410;3100;16;2
+Xiaomi;Redmi Pro;;Android;./images/Xiaomi/xiaomi-redmi-pro.jpg;07;2016;5.5;MT6797T Helio X25;4050;128;4
+Xiaomi;Redmi S;2 (Redmi Y2);Android;./images/Xiaomi/xiaomi-redmi-s2-.jpg;05;2018;5.99;Snapdragon 625;3080;64;4
+Xiaomi;Redmi Turbo;3;Android;./images/Xiaomi/xiaomi-redmi-turbo3.jpg;04;2024;6.67;Snapdragon 8s Gen 3;5000;512;16
+Xiaomi;Redmi Turbo;4;Android;./images/Xiaomi/xiaomi-redmi-turbo4.jpg;01;2025;6.67;Dimensity 8400 Ultra;6550;512;16
+Xiaomi;Redmi Turbo;5 Max 5G;Android;./images/Xiaomi/xiaomi-redmi-turbo-5-max.jpg;01;2026;6.83;Dimensity 9500s;9000;1024;16
+Xiaomi;Redmi Y;1 Lite;Android;./images/Xiaomi/xiaomi-redmi-note-5as.jpg;11;2017;5.5;Snapdragon 425;3080;16;2
+Xiaomi;Redmi Y;3;Android;./images/Xiaomi/xiaomi-redmi-y3.jpg;04;2019;6.26;Snapdragon 632;4000;64;4
+Xiaomi;;11i;Android;./images/Xiaomi/xiaomi-11i.jpg;01;2022;6.67;Dimensity 920;5160;256;8
+Xiaomi;;11T Pro;Android;./images/Xiaomi/xiaomi-11t-pro.jpg;09;2021;6.67;Snapdragon 888 5G;5000;256;12
+Xiaomi;;12;Android;./images/Xiaomi/xiaomi-12.jpg;12;2021;6.28;Snapdragon 8 Gen 1;4500;256;12
+Xiaomi;;12 Lite;Android;./images/Xiaomi/xiaomi-12-lite-5g-new.jpg;07;2022;6.55;Snapdragon 778G 5G;4300;256;8
+Xiaomi;;12 Pro;Android;./images/Xiaomi/xiaomi-12-pro.jpg;12;2021;6.73;Snapdragon 8 Gen 1;4600;256;12
+Xiaomi;;12S Pro;Android;./images/Xiaomi/xiaomi-12s-pro.jpg;07;2022;6.73;Snapdragon 8+ Gen 1;4600;512;12
+Xiaomi;;12T Pro;Android;./images/Xiaomi/xiaomi-12t-pro-.jpg;10;2022;6.67;Snapdragon 8+ Gen 1;5000;256;12
+Xiaomi;;12X;Android;./images/Xiaomi/xiaomi-12x.jpg;12;2021;6.28;Snapdragon 870 5G;4500;256;12
+Xiaomi;;13;Android;./images/Xiaomi/xiaomi-13-red.jpg;12;2022;6.36;Snapdragon 8 Gen 2;4500;512;12
+Xiaomi;;13 Lite;Android;./images/Xiaomi/xiaomi-13-lite.jpg;02;2023;6.55;Snapdragon 7 Gen 1;4500;256;8
+Xiaomi;;13 Pro;Android;./images/Xiaomi/xiaomi-13-pro-black.jpg;12;2022;6.73;Snapdragon 8 Gen 2;4820;512;12
+Xiaomi;;13 Ultra;Android;./images/Xiaomi/xiaomi-13-ultra.jpg;04;2023;6.73;Snapdragon 8 Gen 2;5000;1024;16
+Xiaomi;;13T Pro;Android;./images/Xiaomi/xiaomi-13t-pro.jpg;09;2023;6.67;Dimensity 9200+;5000;1024;16
+Xiaomi;;14;Android;./images/Xiaomi/xiaomi-14-new.jpg;10;2023;6.36;Snapdragon 8 Gen 3;4610;1024;16
+Xiaomi;;14 Civi;Android;./images/Xiaomi/xiaomi-14-civi-.jpg;06;2024;6.55;Snapdragon 8s Gen 3;4700;512;12
+Xiaomi;;14 Pro;Android;./images/Xiaomi/xiaomi-14-pro.jpg;10;2023;6.73;Snapdragon 8 Gen 3;4880;1024;16
+Xiaomi;;14 Ultra;Android;./images/Xiaomi/xiaomi-14-ultra-new.jpg;02;2024;6.73;Snapdragon 8 Gen 3;5000;1024;16
+Xiaomi;;14T Pro;Android;./images/Xiaomi/xiaomi-14t-pro.jpg;09;2024;6.67;Dimensity 9300+;5000;1024;16
+Xiaomi;;15;Android;./images/Xiaomi/xiaomi-15.jpg;10;2024;6.36;Snapdragon 8 Elite;5240;1024;16
+Xiaomi;;15 Pro;Android;./images/Xiaomi/xiaomi-15-pro.jpg;10;2024;6.73;Snapdragon 8 Elite;6100;1024;16
+Xiaomi;;15 Ultra;Android;./images/Xiaomi/xiaomi-15-ultra-.jpg;02;2025;6.73;Snapdragon 8 Elite;5410;1024;16
+Xiaomi;;15S Pro 5G;Android;./images/Xiaomi/xiaomi-15s-pro.jpg;05;2025;6.73;Xring O1;6100;1024;16
+Xiaomi;;15T Pro 5G;Android;./images/Xiaomi/xiaomi-15t-pro.jpg;09;2025;6.83;Dimensity 9400+;5500;1024;12
+Xiaomi;;17 Pro 5G;Android;./images/Xiaomi/xiaomi-17-pro.jpg;09;2025;6.3;Snapdragon 8 Elite Gen 5;6300;1024;16
+ZTE;Axon;7;Android;./images/ZTE/zte-axon-7.jpg;05;2016;5.5;Snapdragon 820;3250;64;4
+ZTE;Axon;7s;Android;./images/ZTE/zte-axon-7s.jpg;04;2017;5.5;Snapdragon 821;3400;128;6
+ZTE;Axon;9 Pro;Android;./images/ZTE/zte-axon-9-pro.jpg;08;2018;6.21;Snapdragon 845;4000;128;6
+ZTE;Axon;10 Pro;Android;./images/ZTE/zte-axon-10-pro-4g.jpg;02;2019;6.47;Snapdragon 855;4000;256;12
+ZTE;Axon;10s Pro 5G;Android;./images/ZTE/zte-axon-10s-pro-5g-.jpg;02;2020;6.47;Snapdragon 865 5G;4000;256;12
+ZTE;Axon;20 4G;Android;./images/ZTE/zte-axon-20-5g.jpg;11;2020;6.92;Unisoc UMS512T;4220;128;6
+ZTE;Axon;30 Pro 5G;Android;./images/ZTE/zte-axon-30-pro.jpg;04;2021;6.67;Snapdragon 888 5G;4200;256;8
+ZTE;Axon;30S;Android;./images/ZTE/zte-axon30s-5g.jpg;09;2022;6.92;Snapdragon 870 5G;4200;256;12
+ZTE;Axon;40 Pro;Android;./images/ZTE/zte-axon40-pro.jpg;05;2022;6.67;Snapdragon 870 5G;5000;512;12
+ZTE;Axon;40 SE;Android;./images/ZTE/zte-axon-40-se-.jpg;10;2022;6.67;Unisoc UMS512T T618;4500;128;4
+ZTE;Axon;40 Ultra;Android;./images/ZTE/zte-axon-40-ultra.jpg;05;2022;6.8;Snapdragon 8 Gen 1;5000;1024;16
+ZTE;Axon;50 Ultra;Android;./images/ZTE/zte-axon-50-ultra-.jpg;04;2023;6.67;Snapdragon 8+ Gen 1;5000;512;12
+ZTE;Axon;60;Android;./images/ZTE/zte-axon-60.jpg;05;2024;6.72;Unisoc Tiger T616;5000;256;8
+ZTE;Axon;60 Lite;Android;./images/ZTE/zte-axon-60-lite.jpg;05;2024;6.6;Unisoc T606;5000;256;4
+ZTE;Axon;60 Ultra;Android;./images/ZTE/zte-axon-60-ultra.jpg;04;2024;6.78;Snapdragon 8 Gen 2;6000;1024;16
+ZTE;Axon M;;Android;./images/ZTE/zte-axon-m-1.jpg;10;2017;5.2;Snapdragon 821;3180;64;4
+ZTE;Axon Max;;Android;./images/ZTE/zte-axon-max.jpg;12;2015;6.0;Snapdragon 617;4140;32;3
+ZTE;Blade A;2;Android;./images/ZTE/zte-blade-v7-lite.jpg;06;2016;5.0;MT6750;2500;16;2
+ZTE;Blade A;3;Android;./images/ZTE/zte-blade-a3.jpg;11;2017;5.5;MT6737T;4000;32;3
+ZTE;Blade A;3Y;Android;./images/ZTE/zte-blade-a3y.jpg;10;2020;5.5;MT6761 Helio A22;2660;32;2
+ZTE;Blade A;5 2020;Android;./images/ZTE/zte-blade-a5-2020.jpg;07;2020;6.09;Unisoc SC9863A;3200;64;2
+ZTE;Blade A;6;Android;./images/ZTE/zte-blade-a6.jpg;08;2017;5.2;Snapdragon 435;5000;32;3
+ZTE;Blade A;7;Android;./images/ZTE/zte-blade-a7.jpg;05;2019;6.09;MT6771 Helio P60;3200;64;3
+ZTE;Blade A;7P;Android;./images/ZTE/zte-bladea7p.jpg;12;2021;6.52;MT6762D Helio P22;3200;32;3
+ZTE;Blade A;7s 2020;Android;./images/ZTE/zte-blade-a7s-2020-optus-x-pro-telstra-evoke-plus-2.jpg;11;2020;6.5;Unisoc SC9863A;4000;64;3
+ZTE;Blade A;31;Android;./images/ZTE/zte-blade-a31.jpg;07;2021;5.45;Unisoc SC9863A;3000;32;2
+ZTE;Blade A;31 Lite;Android;./images/ZTE/zte-blade-a31-lite.jpg;06;2021;5.0;Unisoc SC9832E;2000;32;32
+ZTE;Blade A;31 Plus;Android;./images/ZTE/zte-blade-a31-plus.jpg;10;2021;6.0;Unisoc SC9863A;3000;32;32
+ZTE;Blade A;33s;Android;./images/ZTE/zte-blade-a33s.jpg;11;2023;6.3;Unisoc SC9863A;4000;32;2
+ZTE;Blade A;34;Android;./images/ZTE/zte-blade-a34.jpg;02;2024;6.6;Unisoc SC9863A;5000;64;4
+ZTE;Blade A;35;Android;./images/ZTE/zte-blade-a35.jpg;10;2024;6.75;Unisoc SC9863A1;5000;64;4
+ZTE;Blade A;36;Android;./images/ZTE/zte-nubia-a36.jpg;06;2025;6.75;Unisoc T7200;5000;64;4
+ZTE;Blade A;51;Android;./images/ZTE/zte-blade-a51.jpg;05;2021;6.52;Unisoc SC9863A;3200;64;2
+ZTE;Blade A;52;Android;./images/ZTE/zte-blade-a52.jpg;06;2022;6.52;Unisoc SC9863A;5000;64;2
+ZTE;Blade A;53;Android;./images/ZTE/zte-blade-a53.jpg;04;2023;6.52;Unisoc SC9863A1;4000;32;2
+ZTE;Blade A;53 Pro;Android;./images/ZTE/zte-blade-a53-pro.jpg;04;2023;6.52;Unisoc SC9863A1;5000;64;4
+ZTE;Blade A;54;Android;./images/ZTE/zte-blade-a54.jpg;09;2023;6.6;Unisoc SC9863A;5000;128;4
+ZTE;Blade A;55;Android;./images/ZTE/zte-blade-a55.jpg;01;2024;6.75;Unisoc SC9863A1;5000;128;4
+ZTE;Blade A;56;Android;./images/ZTE/zte-blade-a56-.jpg;06;2025;6.75;Unisoc T7200;5000;128;4
+ZTE;Blade A;71;Android;./images/ZTE/zte-blade-a71.jpg;10;2021;6.52;Unisoc SC9863A;4000;64;3
+ZTE;Blade A;72;Android;./images/ZTE/zte-blade-a72.jpg;06;2022;6.75;Unisoc SC9863A;6000;128;3
+ZTE;Blade A;72s;Android;./images/ZTE/zte-blade-a72s.jpg;06;2022;6.75;Unisoc T606;5000;128;3
+ZTE;Blade A;73;Android;./images/ZTE/zte-blade-a73-lte-4g.jpg;08;2023;6.6;Unisoc T606;5000;128;4
+ZTE;Blade A;75;Android;./images/ZTE/zte-blade-a75-5g.jpg;09;2024;6.6;Unisoc T760;5000;128;4
+ZTE;Blade A;75 4G;Android;./images/ZTE/zte-blade-a75-4g.jpg;07;2024;6.6;Unisoc T606;5000;256;4
+ZTE;Blade A;76 5G;Android;./images/ZTE/zte-blade-a76.jpg;06;2025;6.75;Unisoc T8300;5000;128;6
+ZTE;Blade A;452;Android;./images/ZTE/zte-a452.jpg;;;5.0;MT6735P;4000;8;8
+ZTE;Blade A;512;Android;./images/ZTE/zte-a512.jpg;07;2016;5.2;Snapdragon 425;2540;16;2
+ZTE;Blade A;520;Android;./images/ZTE/zte-a520.jpg;03;2017;5.0;MT6737;2400;16;2
+ZTE;Blade A;610;Android;./images/ZTE/zte-a610.jpg;08;2016;5.0;MT6735;4000;16;2
+ZTE;Blade A;910;Android;./images/ZTE/zte-blade-a910.jpg;04;2016;5.5;MT6735;2540;16;2
+ZTE;Blade L;5 Plus;Android;./images/ZTE/zte-blade-l5-plus-r.jpg;04;2016;5.0;MT6580;2150;8;8
+ZTE;Blade L;8;Android;./images/ZTE/zte-blade-a3-2019.jpg;04;2019;5.0;Unisoc SC7731E;2000;16;16
+ZTE;Blade L;9;Android;./images/ZTE/zte-blade-l9.jpg;10;2021;5.0;Unisoc SC7731e;2000;32;32
+ZTE;Blade L;110 (A110);Android;./images/ZTE/zte-blade-l110.jpg;07;2016;4.0;Spreadtrum SC7731G;1400;8;8
+ZTE;Blade V;7;Android;./images/ZTE/zte-blade-v7.jpg;02;2016;5.2;MT6753;2500;16;2
+ZTE;Blade V;8;Android;./images/ZTE/zte-balde-v8-.jpg;01;2017;5.2;Snapdragon 435;2730;32;3
+ZTE;Blade V;9;Android;./images/ZTE/zte-blade-v9-.jpg;02;2018;5.7;Snapdragon 450;3100;64;4
+ZTE;Blade V;9 Vita;Android;./images/ZTE/zte-blade-v9-vita.jpg;02;2018;5.45;Snapdragon 435;3200;32;3
+ZTE;Blade V;10;Android;./images/ZTE/zte-blade-v10.jpg;02;2019;6.3;MT6771V Helio P70;3200;64;4
+ZTE;Blade V;10 Vita;Android;./images/ZTE/zte-blade-v10-vita.jpg;02;2019;6.26;Unisoc SC9863A;3200;64;3
+ZTE;Blade V;30;Android;./images/ZTE/zte-blade-v30-.jpg;07;2021;6.67;Unisoc Tiger T618;5000;128;4
+ZTE;Blade V;40;Android;./images/ZTE/zte-blade-v40-5g-.jpg;02;2022;6.67;Dimensity 700;6000;128;6
+ZTE;Blade V;40 Design;Android;./images/ZTE/zte-blade-v40-design.jpg;12;2022;6.6;Unisoc Tiger T616;4500;128;6
+ZTE;Blade V;40 Pro;Android;./images/ZTE/zte-v40-pro.jpg;03;2022;6.67;Unisoc Tiger T618;5100;128;6
+ZTE;Blade V;40 Vita;Android;./images/ZTE/zte-blade-v40-vita.jpg;05;2022;6.75;Unisoc T606;6000;128;4
+ZTE;Blade V;40s;Android;./images/ZTE/zte-axon-40-se-.jpg;10;2022;6.67;Unisoc UMS512T T618;4500;128;6
+ZTE;Blade V;41 Vita;Android;./images/ZTE/zte-blade-v41-vita-5g.jpg;12;2022;6.6;Dimensity 810;4500;128;6
+ZTE;Blade V;50 Design;Android;./images/ZTE/zte-blade-v50-design-5g.jpg;07;2023;6.6;Unisoc T760;4500;128;4
+ZTE;Blade V;50 Design 4G;Android;./images/ZTE/zte-blade-v50-design-4g.jpg;10;2023;6.6;Unisoc T606;5000;256;8
+ZTE;Blade V;50 Vita;Android;./images/ZTE/zte-blade-v50-vita.jpg;09;2023;6.75;Unisoc T606;5200;256;4
+ZTE;Blade V;60 Design;Android;./images/ZTE/zte-blade-v60-design.jpg;06;2024;6.6;Unisoc T606;5000;256;6
+ZTE;Blade V;70 Design;Android;./images/ZTE/zte-blade-nubia-v70-design.jpg;11;2024;6.7;Unisoc T606;5000;256;8
+ZTE;Blade V;70 Max;Android;./images/ZTE/zte-blade-v70-max.jpg;02;2025;6.9;Unisoc T7200;6000;256;8
+ZTE;Blade V;80 Design;Android;./images/ZTE/zte-blade-nubia-v80-design.jpg;11;2025;6.75;Unisoc T7280;5000;256;8
+ZTE;Blade V;80 Max;Android;./images/ZTE/zte-blade-nubia-v80-max-new.jpg;01;2026;6.9;Unisoc T7250;6000;256;8
+ZTE;Blade V;80 Pro;Android;./images/ZTE/zte-blade-nubia-v80-pro.jpg;11;2025;6.75;Unisoc T7280;5000;256;8
+ZTE;Blade V;2020 5G;Android;./images/ZTE/zte-blade-20-pro-5g.jpg;10;2020;6.53;Dimensity 800;4000;128;6
+ZTE;Blade V Plus;;Android;./images/ZTE/zte-blade-v-plus.jpg;01;2016;5.5;MT6753;3000;16;2
+ZTE;Blade Vantage;2;Android;./images/ZTE/zte-blade-vantage2.jpg;10;2019;5.0;MT6761 Helio A22;2050;16;2
+ZTE;Blade X;1 5G;Android;./images/ZTE/zte-blade-x1-5g.jpg;01;2021;6.5;Snapdragon 765G 5G;4000;128;6
+ZTE;Blade X;;Android;./images/ZTE/zte-blade-x.jpg;10;2017;5.5;Snapdragon 425;3000;16;2
+ZTE;Blade Z Max;;Android;./images/ZTE/zte-blade-z-max.jpg;08;2017;6.0;Snapdragon 435;4080;32;2
