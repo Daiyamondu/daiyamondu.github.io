@@ -190,7 +190,7 @@ function renderPhonePreview(p){
     img.className='phone-image';
     img.alt='Phone preview';
     let imgPath=String(state.target.image||'').trim();
-    if(!imgPath.startsWith('images/')) imgPath='images/'+imgPath.replace(/^\/+/,'');
+    if(!imgPath.startsWith('images/')) imgPath=''+imgPath.replace(/^\/+/,'');
 
     img.src=imgPath;
     img.loading='lazy';
