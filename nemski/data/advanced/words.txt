@@ -1,0 +1,229 @@
+﻿# Format: [category]
+# id|artikel|de|bg|multiple
+
+[opinion]
+1|die|Meinung|мнение|die Meinungen
+2|die|Ansicht|мнение, гледна точка|die Ansichten
+3|das|Argument|аргумент|die Argumente
+4|der|Vorteil|предимство|die Vorteile
+5|der|Nachteil|недостатък|die Nachteile
+6|der|Grund|причина|die Gründe
+7|die|Ursache|причина|die Ursachen
+8|die|Folge|последица|die Folgen
+9|die|Lösung|решение|die Lösungen
+10|der|Vergleich|сравнение|die Vergleiche
+11|der|Zusammenhang|връзка, взаимовръзка|die Zusammenhänge
+12|die|Diskussion|дискусия|die Diskussionen
+13|die|Begründung|обосновка|die Begründungen
+14|die|Behauptung|твърдение|die Behauptungen
+15|der|Standpunkt|гледна точка, позиция|die Standpunkte
+16|die|Aussage|изказване, твърдение|die Aussagen
+17|der|Beweis|доказателство|die Beweise
+18|das|Beispiel|пример|die Beispiele
+19|die|Erklärung|обяснение|die Erklärungen
+20|die|Überzeugung|убеждение|die Überzeugungen
+
+[school]
+1|die|Ausbildung|обучение, професионално обучение|die Ausbildungen
+2|das|Studium|следване, обучение в университет|die Studien
+3|die|Universität|университет|die Universitäten
+4|die|Prüfung|изпит|die Prüfungen
+5|die|Note|оценка|die Noten
+6|der|Unterricht|учебен час, обучение|-
+7|die|Hausaufgabe|домашна работа|die Hausaufgaben
+8|die|Aufgabe|задача|die Aufgaben
+9|das|Wissen|знание|-
+10|die|Kenntnis|познание, знание|die Kenntnisse
+11|die|Fähigkeit|умение, способност|die Fähigkeiten
+12|die|Erfahrung|опит|die Erfahrungen
+13|der|Lehrer|учител|die Lehrer
+14|die|Lehrerin|учителка|die Lehrerinnen
+15|der|Mitschüler|съученик|die Mitschüler
+16|die|Mitschülerin|съученичка|die Mitschülerinnen
+17|der|Kurs|курс|die Kurse
+18|die|Weiterbildung|допълнителна квалификация|die Weiterbildungen
+19|das|Zeugnis|свидетелство, диплома|die Zeugnisse
+20|die|Voraussetzung|условие, предпоставка|die Voraussetzungen
+
+[work]
+1|der|Beruf|професия|die Berufe
+2|die|Arbeit|работа|die Arbeiten
+3|die|Arbeitserfahrung|трудов опит|die Arbeitserfahrungen
+4|der|Arbeitgeber|работодател|die Arbeitgeber
+5|der|Arbeitnehmer|служител, работник|die Arbeitnehmer
+6|der|Mitarbeiter|служител|die Mitarbeiter
+7|die|Stelle|позиция, работно място|die Stellen
+8|die|Anzeige|обява|die Anzeigen
+9|das|Gehalt|заплата|die Gehälter
+10|die|Arbeitszeit|работно време|die Arbeitszeiten
+11|die|Schicht|смяна|die Schichten
+12|die|Pause|почивка|die Pausen
+13|die|Kündigung|напускане, уволнение|die Kündigungen
+14|die|Karriere|кариера|die Karrieren
+15|die|Verantwortung|отговорност|die Verantwortungen
+16|das|Praktikum|стаж|die Praktika
+17|der|Lebenslauf|автобиография|die Lebensläufe
+18|das|Vorstellungsgespräch|интервю за работа|die Vorstellungsgespräche
+19|die|Arbeitslosigkeit|безработица|-
+20|die|Arbeitsbedingungen|условия на труд|-
+
+[family]
+1|die|Beziehung|връзка, отношение|die Beziehungen
+2|die|Ehe|брак|die Ehen
+3|die|Scheidung|развод|die Scheidungen
+4|die|Erziehung|възпитание|-
+5|die|Generation|поколение|die Generationen
+6|die|Kindheit|детство|-
+7|die|Jugend|младежки години, младеж|-
+8|der|Erwachsene|възрастен|die Erwachsenen
+9|die|Gemeinschaft|общност|die Gemeinschaften
+10|die|Gesellschaft|общество|die Gesellschaften
+11|das|Vertrauen|доверие|-
+12|die|Streitigkeit|спор, конфликт|die Streitigkeiten
+13|der|Respekt|уважение|-
+14|die|Gleichberechtigung|равноправие|-
+15|die|Rolle|роля|die Rollen
+16|die|Unterstützung|подкрепа|die Unterstützungen
+17|die|Einsamkeit|самота|-
+18|der|Kontakt|контакт|die Kontakte
+19|die|Freundschaft|приятелство|die Freundschaften
+20|die|Verwandtschaft|роднини, роднинство|die Verwandtschaften
+
+[home]
+1|die|Wohnung|апартамент|die Wohnungen
+2|das|Haus|къща|die Häuser
+3|die|Miete|наем|die Mieten
+4|der|Umzug|преместване|die Umzüge
+5|die|Nachbarschaft|квартал, съседство|die Nachbarschaften
+6|der|Haushalt|домакинство|die Haushalte
+7|die|Einrichtung|обзавеждане|die Einrichtungen
+8|der|Alltag|ежедневие|-
+9|die|Gewohnheit|навик|die Gewohnheiten
+10|die|Rechnung|сметка|die Rechnungen
+11|die|Ruhe|спокойствие, тишина|-
+12|das|Zimmer|стая|die Zimmer
+13|die|Küche|кухня|die Küchen
+14|das|Wohnzimmer|хол|die Wohnzimmer
+15|das|Schlafzimmer|спалня|die Schlafzimmer
+
+[health]
+1|die|Gesundheit|здраве|-
+2|die|Krankheit|болест|die Krankheiten
+3|die|Untersuchung|преглед, изследване|die Untersuchungen
+4|der|Arzt|лекар|die Ärzte
+5|die|Ärztin|лекарка|die Ärztinnen
+6|das|Medikament|лекарство|die Medikamente
+7|die|Behandlung|лечение|die Behandlungen
+8|die|Schmerzen|болки|-
+9|die|Ernährung|хранене|-
+10|die|Fitness|физическа форма|-
+11|der|Stress|стрес|-
+12|die|Sucht|зависимост|die Süchte
+13|das|Wohlbefinden|добро състояние, благополучие|-
+14|die|Verletzung|нараняване|die Verletzungen
+15|die|Bewegung|движение|die Bewegungen
+16|die|Erholung|възстановяване, почивка|-
+17|die|Müdigkeit|умора|-
+18|der|Schlaf|сън|-
+19|das|Krankenhaus|болница|die Krankenhäuser
+20|der|Patient|пациент|die Patienten
+
+[environment]
+1|die|Umwelt|околна среда|-
+2|die|Natur|природа|-
+3|der|Klimawandel|климатични промени|-
+4|die|Umweltverschmutzung|замърсяване на околната среда|-
+5|der|Müll|боклук|-
+6|die|Energie|енергия|die Energien
+7|die|Ressource|ресурс|die Ressourcen
+8|die|Luftverschmutzung|замърсяване на въздуха|-
+9|die|Erwärmung|затопляне|-
+10|der|Verbrauch|потребление|die Verbräuche
+11|die|Verpackung|опаковка|die Verpackungen
+12|die|Verschmutzung|замърсяване|die Verschmutzungen
+13|die|Umweltkatastrophe|екологична катастрофа|die Umweltkatastrophen
+14|das|Recycling|рециклиране|-
+15|der|Abfall|отпадък|die Abfälle
+16|das|Klima|климат|die Klimata
+17|der|Schutz|защита|-
+18|die|Gefahr|опасност|die Gefahren
+19|das|Wasser|вода|-
+20|der|Strom|електричество|-
+
+[media]
+1|die|Medien|медии|-
+2|das|Internet|интернет|-
+3|das|Netzwerk|мрежа|die Netzwerke
+4|die|Nachricht|съобщение, новина|die Nachrichten
+5|die|Information|информация|die Informationen
+6|die|Quelle|източник|die Quellen
+7|die|Werbung|реклама|die Werbungen
+8|der|Bildschirm|екран|die Bildschirme
+9|die|Bildschirmzeit|време пред екрана|-
+10|die|App|приложение|die Apps
+11|die|Datei|файл|die Dateien
+12|das|Passwort|парола|die Passwörter
+13|die|Sicherheit|сигурност|-
+14|die|Privatsphäre|личен живот, поверителност|-
+15|der|Einfluss|влияние|die Einflüsse
+16|die|Entwicklung|развитие|die Entwicklungen
+17|die|Technik|техника, технологии|-
+18|die|Webseite|уебсайт|die Webseiten
+19|der|Benutzer|потребител|die Benutzer
+20|die|Kommunikation|комуникация|die Kommunikationen
+
+[travel]
+1|die|Reise|пътуване|die Reisen
+2|die|Unterkunft|настаняване|die Unterkünfte
+3|die|Buchung|резервация|die Buchungen
+4|der|Fahrplan|разписание|die Fahrpläne
+5|die|Verspätung|закъснение|die Verspätungen
+6|das|Verkehrsmittel|транспортно средство|die Verkehrsmittel
+7|die|Strecke|маршрут, разстояние|die Strecken
+8|der|Stau|задръстване|die Staus
+9|der|Verkehr|трафик, движение|-
+10|das|Ausland|чужбина|-
+11|die|Sehenswürdigkeit|забележителност|die Sehenswürdigkeiten
+12|die|Kultur|култура|die Kulturen
+13|die|Mobilität|мобилност|-
+14|der|Bahnhof|гара|die Bahnhöfe
+15|der|Flughafen|летище|die Flughäfen
+16|der|Koffer|куфар|die Koffer
+17|der|Urlaub|почивка, ваканция|die Urlaube
+18|das|Hotel|хотел|die Hotels
+19|der|Ausflug|екскурзия|die Ausflüge
+20|die|Grenze|граница|die Grenzen
+
+[money]
+1|das|Geld|пари|-
+2|die|Ausgabe|разход|die Ausgaben
+3|die|Einnahme|приход|die Einnahmen
+4|der|Preis|цена|die Preise
+5|die|Qualität|качество|die Qualitäten
+6|der|Rabatt|отстъпка|die Rabatte
+7|das|Angebot|оферта, предложение|die Angebote
+8|der|Kunde|клиент|die Kunden
+9|die|Bestellung|поръчка|die Bestellungen
+10|der|Konsum|потребление|-
+11|die|Karte|карта|die Karten
+12|die|Zahlung|плащане|die Zahlungen
+13|das|Geschäft|магазин, сделка|die Geschäfte
+14|der|Verkauf|продажба|die Verkäufe
+15|der|Einkauf|пазаруване, покупка|die Einkäufe
+
+[society]
+1|das|Gesetz|закон|die Gesetze
+2|die|Regel|правило|die Regeln
+3|die|Pflicht|задължение|die Pflichten
+4|das|Recht|право|die Rechte
+5|die|Freiheit|свобода|die Freiheiten
+6|die|Entscheidung|решение|die Entscheidungen
+7|die|Wahl|избор, избори|die Wahlen
+8|die|Regierung|правителство|die Regierungen
+9|die|Maßnahme|мярка|die Maßnahmen
+10|die|Bevölkerung|население|-
+11|der|Bürger|гражданин|die Bürger
+12|die|Gewalt|насилие|-
+13|die|Armut|бедност|-
+14|die|Sicherheit|сигурност|-
+15|die|Gerechtigkeit|справедливост|-

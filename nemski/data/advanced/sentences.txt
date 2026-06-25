@@ -1,0 +1,112 @@
+﻿# Format: [category]
+# id|de|bg
+
+[opinion]
+1|Meiner Meinung nach sollte man jeden Tag ein bisschen Deutsch lernen.|Според мен човек трябва да учи немски по малко всеки ден.
+2|Ein großer Vorteil des Internets ist der schnelle Zugang zu Informationen.|Голямо предимство на интернет е бързият достъп до информация.
+3|Ein Nachteil sozialer Medien ist der Zeitverlust.|Недостатък на социалните мрежи е загубата на време.
+4|Ich bin der Ansicht, dass Sport für Jugendliche sehr wichtig ist.|На мнение съм, че спортът е много важен за младежите.
+5|Man muss die Gründe für dieses Problem genauer analysieren.|Трябва да се анализират по-точно причините за този проблем.
+6|Zwischen Stress und Schlafproblemen gibt es einen klaren Zusammenhang.|Има ясна връзка между стреса и проблемите със съня.
+7|Zusammenfassend kann man sagen, dass Bildung eine große Rolle spielt.|В заключение може да се каже, че образованието играе голяма роля.
+8|Ich möchte meine Meinung mit zwei Argumenten begründen.|Искам да обоснова мнението си с два аргумента.
+
+[school]
+1|Ich bereite mich gerade auf meine B2-Prüfung vor.|В момента се подготвям за изпита си B2.
+2|Unser Lehrer erklärt schwierige Themen sehr gut.|Нашият учител обяснява трудните теми много добре.
+3|Für diese Ausbildung braucht man gute Sprachkenntnisse.|За това обучение са нужни добри езикови знания.
+4|Sie hat viel Erfahrung im Schreiben von Texten.|Тя има много опит в писането на текстове.
+5|Die Prüfung war schwer, aber ich habe sie bestanden.|Изпитът беше труден, но го издържах.
+6|Ich muss heute noch meine Hausaufgaben erledigen.|Днес още трябва да си свърша домашните.
+7|Im Kurs lernen wir neue Wörter und Grammatik.|В курса учим нови думи и граматика.
+8|Gute Noten sind wichtig, aber nicht alles im Leben.|Добрите оценки са важни, но не са всичко в живота.
+
+[work]
+1|Nach dem Studium möchte ich in einem internationalen Unternehmen arbeiten.|След следването искам да работя в международна компания.
+2|Für diese Stelle braucht man Arbeitserfahrung.|За тази позиция е нужен трудов опит.
+3|Das Gehalt ist nicht sehr hoch, aber die Arbeitsbedingungen sind gut.|Заплатата не е много висока, но условията на труд са добри.
+4|Morgen habe ich ein Vorstellungsgespräch.|Утре имам интервю за работа.
+5|Er möchte Karriere machen und mehr Verantwortung übernehmen.|Той иска да направи кариера и да поеме повече отговорност.
+6|Viele junge Leute machen zuerst ein Praktikum.|Много млади хора първо правят стаж.
+7|Sie hat ihren Lebenslauf schon geschickt.|Тя вече е изпратила автобиографията си.
+8|Arbeitslosigkeit ist in manchen Regionen ein großes Problem.|Безработицата е голям проблем в някои региони.
+
+[family]
+1|Eine gute Beziehung basiert auf Vertrauen und Respekt.|Добрата връзка се основава на доверие и уважение.
+2|Eltern tragen eine große Verantwortung für ihre Kinder.|Родителите носят голяма отговорност за децата си.
+3|In unserer Gesellschaft spielt Gleichberechtigung eine wichtige Rolle.|В нашето общество равноправието играе важна роля.
+4|Ich habe guten Kontakt zu meiner Familie.|Поддържам добър контакт със семейството си.
+5|Freundschaft ist für mich sehr wichtig.|Приятелството е много важно за мен.
+6|Einsamkeit kann auf Dauer sehr belastend sein.|Самотата може да бъде много натоварваща в дългосрочен план.
+7|Kinder brauchen Unterstützung und Geduld.|Децата имат нужда от подкрепа и търпение.
+8|Nach dem Streit haben sie sich wieder versöhnt.|След спора те отново се сдобриха.
+
+[home]
+1|Wir ziehen nächsten Monat in eine neue Wohnung um.|Следващия месец се местим в нов апартамент.
+2|Die Miete in großen Städten ist oft sehr hoch.|Наемът в големите градове често е много висок.
+3|Im Haushalt gibt es immer etwas zu tun.|В домакинството винаги има нещо за вършене.
+4|Mein Alltag ist im Moment ziemlich stressig.|Ежедневието ми в момента е доста стресиращо.
+5|Ich muss heute mein Zimmer aufräumen.|Днес трябва да си подредя стаята.
+6|Nach der Arbeit brauche ich etwas Ruhe.|След работа имам нужда от малко спокойствие.
+7|Die Einrichtung der Wohnung ist modern und praktisch.|Обзавеждането на апартамента е модерно и практично.
+8|Gute Gewohnheiten erleichtern den Alltag.|Добрите навици улесняват ежедневието.
+
+[health]
+1|Gesundheit ist wichtiger als Geld.|Здравето е по-важно от парите.
+2|Zu viel Stress kann zu gesundheitlichen Problemen führen.|Твърде много стрес може да доведе до здравословни проблеми.
+3|Der Arzt hat mir ein neues Medikament verschrieben.|Лекарят ми предписа ново лекарство.
+4|Gesunde Ernährung und Bewegung sind sehr wichtig.|Здравословното хранене и движението са много важни.
+5|Nach der Verletzung musste er ins Krankenhaus.|След нараняването той трябваше да отиде в болница.
+6|Viele Menschen schlafen wegen Stress schlecht.|Много хора спят лошо заради стрес.
+7|Sport verbessert das Wohlbefinden.|Спортът подобрява общото благосъстояние.
+8|Nach dem Urlaub habe ich mich endlich erholt.|След ваканцията най-после се възстанових.
+
+[environment]
+1|Wir müssen die Umwelt besser schützen.|Трябва да защитаваме околната среда по-добре.
+2|Klimawandel ist eines der größten Probleme unserer Zeit.|Климатичните промени са един от най-големите проблеми на нашето време.
+3|Man sollte Müll trennen und recyceln.|Човек трябва да разделя боклука и да рециклира.
+4|Zu viel Verpackung schadet der Umwelt.|Твърде много опаковки вредят на околната среда.
+5|Wasser und Strom sollte man nicht verschwenden.|Не трябва да се прахосват вода и ток.
+6|Luftverschmutzung ist in Großstädten oft ein Problem.|Замърсяването на въздуха често е проблем в големите градове.
+7|Jeder kann Verantwortung für die Natur übernehmen.|Всеки може да поеме отговорност за природата.
+8|Nachhaltige Lösungen werden immer wichtiger.|Устойчивите решения стават все по-важни.
+
+[media]
+1|Das Internet ist aus dem Alltag vieler Menschen nicht mehr wegzudenken.|Интернет вече е неразделна част от ежедневието на много хора.
+2|Man sollte nicht jeder Information im Internet glauben.|Не бива да се вярва на всяка информация в интернет.
+3|Soziale Medien beeinflussen besonders Jugendliche stark.|Социалните мрежи влияят силно особено на младежите.
+4|Viele Kinder verbringen zu viel Zeit vor dem Bildschirm.|Много деца прекарват твърде много време пред екрана.
+5|Datenschutz und Privatsphäre sind im Internet sehr wichtig.|Защитата на данните и личното пространство са много важни в интернет.
+6|Diese App ist praktisch und einfach zu benutzen.|Това приложение е практично и лесно за използване.
+7|Ich habe dir die Datei schon geschickt.|Вече ти изпратих файла.
+8|Werbung hat einen großen Einfluss auf unser Kaufverhalten.|Рекламата има голямо влияние върху поведението ни при пазаруване.
+
+[travel]
+1|Im Sommer möchte ich mit meiner Familie verreisen.|През лятото искам да пътувам със семейството си.
+2|Wir haben das Hotel und die Unterkunft schon gebucht.|Вече сме резервирали хотела и настаняването.
+3|Der Zug hatte leider zwanzig Minuten Verspätung.|Влакът за съжаление закъсня с двадесет минути.
+4|In Berlin mussten wir zweimal umsteigen.|В Берлин трябваше да се прекачим два пъти.
+5|Das Fahrrad ist ein günstiges und umweltfreundliches Verkehrsmittel.|Велосипедът е евтино и екологично транспортно средство.
+6|Im Ausland kann man viel über andere Kulturen lernen.|В чужбина човек може да научи много за други култури.
+7|Diese Reise war eine unvergessliche Erfahrung.|Това пътуване беше незабравимо преживяване.
+8|Vor dem Flughafen gab es einen langen Stau.|Пред летището имаше голямо задръстване.
+
+[money]
+1|Wegen der hohen Preise muss man heute mehr Geld ausgeben.|Заради високите цени днес човек трябва да харчи повече пари.
+2|Ich versuche jeden Monat etwas Geld zu sparen.|Опитвам се всеки месец да спестявам малко пари.
+3|Die Qualität des Produkts ist sehr gut.|Качеството на продукта е много добро.
+4|Im Supermarkt gab es heute viele Angebote.|Днес в супермаркета имаше много оферти.
+5|Kann ich mit Karte bezahlen?|Мога ли да платя с карта?
+6|Meine Bestellung ist noch nicht angekommen.|Поръчката ми още не е пристигнала.
+7|Viele Kunden achten heute mehr auf den Preis.|Днес много клиенти обръщат повече внимание на цената.
+8|Zu viel Konsum ist weder für den Menschen noch für die Umwelt gut.|Прекомерното потребление не е добро нито за човека, нито за околната среда.
+
+[society]
+1|Jeder Bürger hat Rechte und Pflichten.|Всеки гражданин има права и задължения.
+2|In der Schule gibt es klare Regeln.|В училище има ясни правила.
+3|Freiheit ist für viele Menschen ein sehr wichtiger Wert.|Свободата е много важна ценност за много хора.
+4|Die Regierung plant neue Maßnahmen im Bildungsbereich.|Правителството планира нови мерки в областта на образованието.
+5|Armut ist in vielen Ländern immer noch ein ernstes Problem.|Бедността все още е сериозен проблем в много страни.
+6|Gewalt ist keine Lösung.|Насилието не е решение.
+7|Diese Entscheidung war für die Zukunft des Landes wichtig.|Това решение беше важно за бъдещето на страната.
+8|Sicherheit spielt im öffentlichen Leben eine große Rolle.|Сигурността играе голяма роля в обществения живот.

@@ -1,0 +1,1245 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deutsch Lernen</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg1:#070b18; --bg2:#111b33; --bg3:#1e293b;
+  --card:rgba(255,255,255,0.07); --panel:rgba(0,0,0,.20);
+  --muted:#94a3b8; --line:rgba(148,163,184,.18);
+  --shadow:0 28px 80px rgba(0,0,0,.52);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{
+  font-family:Inter,sans-serif; min-height:100vh;
+  background:
+    radial-gradient(900px 500px at 20% 0%,#243b55 0%,transparent 60%),
+    radial-gradient(900px 500px at 80% 20%,#1b2a4a 0%,transparent 60%),
+    linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+  background-attachment:fixed;
+  color:#e5e7eb; text-align:center; display:flex; flex-direction:column;
+}
+header{
+  padding:clamp(14px,2.2vw,24px) 16px 6px;
+  font-size:clamp(26px,3vw,44px); font-weight:800;
+  letter-spacing:-0.03em; animation:fadeDown .45s ease both;
+}
+.topbar{
+  width:100%; display:flex; align-items:flex-start;
+  justify-content:space-between; gap:10px;
+  padding:10px 16px 0; max-width:1280px; margin:0 auto;
+}
+.topbar-left{display:flex;align-items:center;gap:10px;flex-wrap:wrap;width:100%}
+.mode-btns{display:flex;gap:10px;align-items:center}
+.cat-streak-row{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.select-wrap{position:relative;min-width:min(260px,60vw);flex:1}
+.select-btn{
+  width:100%;border:none;border-radius:16px;padding:13px 44px 13px 16px;
+  background:linear-gradient(180deg,rgba(59,130,246,.34),rgba(17,24,39,.96));
+  color:#fff;cursor:pointer;font-size:15px;font-weight:700;
+  box-shadow:0 14px 34px rgba(0,0,0,.35);outline:none;text-align:left;
+  transition:transform .18s ease,filter .18s ease;
+}
+.select-btn:hover{transform:translateY(-1px);filter:brightness(1.04)}
+.select-wrap::after{
+  content:'▾';position:absolute;right:14px;top:50%;
+  transform:translateY(-54%);color:#bfdbfe;pointer-events:none;font-size:16px;
+}
+.dropdown-menu{
+  position:absolute;left:0;right:0;top:calc(100% + 8px);
+  background:rgba(7,11,24,.98);border:1px solid rgba(148,163,184,.18);
+  border-radius:18px;padding:8px;box-shadow:0 24px 50px rgba(0,0,0,.48);
+  backdrop-filter:blur(18px);z-index:30;animation:menuIn .16s ease both;
+}
+.dropdown-menu.hidden{display:none}
+@keyframes menuIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.dropdown-item{
+  width:100%;text-align:left;border:none;background:transparent;
+  color:#e5e7eb;padding:10px 12px;border-radius:12px;font-size:15px;
+  font-weight:600;cursor:pointer;transition:background .16s;
+  display:flex;align-items:center;gap:10px;
+}
+.dropdown-item:hover{background:rgba(59,130,246,.14)}
+.dropdown-item.active{background:rgba(59,130,246,.18)}
+.dropdown-tick{
+  width:32px;height:32px;border-radius:8px;border:2px solid #475569;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;cursor:pointer;transition:background .15s,border-color .15s;
+  font-size:16px;color:transparent;margin:-3px 0;
+}
+.dropdown-item.active .dropdown-tick{background:#3b82f6;border-color:#3b82f6;color:#fff}
+.dropdown-item-label{flex:1;pointer-events:none}
+.btn{
+  padding:12px 16px;border:none;border-radius:14px;
+  background:linear-gradient(180deg,#334155,#1f2937);
+  color:white;cursor:pointer;font-size:15px;font-weight:700;
+  transition:transform .18s,filter .18s;
+  box-shadow:0 10px 25px rgba(0,0,0,.35);white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.03)}
+.btn:active{transform:translateY(0)}
+.btn.primary{background:linear-gradient(180deg,#22c55e,#16a34a)}
+.btn.alt{background:linear-gradient(180deg,#3b82f6,#2563eb)}
+.btn.warn{background:linear-gradient(180deg,#f59e0b,#d97706)}
+.btn.small-btn{padding:9px 11px;font-size:13px;border-radius:10px}
+.btn.active{outline:2px solid rgba(96,165,250,.35)}
+/* ── HELPER BUTTONS ROW ── */
+.helper-row{
+  display:flex;gap:8px;flex-wrap:nowrap;justify-content:center;
+  margin:4px 0 8px;
+}
+/* ── DROPDOWN DIVIDER ── */
+.dropdown-divider{
+  display:flex;align-items:center;gap:8px;
+  padding:10px 12px 4px;
+  pointer-events:none;user-select:none;
+}
+.dropdown-divider:first-child{padding-top:4px}
+.div-label{
+  color:#94a3b8;font-size:11px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;
+}
+.div-line{flex:1;height:1px;background:rgba(148,163,184,.28)}
+
+.wrap{flex:1;display:flex;justify-content:center;align-items:flex-start;padding:16px 16px 100px}
+#game{width:100%;display:flex;justify-content:center;overflow-x:clip}
+.card{
+  background:var(--card);backdrop-filter:blur(18px);
+  padding:clamp(14px,2vw,24px);border-radius:28px;
+  width:min(1280px,96%);margin:0 auto;box-shadow:var(--shadow);
+  animation:popIn .35s cubic-bezier(.2,.9,.2,1) both;
+  border:1px solid rgba(255,255,255,.05);
+}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes popIn{from{opacity:0;transform:scale(.985) translateY(16px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.card-grid{display:grid;grid-template-columns:1fr;gap:18px;align-items:stretch}
+.card-grid.with-side{grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr)}
+.main-panel,.side-panel{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:22px;padding:22px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.main-panel{
+  min-height:380px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  animation:panelFade .35s ease both;
+}
+.streak-badge{
+  display:flex;align-items:center;gap:5px;
+  font-size:15px;font-weight:800;color:#f97316;
+  background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.22);
+  border-radius:20px;padding:5px 12px;
+  transition:transform .2s;pointer-events:none;white-space:nowrap;
+}
+.streak-badge.zero{color:#475569;background:rgba(71,85,105,.10);border-color:rgba(71,85,105,.18)}
+@keyframes panelFade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.q{
+  font-size:clamp(26px,3.3vw,50px);font-weight:800;
+  margin:18px 0 14px;line-height:1.06;letter-spacing:-0.03em;word-break:break-word;
+}
+.q-spinner{display:flex;justify-content:center;align-items:center;padding:52px 0 56px}
+.spinner{
+  width:46px;height:46px;border-radius:50%;
+  border:3px solid rgba(148,163,184,.15);
+  border-top-color:#3b82f6;
+  animation:spin .75s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+input[type=text],input:not([type]){
+  width:100%;padding:16px 14px;font-size:17px;border-radius:14px;
+  border:1px solid rgba(148,163,184,.25);background:#0b1220;color:white;
+  margin:10px 0 12px;outline:none;
+  transition:border-color .18s,box-shadow .18s;
+}
+input:focus{border-color:rgba(59,130,246,.8);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
+input.correct{border-color:rgba(34,197,94,.95);box-shadow:0 0 0 3px rgba(34,197,94,.22);background:rgba(34,197,94,.08);animation:pop .18s}
+input.incorrect{border-color:rgba(239,68,68,.95);box-shadow:0 0 0 3px rgba(239,68,68,.20);background:rgba(239,68,68,.08);animation:shake .28s}
+input.near{border-color:rgba(234,179,8,.95);box-shadow:0 0 0 3px rgba(234,179,8,.20);background:rgba(234,179,8,.08);animation:wiggle .35s}
+input:disabled{opacity:0.75;cursor:not-allowed}
+@keyframes shake{0%{transform:translateX(0)}25%{transform:translateX(-6px)}50%{transform:translateX(6px)}75%{transform:translateX(-6px)}100%{transform:translateX(0)}}
+@keyframes pop{0%{transform:scale(.92)}100%{transform:scale(1)}}
+@keyframes wiggle{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
+.row{display:flex;gap:10px;justify-content:center;flex-wrap:nowrap;margin-top:4px}
+.result{margin-top:14px;font-size:17px;min-height:26px}
+.result .ok{color:#86efac;font-weight:700}
+.result .bad{color:#fca5a5;font-weight:700}
+.result .hint{color:#cbd5e1}
+.exam-countdown{
+  margin-top:10px;font-size:14px;font-weight:700;
+  color:#94a3b8;letter-spacing:.04em;
+  min-height:22px;text-align:center;
+}
+.exam-progress{
+  font-size:13px;font-weight:700;color:#64748b;
+  letter-spacing:.05em;margin-bottom:4px;
+}
+.exam-progress span{color:#94a3b8}
+/* results screen */
+.results-card{
+  background:var(--card);backdrop-filter:blur(18px);
+  padding:clamp(20px,3vw,36px);border-radius:28px;
+  width:min(600px,94%);margin:0 auto;box-shadow:var(--shadow);
+  border:1px solid rgba(255,255,255,.05);
+  display:flex;flex-direction:column;align-items:center;gap:18px;
+  animation:popIn .4s cubic-bezier(.2,.9,.2,1) both;
+}
+.results-title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.02em}
+.results-score{font-size:clamp(42px,6vw,72px);font-weight:800;letter-spacing:-.03em}
+.results-score .ok{color:#22c55e}
+.results-score .bad{color:#ef4444}
+.results-missed{width:100%;text-align:left}
+.results-missed-title{font-size:14px;font-weight:700;color:#94a3b8;margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em}
+.results-missed-item{
+  padding:8px 12px;background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.18);
+  border-radius:10px;margin-bottom:6px;font-size:14px;color:#fca5a5;
+}
+.results-missed-item strong{color:#e5e7eb}
+/* review banner */
+#reviewBanner{
+  display:none;position:sticky;top:0;z-index:61;
+  background:linear-gradient(135deg,#1e3a5f,#1e293b);
+  color:#60a5fa;font-weight:800;font-size:13px;letter-spacing:.10em;
+  text-transform:uppercase;text-align:center;padding:9px 16px;
+  border-bottom:1px solid rgba(96,165,250,.25);
+}
+#reviewBanner.visible{display:block}
+
+/* ── FLOATING KEYPAD ── */
+.floating-keypad{
+  position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+  display:flex;gap:7px;flex-wrap:nowrap;
+  background:rgba(7,11,24,.88);backdrop-filter:blur(16px);
+  border:1px solid rgba(148,163,184,.15);
+  border-radius:20px;padding:9px 12px;
+  box-shadow:0 16px 40px rgba(0,0,0,.5);
+  z-index:40;
+  max-width:calc(100vw - 24px);
+}
+.keybtn{
+  min-width:40px;padding:8px 9px;border:none;border-radius:10px;
+  background:linear-gradient(180deg,#1e293b,#0f172a);color:#fff;
+  font-weight:800;font-size:14px;cursor:pointer;
+  box-shadow:0 4px 12px rgba(0,0,0,.35);
+  transition:transform .14s,filter .14s,box-shadow .14s;
+  white-space:nowrap;
+}
+.keybtn:hover{transform:translateY(-2px);filter:brightness(1.1);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+.keybtn:active{transform:translateY(0)}
+.keypad-sep{border-left:1px solid rgba(148,163,184,.2);margin:0 3px;height:36px;align-self:center}
+
+/* ── SIDE PANEL ── */
+.side-panel{
+  text-align:center;min-height:380px;display:flex;flex-direction:column;gap:8px;
+  animation:slideIn .38s cubic-bezier(.2,.9,.2,1) both;
+}
+.side-panel.hidden{display:none}
+@keyframes slideIn{
+  from{opacity:0;transform:translateX(32px) scale(0.98)}
+  to  {opacity:1;transform:translateX(0)    scale(1)}
+}
+.panel-head{display:flex;align-items:center;justify-content:center;margin-bottom:4px}
+.panel-title{font-size:20px;font-weight:800;letter-spacing:-0.02em}
+.panel-card{background:rgba(255,255,255,.03);border:1px solid rgba(148,163,184,.14);border-radius:18px;padding:10px}
+.panel-item{display:grid;grid-template-columns:88px minmax(0,1fr);gap:8px;align-items:center;margin:3px 0;text-align:left}
+.panel-item.pl{grid-template-columns:48px minmax(0,1fr)}
+.panel-label{color:var(--muted);font-weight:600}
+.panel-label.die{color:#bfdbfe;font-size:19px;font-weight:800}
+.panel-input{
+  width:100%;padding:8px 10px;border-radius:12px;
+  background:#111827;color:white;border:1px solid #334155;
+  font-size:15px;outline:none;
+  transition:border-color .18s,box-shadow .18s,background .18s;
+}
+.panel-input:focus{border-color:rgba(59,130,246,.8);box-shadow:0 0 0 2px rgba(59,130,246,.15)}
+.panel-input.correct{border-color:rgba(34,197,94,.95);box-shadow:0 0 0 3px rgba(34,197,94,.22);background:rgba(34,197,94,.08);animation:pop .18s}
+.panel-input.incorrect{border-color:rgba(239,68,68,.95);box-shadow:0 0 0 3px rgba(239,68,68,.20);background:rgba(239,68,68,.08);animation:shake .28s}
+.panel-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+
+/* ── EXAM BAR ── */
+.exam-bar{
+  width:100%;max-width:1280px;margin:0 auto;
+  display:flex;align-items:center;gap:10px;
+  padding:10px 16px 0;
+}
+.exam-bar-label{
+  font-size:14px;font-weight:800;letter-spacing:.06em;
+  color:#475569;text-transform:uppercase;transition:color .2s;
+}
+.exam-bar.active .exam-bar-label{color:#22c55e}
+
+/* ── INFO MENU ── */
+.info-menu{
+  position:fixed;bottom:70px;right:8px;width:240px;
+  background:rgba(7,11,24,.97);border:1px solid rgba(148,163,184,.18);
+  border-radius:18px;padding:14px;box-shadow:0 24px 50px rgba(0,0,0,.5);
+  backdrop-filter:blur(18px);z-index:50;animation:popIn .25s ease;
+  display:flex;flex-direction:column;gap:10px;
+}
+.info-menu.hidden{display:none}
+.info-header{display:flex;align-items:center;justify-content:space-between}
+.info-title{font-weight:800;font-size:15px}
+.info-close{background:none;border:none;color:#94a3b8;font-size:18px;cursor:pointer;padding:0 2px;line-height:1;transition:color .15s}
+.info-close:hover{color:#e5e7eb}
+.info-footer{font-size:12px;color:#64748b;text-align:center}
+
+/* ── MOBILE ── */
+@media(max-width:900px){
+  .card-grid.with-side{grid-template-columns:1fr}
+  .side-panel{min-height:auto;animation:panelFade .28s ease both}
+}
+/* ── TOGGLE SWITCH ── */
+.toggle-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.toggle-label{font-size:13px;font-weight:600;color:#cbd5e1}
+.toggle{position:relative;width:46px;height:26px;flex-shrink:0;cursor:pointer}
+.toggle input{opacity:0;width:0;height:0;position:absolute}
+.toggle-track{
+  position:absolute;inset:0;border-radius:13px;
+  background:#ef4444;
+  transition:background .25s ease;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.35);
+}
+.toggle-track::before{
+  content:'';position:absolute;
+  width:20px;height:20px;border-radius:50%;
+  background:#fff;top:3px;left:3px;
+  box-shadow:0 1px 4px rgba(0,0,0,.35);
+  transition:transform .25s cubic-bezier(.2,.9,.2,1);
+}
+.toggle input:checked+.toggle-track{background:#22c55e}
+.toggle input:checked+.toggle-track::before{transform:translateX(20px)}
+.toggle input:disabled+.toggle-track{opacity:.4;cursor:not-allowed}
+
+#testBanner{
+  display:none;position:sticky;top:0;z-index:60;
+  background:repeating-linear-gradient(
+    -45deg,
+    #f59e0b 0px, #f59e0b 10px,
+    #1c1208 10px, #1c1208 20px
+  );
+  color:#fff;font-weight:800;font-size:13px;letter-spacing:.12em;
+  text-transform:uppercase;text-align:center;padding:9px 16px;
+  text-shadow:0 1px 3px rgba(0,0,0,.6);
+  animation:bannerPulse 2s ease-in-out infinite;
+}
+#testBanner.visible{display:block}
+@keyframes bannerPulse{0%,100%{opacity:1}50%{opacity:.82}}
+
+@media(max-width:640px){
+  .wrap{padding:12px 8px 100px}
+  .topbar{flex-direction:column;padding:10px 10px 0;gap:8px}
+  .topbar-left{flex-wrap:wrap;gap:8px}
+  .mode-btns{width:100%}
+  .mode-btns .btn{flex:1}
+  .cat-streak-row{width:100%}
+  .select-wrap{min-width:0}
+  .btn{font-size:15px;padding:13px 14px}
+  .main-panel{padding:16px 8px;min-height:320px}
+  .row{flex-direction:row;width:100%;gap:6px}
+  .row .btn{flex:1;font-size:16px;padding:20px 4px}
+  .helper-row .btn{flex:1;font-size:15px;padding:15px 8px}
+  .panel-actions{flex-direction:row;width:100%;gap:6px}
+  .panel-actions .btn{flex:1;font-size:16px;padding:20px 4px}
+  .q{font-size:clamp(22px,7vw,38px)}
+  .main-panel{padding:16px;min-height:320px}
+  .side-panel{padding:16px}
+  .panel-item{grid-template-columns:1fr;gap:4px}
+  .keybtn{min-width:36px;padding:7px 7px;font-size:13px}
+  .floating-keypad{gap:5px;padding:7px 9px}
+  .card{padding:10px;border-radius:22px}
+}
+</style>
+</head>
+<body>
+
+<header>Deutsch Lernen</header>
+<div id="testBanner">TEST MODE</div>
+<div id="reviewBanner">📋 ПРЕГОВОР — само пропуснати думи</div>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <div class="mode-btns">
+      <button id="modeWordsBtn"     class="btn active" onclick="setMode('words')">Думи</button>
+      <button id="modeSentencesBtn" class="btn"        onclick="setMode('sentences')">Изречения</button>
+      <button id="modeVerbsBtn"     class="btn"        onclick="setMode('verbs')">Глаголи</button>
+    </div>
+    <div class="cat-streak-row">
+      <div class="select-wrap">
+        <button id="categoryBtn" class="select-btn" onclick="toggleCategoryMenu(event)">Категория</button>
+        <div id="categoryMenu" class="dropdown-menu hidden"></div>
+      </div>
+      <div id="streakBadge" class="streak-badge zero">🔥 0</div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap"><div id="game"></div></div>
+
+<div class="floating-keypad">
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('ä')">ä</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('Ä')">Ä</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('ö')">ö</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('Ö')">Ö</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('ü')">ü</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('Ü')">Ü</button>
+  <button type="button" class="keybtn" onmousedown="return false" onclick="insertChar('ß')">ß</button>
+  <div class="keypad-sep"></div>
+  <button class="keybtn" onclick="toggleInfo(event)">⚙</button>
+  <div id="infoMenu" class="info-menu hidden">
+    <div class="info-header">
+      <span class="info-title">Настройки</span>
+      <button class="info-close" onclick="closeInfo()">✕</button>
+    </div>
+    <div class="toggle-row">
+      <span class="toggle-label">Advanced Mode</span>
+      <label class="toggle">
+        <input type="checkbox" id="advToggle" onchange="toggleAdvanced()">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="toggle-row">
+      <span class="toggle-label">Test Mode</span>
+      <label class="toggle">
+        <input type="checkbox" id="testToggle" onchange="toggleTestMode()">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="toggle-row">
+      <span class="toggle-label">Изпит</span>
+      <label class="toggle">
+        <input type="checkbox" id="examToggle" onchange="toggleExamMode()">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div id="examCountWrap" style="display:none;flex-direction:column;gap:4px;padding:2px 0">
+      <span class="toggle-label" style="font-size:12px;color:#64748b">Брой въпроси</span>
+      <input id="examTotalInput" type="number" min="1" max="200" value="15"
+        style="width:100%;padding:7px 10px;border-radius:10px;background:#111827;color:white;
+               border:1px solid #334155;font-size:14px;font-weight:700;outline:none;text-align:center"
+        oninput="var v=parseInt(this.value); if(!isNaN(v)&&v>=1){ examTotal=v; this.style.borderColor=''; if(examMode){ examCount=0; examMissed=[]; if(_examTimer){clearInterval(_examTimer);_examTimer=null;} next(); } } else { this.style.borderColor='#ef4444'; }"
+        onblur="var v=parseInt(this.value); this.value=(!isNaN(v)&&v>=1)?v:15; examTotal=parseInt(this.value); this.style.borderColor='';">
+    </div>
+    <div class="toggle-row">
+      <span class="toggle-label">Преговор</span>
+      <label class="toggle" title="Пуска се автоматично след изпит">
+        <input type="checkbox" id="reviewToggle" onchange="toggleReviewMode()" disabled>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="info-footer">Създадено от Diamond · 2026</div>
+  </div>
+</div>
+
+<script>
+const MODES = {
+  words:     { activeBtn:'modeWordsBtn',     kind:'word' },
+  sentences: { activeBtn:'modeSentencesBtn', kind:'sentence' },
+  verbs:     { activeBtn:'modeVerbsBtn',     kind:'verb' }
+};
+
+let mode='words', selectedCats=new Set(['all']), current=null, direction='bg-de',
+    categoryOpen=false, advanced=false, testMode=false, examMode=false, reviewMode=false,
+    streak=0, firstAttempt=true, transitioning=false, toggling=false,
+    examTotal=15, examCount=0, examMissed=[], examPanelPending=false,
+    previewPool=[],
+    loadedData={words:{all:[]},sentences:{all:[]},verbs:{all:[]}},
+    loadedCategories={
+      words:[{key:'all',label:'ВСИЧКО'}],
+      sentences:[{key:'all',label:'ВСИЧКО'}],
+      verbs:[{key:'all',label:'ВСИЧКО'}]
+    };
+
+// ── mock data for Test Mode ───────────────────────────────────────────────────
+const TEST_DATA={
+  words:{all:[
+    {id:'t1',article:'der',de:'Hund',   bg:'куче',   plural:'Hunde',   kind:'word'},
+    {id:'t2',article:'die',de:'Katze',  bg:'котка',  plural:'Katzen',  kind:'word'},
+    {id:'t3',article:'das',de:'Haus',   bg:'къща',   plural:'Häuser',  kind:'word'},
+    {id:'t4',article:'die',de:'Schule', bg:'училище',plural:'Schulen', kind:'word'},
+    {id:'t5',article:'der',de:'Tisch',  bg:'маса',   plural:'Tische',  kind:'word'},
+  ]},
+  sentences:{all:[
+    {id:'ts1',de:'Guten Morgen!',        bg:'Добро утро!',   kind:'sentence'},
+    {id:'ts2',de:'Wie geht es Ihnen?',   bg:'Как сте?',      kind:'sentence'},
+    {id:'ts3',de:'Ich lerne Deutsch.',   bg:'Уча немски.',   kind:'sentence'},
+  ]},
+  verbs:{all:[
+    {id:'tv1',infinitiv:'sein',  forms:'bin;bist;ist;sind;seid;sind',    bg:'съм',     kind:'verb'},
+    {id:'tv2',infinitiv:'haben', forms:'habe;hast;hat;haben;habt;haben', bg:'имам',    kind:'verb'},
+    {id:'tv3',infinitiv:'gehen', forms:'gehe;gehst;geht;gehen;geht;gehen',bg:'отивам', kind:'verb'},
+  ]}
+};
+
+// ── utils ──────────────────────────────────────────────────────────────────────
+function esc(s){
+  return String(s)
+    .replaceAll('&','&amp;').replaceAll('<','&lt;')
+    .replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+}
+function norm(s){ return String(s==null?'':s).trim().split(/\s+/).filter(Boolean).join(' ') }
+
+function validAnswers(){
+  if(!current) return [''];
+  if(examMode||reviewMode){
+    if(current.kind==='word'){
+      var parts=current.de.split(';').map(norm).filter(Boolean);
+      if(current.article) return parts.map(function(p){ return current.article+' '+p; });
+      return parts;
+    }
+    if(current.kind==='sentence') return current.bg.split(';').map(norm).filter(Boolean);
+    if(current.kind==='verb')     return current.infinitiv.split(';').map(norm).filter(Boolean);
+    return [''];
+  }
+  if(mode==='words'){
+    if(direction==='bg-de'){
+      var parts=current.de.split(';').map(norm).filter(Boolean);
+      if(current.article) return parts.map(function(p){ return current.article+' '+p });
+      return parts;
+    }
+    return current.bg.split(';').map(norm).filter(Boolean);
+  }
+  if(mode==='verbs'){
+    if(direction==='bg-de') return current.infinitiv.split(';').map(norm).filter(Boolean);
+    return current.bg.split(';').map(norm).filter(Boolean);
+  }
+  if(mode==='sentences'){
+    if(direction==='bg-de') return current.de.split(';').map(norm).filter(Boolean);
+    return current.bg.split(';').map(norm).filter(Boolean);
+  }
+  return [''];
+}
+function primaryAnswer(){ return (validAnswers()[0])||'' }
+function answersMatch(val){
+  var answers=validAnswers();
+  var caseInsensitive=((examMode||reviewMode)&&current&&current.kind==='sentence')||direction==='de-bg';
+  var v=caseInsensitive?val.toLowerCase():val;
+  return answers.some(function(a){
+    return caseInsensitive?a.toLowerCase()===v:a===v;
+  });
+}
+
+// ── categories / mode ─────────────────────────────────────────────────────────
+function setActiveModeButton(){
+  Object.keys(MODES).forEach(function(m){
+    var b=document.getElementById(MODES[m].activeBtn);
+    if(b) b.classList.toggle('active', m===mode);
+  });
+}
+function setMode(m){
+  mode=m;
+  if(m==='sentences') direction='de-bg';
+  selectedCats=new Set(['all']); setActiveModeButton(); renderCategoryMenu(); next()
+}
+function catItems(){ return loadedCategories[mode]||[{key:'all',label:'ВСИЧКО'}] }
+function catKeys(){ return catItems().filter(function(c){ return c.key; }).map(function(c){ return c.key }) }
+function catName(k){
+  var found=catItems().find(function(c){ return c.key===k });
+  return found?found.label:k;
+}
+function categoryLabel(){
+  if(selectedCats.has('all')||selectedCats.size===0) return catName('all');
+  var keys=catKeys().filter(function(k){ return k!=='all'&&selectedCats.has(k) });
+  if(keys.length===1) return catName(keys[0]);
+  return keys.map(catName).join(', ');
+}
+function renderCategoryMenu(){
+  var menu=document.getElementById('categoryMenu'), btn=document.getElementById('categoryBtn');
+  if(!menu||!btn) return;
+  if(selectedCats.size===0) selectedCats.add('all');
+  btn.textContent=categoryLabel();
+  menu.innerHTML=catItems().map(function(item){
+    if(item.divider){
+      return '<div class="dropdown-divider"><span class="div-label">'+esc(item.divider)+'</span><span class="div-line"></span></div>';
+    }
+    var k=item.key, isActive=selectedCats.has(k);
+    return '<button class="dropdown-item'+(isActive?' active':'')+'" onclick="toggleCategoryTick(\''+k+'\',event)">'
+      +'<span class="dropdown-tick">✓</span>'
+      +'<span class="dropdown-item-label">'+esc(item.label)+'</span>'
+      +'</button>';
+  }).join('');
+}
+
+// Toggle category — keep menu OPEN
+function toggleCategoryTick(k, e){
+  if(e){ e.stopPropagation(); }
+  if(k==='all'){
+    selectedCats=new Set(['all']);
+  } else {
+    selectedCats.delete('all');
+    if(selectedCats.has(k)){ selectedCats.delete(k); if(selectedCats.size===0) selectedCats.add('all'); }
+    else { selectedCats.add(k); }
+  }
+  renderCategoryMenu();
+  next();
+  // keep menu open:
+  document.getElementById('categoryMenu').classList.remove('hidden');
+  categoryOpen=true;
+}
+
+function openCategoryMenu(){ categoryOpen=true; document.getElementById('categoryMenu').classList.remove('hidden') }
+function closeCategoryMenu(){ categoryOpen=false; document.getElementById('categoryMenu').classList.add('hidden') }
+function toggleCategoryMenu(e){
+  if(e) e.stopPropagation();
+  categoryOpen?closeCategoryMenu():openCategoryMenu();
+}
+
+document.addEventListener('click', function(e){
+  var sw=document.querySelector('.select-wrap');
+  if(sw&&!sw.contains(e.target)) closeCategoryMenu();
+  var im=document.getElementById('infoMenu');
+  var fp=document.querySelector('.floating-keypad');
+  if(im&&!im.classList.contains('hidden')&&fp&&!fp.contains(e.target))
+    im.classList.add('hidden');
+});
+document.addEventListener('keydown', function(e){
+  if(e.key==='Escape'){ closeCategoryMenu(); closeInfo(); }
+});
+
+// ── info / advanced ───────────────────────────────────────────────────────────
+function toggleInfo(e){ if(e) e.stopPropagation(); document.getElementById('infoMenu').classList.toggle('hidden') }
+function closeInfo(){ document.getElementById('infoMenu').classList.add('hidden') }
+function toggleAdvanced(){
+  var cb=document.getElementById('advToggle');
+  if(toggling||testMode||examMode||reviewMode){ if(cb) cb.checked=advanced; return; }
+  toggling=true;
+  advanced=!advanced;
+  if(cb) cb.checked=advanced;
+  reloadData();
+  setTimeout(function(){ toggling=false; },600);
+}
+function toggleTestMode(){
+  var cb=document.getElementById('testToggle');
+  if(toggling||reviewMode){ if(cb) cb.checked=testMode; return; }
+  toggling=true;
+  // Turn off exam if on
+  if(examMode){ _turnOffExam(); }
+  testMode=!testMode;
+  if(cb) cb.checked=testMode;
+  var advCb=document.getElementById('advToggle');
+  if(testMode){
+    advanced=false;
+    if(advCb){ advCb.checked=false; advCb.disabled=true; }
+    loadedData=JSON.parse(JSON.stringify(TEST_DATA));
+    loadedCategories={
+      words:[{key:'all',label:'ВСИЧКО'}],
+      sentences:[{key:'all',label:'ВСИЧКО'}],
+      verbs:[{key:'all',label:'ВСИЧКО'}]
+    };
+    selectedCats=new Set(['all']);
+    next();
+  } else {
+    if(advCb) advCb.disabled=false;
+    reloadData();
+  }
+  var banner=document.getElementById('testBanner');
+  if(banner) banner.classList.toggle('visible',testMode);
+  setTimeout(function(){ toggling=false; },600);
+}
+function _turnOffExam(){
+  examMode=false;
+  if(_examTimer){ clearInterval(_examTimer); _examTimer=null; }
+  examPanelPending=false;
+  var cb=document.getElementById('examToggle'); if(cb) cb.checked=false;
+  var wrap=document.getElementById('examCountWrap'); if(wrap) wrap.style.display='none';
+  setTopbarDisabled(false);
+}
+function setTopbarDisabled(disabled){
+  ['modeWordsBtn','modeSentencesBtn','modeVerbsBtn','categoryBtn'].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el){ el.disabled=disabled; el.style.opacity=disabled?'0.35':''; el.style.pointerEvents=disabled?'none':''; }
+  });
+}
+function toggleExamMode(){
+  var cb=document.getElementById('examToggle');
+  if(toggling||reviewMode){ if(cb) cb.checked=examMode; return; }
+  toggling=true;
+  examMode=!examMode;
+  if(cb) cb.checked=examMode;
+  var wrap=document.getElementById('examCountWrap');
+  if(wrap) wrap.style.display=examMode?'flex':'none';
+  if(examMode){
+    examCount=0; examMissed=[]; examPanelPending=false;
+    if(_examTimer){ clearInterval(_examTimer); _examTimer=null; }
+    setTopbarDisabled(true);
+  } else {
+    if(_examTimer){ clearInterval(_examTimer); _examTimer=null; }
+    examPanelPending=false;
+    setTopbarDisabled(false);
+  }
+  next();
+  setTimeout(function(){ toggling=false; },600);
+}
+// ── keypad ────────────────────────────────────────────────────────────────────
+function insertAtCursor(el,ch){
+  var s=el.selectionStart??el.value.length, e2=el.selectionEnd??el.value.length;
+  el.value=el.value.slice(0,s)+ch+el.value.slice(e2);
+  el.setSelectionRange(s+1,s+1); el.focus();
+}
+function insertChar(ch){
+  var active=document.activeElement;
+  var el=(active&&(active.id==='a'||active.classList.contains('panel-input')))?active:document.getElementById('a');
+  if(el&&!el.disabled) insertAtCursor(el,ch);
+}
+
+// ── file loading ──────────────────────────────────────────────────────────────
+function getPath(mk){ return (advanced?'data/advanced/':'data/')+mk+'.txt' }
+function parseWordLine(line){
+  var p=line.split('|').map(function(s){return s.trim()});
+  if(p.length<4) return null;
+  return {id:p[0],article:p[1],de:p[2],bg:p[3],plural:p[4]||'',kind:'word'};
+}
+function parseSentenceLine(line){
+  var p=line.split('|').map(function(s){return s.trim()});
+  if(p.length<3) return null;
+  return {id:p[0],de:p[1],bg:p[2],kind:'sentence'};
+}
+function parseVerbLine(line){
+  var p=line.split('|').map(function(s){return s.trim()});
+  if(p.length<4) return null;
+  return {id:p[0],infinitiv:p[1],forms:p[2],bg:p[3],kind:'verb'};
+}
+function parseFile(text,kind){
+  var out={}, cat=null;
+  var groups=[];          // [{label, cats:[{key,label}]}] in order of first appearance
+  var currentGroup=null;  // active group object, or null = no {..} seen yet
+  var parser=kind==='word'?parseWordLine:kind==='sentence'?parseSentenceLine:parseVerbLine;
+  function getGroup(label){
+    var g=groups.find(function(g){ return g.label===label });
+    if(!g){ g={label:label,cats:[]}; groups.push(g); }
+    return g;
+  }
+  text.split('\n').forEach(function(raw){
+    var line=raw.replace('\r','').trim();
+    if(!line||line[0]==='#'||line.slice(0,2)==='//') return;
+    // Grade/section marker: {Label} — applies to every [category] until the next {..}
+    if(line[0]==='{'&&line[line.length-1]==='}'){
+      currentGroup=getGroup(line.slice(1,-1).trim());
+      return;
+    }
+    if(line[0]==='['&&line[line.length-1]===']'){
+      var rawLabel=line.slice(1,-1).trim();
+      cat=rawLabel.toLowerCase();
+      if(!out[cat]) out[cat]=[];
+      var grp=currentGroup||getGroup('ДРУГИ');
+      if(!grp.cats.some(function(c){ return c.key===cat })) grp.cats.push({key:cat,label:rawLabel});
+      return;
+    }
+    if(!cat) return;
+    var item=parser(line); if(item) out[cat].push(item);
+  });
+  var all=[]; Object.keys(out).forEach(function(k){ all=all.concat(out[k]) }); out.all=all;
+
+  var categories=[{key:'all',label:'ВСИЧКО'}];
+  groups.forEach(function(g){
+    if(!g.cats.length) return;
+    categories.push({divider:g.label});
+    g.cats.forEach(function(c){ categories.push(c); });
+  });
+  return {data:out,categories:categories};
+}
+async function loadModeData(mk){
+  try {
+    var r=await fetch(getPath(mk),{cache:'no-store'});
+    if(!r.ok) throw new Error('404');
+    var result=parseFile(await r.text(), MODES[mk].kind);
+    loadedData[mk]=result.data;
+    loadedCategories[mk]=result.categories;
+  } catch(e){
+    console.warn(e);
+    loadedData[mk]={all:[]};
+    loadedCategories[mk]=[{key:'all',label:'ВСИЧКО'}];
+  }
+}
+async function reloadData(){ await Promise.all([loadModeData('words'),loadModeData('sentences'),loadModeData('verbs')]); next() }
+
+// ── pool / pick ───────────────────────────────────────────────────────────────
+function pool(){
+  if(reviewMode) return previewPool.length?previewPool:[];
+  if(examMode){
+    var all=[];
+    ['words','sentences','verbs'].forEach(function(mk){
+      if(loadedData[mk]&&loadedData[mk].all) all=all.concat(loadedData[mk].all);
+    });
+    return all;
+  }
+  var d=loadedData[mode]||{all:[]};
+  if(selectedCats.has('all')||selectedCats.size===0) return d.all||[];
+  var items=[];
+  selectedCats.forEach(function(k){ if(d[k]) items=items.concat(d[k]); });
+  return items;
+}
+function pickCurrent(){ var p=pool(); current=p.length?p[Math.floor(Math.random()*p.length)]:null }
+
+// ── question / answer ─────────────────────────────────────────────────────────
+function questionText(){
+  if(!current) return '';
+  if(examMode||reviewMode){
+    if(current.kind==='word')     return current.bg.split(';')[0].trim();
+    if(current.kind==='sentence') return current.de.split(';')[0].trim();
+    if(current.kind==='verb')     return current.bg.split(';')[0].trim();
+  }
+  if(mode==='words'){
+    if(direction==='bg-de') return current.bg.split(';')[0].trim();
+    var firstDe=current.de.split(';')[0].trim();
+    return current.article?current.article+' '+firstDe:firstDe;
+  }
+  if(mode==='verbs')     return direction==='bg-de'?current.bg.split(';')[0].trim():current.infinitiv.split(';')[0].trim();
+  if(mode==='sentences') return direction==='bg-de'?current.bg.split(';')[0].trim():current.de.split(';')[0].trim();
+  return '';
+}
+function correctAnswer(){ return primaryAnswer() }
+function answerLabel(){
+  if(examMode||reviewMode) return current&&current.kind==='sentence'?'на български':'на немски';
+  return direction==='bg-de'?'на немски':'на български';
+}
+function lockMainInput(){ var inp=document.getElementById('a'); if(inp) inp.disabled=true }
+
+// ── HELPER FILL functions ─────────────────────────────────────────────────────
+// Fill only the article — keeps any word already typed in the field
+function fillArticle(){
+  var inp=document.getElementById('a');
+  if(!inp||inp.disabled||!current||!current.article) return;
+  var wordPart=inp.value.replace(/^(der|die|das)\s*/i,'').trim();
+  inp.value=current.article+(wordPart?' '+wordPart:'');
+  setIS(inp,'');
+  inp.focus();
+  inp.setSelectionRange(inp.value.length,inp.value.length);
+}
+
+// Fill only the word — keeps any article already typed in the field
+function fillWord(){
+  var inp=document.getElementById('a');
+  if(!inp||inp.disabled||!current) return;
+  var correctWord=current.de.split(';')[0].trim();
+  var articleMatch=inp.value.match(/^(der|die|das)\s*/i);
+  inp.value=articleMatch?articleMatch[0].trimEnd()+' '+correctWord:correctWord;
+  setIS(inp,'');
+  inp.focus();
+  inp.setSelectionRange(inp.value.length,inp.value.length);
+}
+
+// ── render ────────────────────────────────────────────────────────────────────
+function updateStreakBadge(){
+  var b=document.getElementById('streakBadge');
+  if(!b) return;
+  b.textContent='🔥 '+streak;
+  b.className='streak-badge'+(streak===0?' zero':'');
+  if(streak>0){ b.style.transform='scale(1.18)'; setTimeout(function(){ b.style.transform=''; },180); }
+}
+
+function buildCardHTML(){
+  // No data yet (loading or failed) — show spinner, never an error message
+  if(!current){
+    return '<div class="card">'
+      +'<div class="card-grid">'
+      +'<section class="main-panel">'
+      +'<div class="q-spinner"><div class="spinner"></div></div>'
+      +'</section>'
+      +'</div></div>';
+  }
+  var q=questionText();
+  var isWordBGDE=(mode==='words'&&direction==='bg-de')||(examMode&&current&&current.kind==='word')||(reviewMode&&current&&current.kind==='word');
+  var helperButtons='';
+  if(isWordBGDE&&current&&current.article&&!examMode&&!reviewMode){
+    helperButtons='<div class="helper-row">'
+      +'<button class="btn small-btn" onmousedown="return false" onclick="fillWord()">Запълни думата</button>'
+      +'<button class="btn small-btn" onmousedown="return false" onclick="fillArticle()">Запълни рода</button>'
+      +'</div>';
+  }
+  var showDirToggle=!examMode&&!reviewMode&&mode!=='sentences';
+  var examProgress=examMode
+    ? '<div class="exam-progress">'+examCount+' / '+examTotal+'</div>'
+    : '';
+  return '<div class="card">'
+    +'<div class="card-grid" id="cardGrid">'
+    +'<section class="main-panel">'
+    +examProgress
+    +'<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center">'
+    +(showDirToggle?'<button class="btn small-btn" onclick="toggleDir()">'+(direction==='bg-de'?'BG → DE':'DE → BG')+'</button>':'')
+    +'<span style="color:#cbd5e1;font-size:13px;font-weight:700">Въведи отговора '+esc(answerLabel())+'</span>'
+    +'</div>'
+    +'<div class="q">'+esc(q)+'</div>'
+    +'<input id="a" placeholder="Отговор" autocomplete="off">'
+    +helperButtons
+    +'<div class="row">'
+    +'<button class="btn primary" onclick="check()">OK</button>'
+    +(!examMode?'<button class="btn" onclick="revealAnswer()">Покажи</button>':'')
+    +(examMode
+        ?'<button class="btn warn" onclick="skipExamItem()">Пропусни</button>'
+        :'<button class="btn alt" onclick="nextSlide()">Друго</button>')
+    +'</div>'
+    +(examMode||reviewMode
+        ?'<div class="helper-row" style="margin-top:10px"><button class="btn small-btn" onclick="finishExam()">Изход</button></div>'
+        :'')
+    +'<div id="r" class="result"></div>'
+    +'</section>'
+    +'<aside id="sidePanel" class="side-panel hidden"></aside>'
+    +'</div></div>';
+}
+
+function setupCardListeners(){
+  var inp=document.getElementById('a');
+  if(!inp) return;
+  inp.focus();
+  inp.addEventListener('keydown',function(e){ if(e.key==='Enter') check() });
+  inp.addEventListener('input',  function(){ setIS(inp,'') });
+}
+
+function renderGame(){
+  document.getElementById('game').innerHTML=buildCardHTML();
+  setupCardListeners();
+}
+
+function next(){ firstAttempt=true; examPanelPending=false; renderCategoryMenu(); pickCurrent(); renderGame() }
+
+function nextSlide(){
+  if(transitioning) return;
+  var scrollY=window.scrollY||window.pageYOffset;
+  if(scrollY>20){
+    // Scroll to top first, slide after scroll settles
+    window.scrollTo({top:0,behavior:'smooth'});
+    setTimeout(_doSlide, 360);
+  } else {
+    _doSlide();
+  }
+}
+
+function _doSlide(){
+  if(transitioning) return;
+  if(_examTimer){ clearInterval(_examTimer); _examTimer=null; }
+  examPanelPending=false;
+  firstAttempt=true;
+  renderCategoryMenu();
+  pickCurrent();
+
+  var gameEl=document.getElementById('game');
+  var oldCard=gameEl&&gameEl.querySelector('.card');
+  if(!oldCard){ renderGame(); return; }
+
+  transitioning=true;
+
+  var cw=oldCard.offsetWidth, ch=oldCard.offsetHeight;
+
+  gameEl.style.cssText=
+    'position:relative;width:'+cw+'px;height:'+ch+'px;overflow:visible;flex-shrink:0';
+  document.body.style.overflowX='hidden';
+
+  var tmp=document.createElement('div');
+  tmp.innerHTML=buildCardHTML();
+  var newCard=tmp.firstElementChild;
+
+  var pin='position:absolute;top:0;left:0;width:'+cw+'px;margin:0;animation:none;';
+  var gap=48;
+  oldCard.style.cssText=pin;
+  newCard.style.cssText=pin+'transform:translateX('+(cw+gap)+'px)';
+  gameEl.appendChild(newCard);
+
+  newCard.getBoundingClientRect();
+
+  var dur=320, ease='cubic-bezier(0.4,0,0.2,1)', tr='transform '+dur+'ms '+ease;
+  requestAnimationFrame(function(){
+    oldCard.style.transition=tr;
+    newCard.style.transition=tr;
+    requestAnimationFrame(function(){
+      oldCard.style.transform='translateX(-'+(cw+gap)+'px)';
+      newCard.style.transform='translateX(0)';
+    });
+  });
+
+  setTimeout(function(){
+    gameEl.removeChild(oldCard);
+    newCard.style.cssText='animation:none';
+    gameEl.style.cssText='';
+    document.body.style.overflowX='';
+    setupCardListeners();
+    transitioning=false;
+  }, dur+16);
+}
+
+function toggleDir(){ if(mode==='sentences') return; direction=direction==='bg-de'?'de-bg':'bg-de'; next() }
+
+// ── state helpers ─────────────────────────────────────────────────────────────
+function setIS(el,s){ if(!el) return; el.classList.remove('correct','incorrect','near'); if(s) el.classList.add(s) }
+function setPS(el,s){ if(!el) return; el.classList.remove('correct','incorrect');        if(s) el.classList.add(s) }
+
+var _examTimer=null;
+var _examTimer=null;
+function panelSkip(){
+  examPanelPending=false;
+}
+function advanceExam(){
+  if(examMode && examCount>=examTotal){ finishExam(); return; }
+  nextSlide();
+}
+function skipExamItem(){
+  if(examMode&&current&&firstAttempt) examMissed.push(current);
+  examCount++;
+  advanceExam();
+}
+
+function finishExam(){
+  examPanelPending=false;
+  if(_examTimer){ clearInterval(_examTimer); _examTimer=null; }
+
+  if(reviewMode){
+    // Review: just turn off, no results screen
+    reviewMode=false;
+    var revCb=document.getElementById('reviewToggle'); if(revCb){ revCb.checked=false; revCb.disabled=true; }
+    var revBanner=document.getElementById('reviewBanner'); if(revBanner) revBanner.classList.remove('visible');
+    setTopbarDisabled(false);
+    next();
+    return;
+  }
+
+  // Exam: show results screen
+  var missedItems=examMissed.slice();
+  examMode=false;
+  var examCb=document.getElementById('examToggle'); if(examCb) examCb.checked=false;
+  var wrap=document.getElementById('examCountWrap'); if(wrap) wrap.style.display='none';
+  setTopbarDisabled(false);
+
+  var correct=examCount-missedItems.length;
+  var missedHTML=missedItems.length>0
+    ? '<div class="results-missed"><div class="results-missed-title">Пропуснати ('+missedItems.length+')</div>'
+      +missedItems.map(function(it){
+        var q=it.kind==='word'?it.bg:(it.kind==='verb'?it.bg:it.de);
+        var a=it.kind==='word'?(it.article?it.article+' ':'')+it.de:(it.kind==='verb'?it.infinitiv:it.bg);
+        return '<div class="results-missed-item"><strong>'+esc(q)+'</strong> — '+esc(a)+'</div>';
+      }).join('')+'</div>'
+    : '<div style="color:#86efac;font-weight:700;font-size:15px;margin:8px 0">Всички правилно! 🎉</div>';
+
+  var reviewBtn=missedItems.length>0
+    ? '<button class="btn alt" onclick="startReviewMode()">Преговор на пропуснатите</button>'
+    : '';
+
+  document.getElementById('game').innerHTML='<div class="results-card">'
+    +'<div class="results-title">Изпитът приключи!</div>'
+    +'<div class="results-score"><span class="ok">'+correct+'</span> / <span style="color:#94a3b8">'+examTotal+'</span></div>'
+    +missedHTML
+    +'<div class="row" style="margin-top:4px">'
+    +reviewBtn
+    +'<button class="btn warn" onclick="restartExam()">Опитай пак</button>'
+    +'<button class="btn" onclick="next()">Изход</button>'
+    +'</div>'
+    +'</div>';
+
+  // Store missed for review
+  window._lastMissed=missedItems;
+}
+function restartExam(){
+  examCount=0; examMissed=[];
+  examMode=true;
+  var examCb=document.getElementById('examToggle'); if(examCb) examCb.checked=true;
+  var wrap=document.getElementById('examCountWrap'); if(wrap) wrap.style.display='flex';
+  setTopbarDisabled(true);
+  next();
+}
+function startReviewMode(){
+  previewPool=window._lastMissed||[];
+  if(!previewPool.length){ next(); return; }
+  examMissed=[]; examCount=0;
+  reviewMode=true;
+  var revCb=document.getElementById('reviewToggle'); if(revCb){ revCb.disabled=false; revCb.checked=true; }
+  var revBanner=document.getElementById('reviewBanner'); if(revBanner) revBanner.classList.add('visible');
+  setTopbarDisabled(true);
+  next();
+}
+function startReviewMode(){
+  previewPool=examMissed.slice();
+  examMissed=[];
+  examCount=0;
+  reviewMode=true;
+  var revCb=document.getElementById('reviewToggle'); if(revCb){ revCb.disabled=false; revCb.checked=true; }
+  var revBanner=document.getElementById('reviewBanner'); if(revBanner) revBanner.classList.add('visible');
+  setTopbarDisabled(true);
+  next();
+}
+function toggleReviewMode(){
+  var cb=document.getElementById('reviewToggle');
+  if(!reviewMode){ if(cb) cb.checked=false; return; } // can't turn on manually
+  reviewMode=false;
+  if(cb){ cb.checked=false; cb.disabled=true; }
+  var revBanner=document.getElementById('reviewBanner'); if(revBanner) revBanner.classList.remove('visible');
+  setTopbarDisabled(false);
+  next();
+}
+function openSidePanel(html){
+  var p=document.getElementById('sidePanel'), g=document.getElementById('cardGrid');
+  if(!p||!g) return;
+  g.classList.add('with-side');
+  p.classList.remove('hidden');
+  p.innerHTML=html;
+  // Force animation restart
+  p.style.animation='none';
+  p.getBoundingClientRect();
+  p.style.animation='';
+  // On mobile the side panel renders below — scroll it into view
+  if(window.innerWidth<=900){
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        p.scrollIntoView({behavior:'smooth',block:'nearest'});
+      });
+    });
+  }
+}
+
+// ── main check / reveal ───────────────────────────────────────────────────────
+function check(){
+  var inp=document.getElementById('a'), r=document.getElementById('r');
+  if(!inp||!r||inp.disabled) return;
+  var val=norm(inp.value);
+  setIS(inp,'');
+  var isExamLike=examMode||reviewMode;
+  var isWordBGDE=(mode==='words'&&direction==='bg-de')||(isExamLike&&current&&current.kind==='word');
+  if(isWordBGDE&&current&&current.article&&!answersMatch(val)){
+    if(/^(der|die|das)(\s|$)/i.test(val)){
+      setIS(inp,'near');
+      r.innerHTML='<span class="hint">Близо! Пробвай друг род</span>'; return;
+    }
+    setIS(inp,'incorrect');
+    r.innerHTML='<span class="bad">✖</span> <span class="hint">Грешно. Опитай пак.</span>';
+    if(firstAttempt){ streak=0; updateStreakBadge(); if(isExamLike&&current) examMissed.push(current); }
+    firstAttempt=false;
+    return;
+  }
+  if(answersMatch(val)){
+    setIS(inp,'correct');
+    lockMainInput();
+    r.innerHTML='<span class="ok">✔</span> <span class="hint">Правилно</span>';
+    if(firstAttempt){ streak++; updateStreakBadge(); }
+    firstAttempt=false;
+    // Check if a side panel will appear; if so, defer countdown
+    var willShowPanel=false;
+    if(mode==='verbs'||(isExamLike&&current&&current.kind==='verb')){ willShowPanel=true; showConjPanel(); }
+    if((mode==='words'&&direction==='bg-de'||(isExamLike&&current&&current.kind==='word'))&&current.plural){ willShowPanel=true; showPluralPanel(); }
+    examPanelPending=willShowPanel;
+    if(isExamLike){ examCount++; if(examMode&&examCount>=examTotal){ finishExam(); return; } }
+  } else {
+    setIS(inp,'incorrect');
+    r.innerHTML='<span class="bad">✖</span> <span class="hint">Грешно. Опитай пак.</span>';
+    if(firstAttempt){ streak=0; updateStreakBadge(); if(isExamLike&&current) examMissed.push(current); }
+    firstAttempt=false;
+  }
+}
+function revealAnswer(){
+  var inp=document.getElementById('a'), r=document.getElementById('r');
+  if(inp&&!inp.disabled){ inp.value=correctAnswer(); setIS(inp,'correct'); lockMainInput() }
+  if(r) r.innerHTML='<span class="ok">✔</span> <span class="hint">Правилно</span>';
+  if(firstAttempt){ streak=0; updateStreakBadge(); }
+  firstAttempt=false;
+  var isExamLike=examMode||reviewMode;
+  if(mode==='verbs'||(isExamLike&&current&&current.kind==='verb')) showConjPanel();
+  if((mode==='words'&&direction==='bg-de'||(isExamLike&&current&&current.kind==='word'))&&current&&current.plural) showPluralPanel();
+}
+
+// ── conjugation panel ─────────────────────────────────────────────────────────
+function showConjPanel(){
+  if(mode!=='verbs'&&!((examMode||reviewMode)&&current&&current.kind==='verb')) return;
+  var labels=['ich','du','er/sie/es','wir','ihr','sie/Sie'];
+  var rows=labels.map(function(l,i){
+    return '<div class="panel-item"><span class="panel-label">'+l+'</span>'
+      +'<input class="panel-input" id="c'+i+'" placeholder="въведи..."></div>';
+  }).join('');
+  var nextBtn=examMode
+    ? '<button class="btn warn" onclick="panelSkip();skipExamItem()">Пропусни</button>'
+    : '<button class="btn alt" onclick="panelSkip();nextSlide()">Друго</button>';
+  openSidePanel(
+    '<div class="panel-head"><div class="panel-title">Спрежение</div></div>'
+    +'<div class="panel-card"><div style="display:flex;flex-direction:column;gap:4px">'+rows
+    +'<div class="panel-actions">'
+    +'<button class="btn primary" onclick="checkConj()">OK</button>'
+    +(!examMode?'<button class="btn" onclick="revealConj()">Покажи</button>':'')
+    +nextBtn
+    +'</div></div></div>'
+  );
+  for(var i=0;i<6;i++){
+    (function(idx){
+      var el=document.getElementById('c'+idx); if(!el) return;
+      el.addEventListener('input', function(){ setPS(el,'') });
+      el.addEventListener('keydown', function(e){ if(e.key==='Enter') checkConj() });
+    })(i);
+  }
+  var f=document.getElementById('c0'); if(f) f.focus();
+}
+function checkConj(){
+  var rawForms=(current&&current.forms)||'';
+  var forms=rawForms.split(';').map(norm), ok=0;
+  for(var i=0;i<6;i++){
+    var el=document.getElementById('c'+i), actual=norm(el?el.value:''), exp=norm(forms[i]||'');
+    if(el){ if(!actual) setPS(el,''); else if(actual===exp){setPS(el,'correct');ok++} else setPS(el,'incorrect') }
+  }
+  var r=document.getElementById('r'); if(!r) return;
+  if(ok===6){
+    r.innerHTML='<span class="ok">✔</span> <span class="hint">Всички спрежения са правилни</span>';
+    examPanelPending=false;
+  } else {
+    r.innerHTML='<span class="bad">✖</span> <span class="hint">Провери оцветените полета</span>';
+  }
+}
+function revealConj(){
+  var rawForms=(current&&current.forms)||'';
+  var forms=rawForms.split(';').map(norm);
+  for(var i=0;i<6;i++){ var el=document.getElementById('c'+i); if(el){ el.value=forms[i]||''; setPS(el,'correct') } }
+  var r=document.getElementById('r'); if(r) r.innerHTML='<span class="ok">✔</span> <span class="hint">Всички спрежения са правилни</span>';
+  examPanelPending=false;
+}
+
+// ── plural panel ──────────────────────────────────────────────────────────────
+function showPluralPanel(){
+  if(!current||!current.plural) return;
+  if(mode!=='words'&&!((examMode||reviewMode)&&current.kind==='word')) return;
+  var nextBtn=examMode
+    ? '<button class="btn warn" onclick="panelSkip();skipExamItem()">Пропусни</button>'
+    : '<button class="btn alt" onclick="panelSkip();nextSlide()">Друго</button>';
+  openSidePanel(
+    '<div class="panel-head"><div class="panel-title">Множествено число</div></div>'
+    +'<div class="panel-card">'
+    +'<div class="panel-item pl">'
+    +'<span class="panel-label die">die</span>'
+    +'<input class="panel-input" id="pluralInput" placeholder="въведи...">'
+    +'</div>'
+    +'<div class="panel-actions">'
+    +'<button class="btn primary" onclick="checkPlural()">OK</button>'
+    +(!examMode?'<button class="btn" onclick="revealPlural()">Покажи</button>':'')
+    +nextBtn
+    +'</div></div>'
+  );
+  var pi=document.getElementById('pluralInput'); if(!pi) return;
+  pi.focus();
+  pi.addEventListener('input',   function(){ setPS(pi,'') });
+  pi.addEventListener('keydown', function(e){ if(e.key==='Enter') checkPlural() });
+}
+function checkPlural(){
+  var pi=document.getElementById('pluralInput'), r=document.getElementById('r');
+  if(!pi||!current) return;
+  var actual=norm(pi.value), exp=norm(current.plural);
+  if(!actual){ setPS(pi,''); return }
+  if(actual===exp){
+    setPS(pi,'correct');
+    if(r) r.innerHTML='<span class="ok">✔</span> <span class="hint">Правилно!</span>';
+    examPanelPending=false;
+  } else {
+    setPS(pi,'incorrect');
+    if(r) r.innerHTML='<span class="bad">✖</span> <span class="hint">Грешно. Опитай пак.</span>';
+  }
+}
+function revealPlural(){
+  var pi=document.getElementById('pluralInput'); if(!pi||!current) return;
+  pi.value=norm(current.plural); setPS(pi,'correct');
+  var r=document.getElementById('r'); if(r) r.innerHTML='<span class="ok">✔</span> <span class="hint">Правилно!</span>';
+}
+// ── init ──────────────────────────────────────────────────────────────────────
+async function init(){
+  setActiveModeButton(); renderCategoryMenu();
+  renderGame(); // shows spinner immediately (current is null)
+  await Promise.all([loadModeData('words'),loadModeData('sentences'),loadModeData('verbs')]);
+  selectedCats=new Set(['all']);
+  next();
+}
+init();
+</script>
+</body>
+</html>

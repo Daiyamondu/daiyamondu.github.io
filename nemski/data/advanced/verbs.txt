@@ -1,0 +1,112 @@
+﻿# Format: [category]
+# id|infinitiv|ich;du;er/sie/es;wir;ihr;sie/Sie|bg
+
+[opinion]
+1|zustimmen|stimme zu;stimmst zu;stimmt zu;stimmen zu;stimmt zu;stimmen zu|съгласявам се
+2|ablehnen|lehne ab;lehnst ab;lehnt ab;lehnen ab;lehnt ab;lehnen ab|отхвърлям
+3|behaupten|behaupte;behauptest;behauptet;behaupten;behauptet;behaupten|твърдя
+4|erwähnen|erwähne;erwähnst;erwähnt;erwähnen;erwähnt;erwähnen|споменавам
+5|betonen|betone;betonst;betont;betonen;betont;betonen|подчертавам
+6|begründen|begründe;begründest;begründet;begründen;begründet;begründen|обосновавам
+7|überzeugen|überzeuge;überzeugst;überzeugt;überzeugen;überzeugt;überzeugen|убеждавам
+8|vergleichen|vergleiche;vergleichst;vergleicht;vergleichen;vergleicht;vergleichen|сравнявам
+
+[school]
+1|lernen|lerne;lernst;lernt;lernen;lernt;lernen|уча
+2|studieren|studiere;studierst;studiert;studieren;studiert;studieren|следвам
+3|bestehen|bestehe;bestehst;besteht;bestehen;besteht;bestehen|издържам
+4|durchfallen|falle durch;fällst durch;fällt durch;fallen durch;fallt durch;fallen durch|скъсвам се на изпит
+5|sich vorbereiten auf|bereite mich auf vor;bereitest dich auf vor;bereitet sich auf vor;bereiten uns auf vor;bereitet euch auf vor;bereiten sich auf vor|подготвям се за
+6|teilnehmen an|nehme an teil;nimmst an teil;nimmt an teil;nehmen an teil;nehmt an teil;nehmen an teil|участвам в
+7|verbessern|verbessere;verbesserst;verbessert;verbessern;verbessert;verbessern|подобрявам
+8|fördern|fördere;förderst;fördert;fördern;fördert;fördern|насърчавам, подпомагам
+
+[work]
+1|arbeiten|arbeite;arbeitest;arbeitet;arbeiten;arbeitet;arbeiten|работя
+2|sich bewerben um|bewerbe mich um;bewirbst dich um;bewirbt sich um;bewerben uns um;bewerbt euch um;bewerben sich um|кандидатствам за
+3|verdienen|verdiene;verdienst;verdient;verdienen;verdient;verdienen|печеля, изкарвам пари
+4|kündigen|kündige;kündigst;kündigt;kündigen;kündigt;kündigen|напускам, уволнявам
+5|einstellen|stelle ein;stellst ein;stellt ein;stellen ein;stellt ein;stellen ein|назначавам
+6|befördern|befördere;beförderst;befördert;befördern;befördert;befördern|повишавам
+7|sammeln|sammle;sammelst;sammelt;sammeln;sammelt;sammeln|събирам, трупам
+8|verantworten|verantworte;verantwortest;verantwortet;verantworten;verantwortet;verantworten|нося отговорност за
+
+[family]
+1|heiraten|heirate;heiratest;heiratet;heiraten;heiratet;heiraten|женя се, омъжвам се
+2|sich trennen|trenne mich;trennst dich;trennt sich;trennen uns;trennt euch;trennen sich|разделям се
+3|erziehen|erziehe;erziehst;erzieht;erziehen;erzieht;erziehen|възпитавам
+4|unterstützen|unterstütze;unterstützt;unterstützt;unterstützen;unterstützt;unterstützen|подкрепям
+5|sich kümmern um|kümmere mich um;kümmerst dich um;kümmert sich um;kümmern uns um;kümmert euch um;kümmern sich um|грижа се за
+6|respektieren|respektiere;respektierst;respektiert;respektieren;respektiert;respektieren|уважавам
+7|sich verstehen mit|verstehe mich mit;verstehst dich mit;versteht sich mit;verstehen uns mit;versteht euch mit;verstehen sich mit|разбирам се с
+8|sich versöhnen|versöhne mich;versöhnst dich;versöhnt sich;versöhnen uns;versöhnt euch;versöhnen sich|сдобрявам се
+
+[home]
+1|wohnen|wohne;wohnst;wohnt;wohnen;wohnt;wohnen|живея
+2|mieten|miete;mietest;mietet;mieten;mietet;mieten|наемам
+3|umziehen|ziehe um;ziehst um;zieht um;ziehen um;zieht um;ziehen um|местя се
+4|putzen|putze;putzt;putzt;putzen;putzt;putzen|чистя
+5|aufräumen|räume auf;räumst auf;räumt auf;räumen auf;räumt auf;räumen auf|подреждам
+6|erledigen|erledige;erledigst;erledigt;erledigen;erledigt;erledigen|свършвам, изпълнявам
+7|sparen|spare;sparst;spart;sparen;spart;sparen|спестявам
+8|sich leisten können|kann mir leisten;kannst dir leisten;kann sich leisten;können uns leisten;könnt euch leisten;können sich leisten|мога да си позволя
+
+[health]
+1|sich erholen|erhole mich;erholst dich;erholt sich;erholen uns;erholt euch;erholen sich|възстановявам се
+2|sich ernähren|ernähre mich;ernährst dich;ernährt sich;ernähren uns;ernährt euch;ernähren sich|храня се
+3|sich bewegen|bewege mich;bewegst dich;bewegt sich;bewegen uns;bewegt euch;bewegen sich|движа се
+4|sich entspannen|entspanne mich;entspannst dich;entspannt sich;entspannen uns;entspannt euch;entspannen sich|отпускам се
+5|vermeiden|vermeide;vermeidest;vermeidet;vermeiden;vermeidet;vermeiden|избягвам
+6|vorbeugen|beuge vor;beugst vor;beugt vor;beugen vor;beugt vor;beugen vor|предотвратявам
+7|heilen|heile;heilst;heilt;heilen;heilt;heilen|излекувам, заздравявам
+8|verschreiben|verschreibe;verschreibst;verschreibt;verschreiben;verschreibt;verschreiben|предписвам
+
+[environment]
+1|schützen|schütze;schützt;schützt;schützen;schützt;schützen|защитавам
+2|trennen|trenne;trennst;trennt;trennen;trennt;trennen|разделям
+3|recyceln|recycle;recycelst;recycelt;recyceln;recycelt;recyceln|рециклирам
+4|verschwenden|verschwende;verschwendest;verschwendet;verschwenden;verschwendet;verschwenden|прахосвам
+5|sparen|spare;sparst;spart;sparen;spart;sparen|пестя
+6|verbrauchen|verbrauche;verbrauchst;verbraucht;verbrauchen;verbraucht;verbrauchen|изразходвам, потребявам
+7|gefährden|gefährde;gefährdest;gefährdet;gefährden;gefährdet;gefährden|застрашавам
+8|vermeiden|vermeide;vermeidest;vermeidet;vermeiden;vermeidet;vermeiden|избягвам
+
+[media]
+1|herunterladen|lade herunter;lädst herunter;lädt herunter;laden herunter;ladet herunter;laden herunter|свалям
+2|hochladen|lade hoch;lädst hoch;lädt hoch;laden hoch;ladet hoch;laden hoch|качвам
+3|veröffentlichen|veröffentliche;veröffentlichst;veröffentlicht;veröffentlichen;veröffentlicht;veröffentlichen|публикувам
+4|beeinflussen|beeinflusse;beeinflusst;beeinflusst;beeinflussen;beeinflusst;beeinflussen|влияя
+5|nutzen|nutze;nutzt;nutzt;nutzen;nutzt;nutzen|използвам
+6|löschen|lösche;löschst;löscht;löschen;löscht;löschen|изтривам
+7|speichern|speichere;speicherst;speichert;speichern;speichert;speichern|запазвам
+8|kommunizieren|kommuniziere;kommunizierst;kommuniziert;kommunizieren;kommuniziert;kommunizieren|комуникирам
+
+[travel]
+1|reisen|reise;reist;reist;reisen;reist;reisen|пътувам
+2|verreisen|verreise;verreist;verreist;verreisen;verreist;verreisen|заминавам на път
+3|buchen|buche;buchst;bucht;buchen;bucht;buchen|резервирам
+4|verpassen|verpasse;verpasst;verpasst;verpassen;verpasst;verpassen|изпускам
+5|umsteigen|steige um;steigst um;steigt um;steigen um;steigt um;steigen um|прекачвам се
+6|entdecken|entdecke;entdeckst;entdeckt;entdecken;entdeckt;entdecken|откривам
+7|ankommen|komme an;kommst an;kommt an;kommen an;kommt an;kommen an|пристигам
+8|abfahren|fahre ab;fährst ab;fährt ab;fahren ab;fahrt ab;fahren ab|тръгвам, отпътувам
+
+[money]
+1|ausgeben|gebe aus;gibst aus;gibt aus;geben aus;gebt aus;geben aus|харча
+2|sparen|spare;sparst;spart;sparen;spart;sparen|спестявам
+3|bestellen|bestelle;bestellst;bestellt;bestellen;bestellt;bestellen|поръчвам
+4|bezahlen|bezahle;bezahlst;bezahlt;bezahlen;bezahlt;bezahlen|плащам
+5|zurückgeben|gebe zurück;gibst zurück;gibt zurück;geben zurück;gebt zurück;geben zurück|връщам
+6|kaufen|kaufe;kaufst;kauft;kaufen;kauft;kaufen|купувам
+7|verkaufen|verkaufe;verkaufst;verkauft;verkaufen;verkauft;verkaufen|продавам
+8|kosten|koste;kostest;kostet;kosten;kostet;kosten|струвам
+
+[society]
+1|erlauben|erlaube;erlaubst;erlaubt;erlauben;erlaubt;erlauben|позволявам
+2|verbieten|verbiete;verbietest;verbietet;verbieten;verbietet;verbieten|забранявам
+3|wählen|wähle;wählst;wählt;wählen;wählt;wählen|избирам, гласувам
+4|entscheiden|entscheide;entscheidest;entscheidet;entscheiden;entscheidet;entscheiden|решавам
+5|planen|plane;planst;plant;planen;plant;planen|планирам
+6|verändern|verändere;veränderst;verändert;verändern;verändert;verändern|променям
+7|schützen|schütze;schützt;schützt;schützen;schützt;schützen|защитавам
+8|verbessern|verbessere;verbesserst;verbessert;verbessern;verbessert;verbessern|подобрявам
